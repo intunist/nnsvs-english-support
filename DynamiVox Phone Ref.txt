@@ -1,0 +1,71 @@
+This is a cleaned reference file based on "DynamiVox English NN Phoneme Set v0.1.9.txt".
+This file should be easier to read during the labeling process.
+PLEASE READ the full file for important additional notes.
+
+[phone]	[US words]		[UK words]		[desc]
+
+VOWELS:
+
+	monophthongs:
+ah	-	bUtt		#			"uh" sound.
+aa	-	clock		fAther			open ah.
+ao	-	bOUght, stORy	#			un/rounded aw. **US English uses unrounded by itself but rounded for rhotic. It's fine.
+ae	-	bAt		#
+ax	-	commA, parrOt	#			schwa.
+iy	-	bEAt,petIt	#
+ih	-	sIt		#
+uh	-	bOOk, nOOk	#
+uw	-	bOOt, sUIt	#
+eh	-	bEt, plEthera	#
+er	-	bIRd, nERd	#
+
+	diphthongs:
+ay	-	bIte		#
+a	-	#		#
+ey	-	bAIt		#e	-	#		#
+oy	-	bOY		#
+aw	-	plOW, abOUt	#
+ow	-	bOAT 		#o	-	#		#
+
+CONSONANTS: (voiced and unvoiced are paired)
+p	-	PoP		#				
+b	-	BoB		#				
+t	-	TaT		#				
+d	-	DaD		#				
+k	-	CaKE		#				
+g	-	GaG		#				
+s	-	SaS		#				
+z	-	ZooS		#				
+ch	-	CHurCH		#				
+jh	-	JuDGE		#			Makes "dg" sound for end of words. like [d][zh] or [dZ] in x-sampa.
+sh	-	Ship, puSH	#				
+zh	-	pleaSure	#			The "judge" example is [j ah d zh], not [j ah zh]. To avoid and confusion.
+f	-	FlooF		#				
+v	-	Verge, nerVe	#				
+h	-	Happy		#			starting only.
+th	-	THin, myTH	#				
+dh	-	THis, widTH	#			
+n	-	NaNNy, paN	#			
+m	-	MoM, MoMent	#			
+ng	-	baNG, suNG	#			-ing has it's own phoneme.
+w	-	Wisp		#			starting only.
+y	-	Yes		#			starting only.
+r	-	Road, caR	#			rhotic shares same phoneme. It's fine.
+l	-	List, caLL	#			dark L shares same phoneme. It's fine.
+q	-	we-eat batten				glottal stop and vowel separator. NOT vocal fry. (we-eat, batten.)
+dx	-	buTTer		shuT-up			flapped d/tt. Use in UK English is spotty.
+
+SYLLABIC:
+
+el	-	peopLE, doubLE				vowel-like l, where l makes most of the syllable, otherwise [ax l]
+em	-	bottOM *may omit			vowel-like m, where m makes most of the syllable, otherwise [ax m]
+en	-	buttON	*may omit			vowel-like n, where n makes most of the syllable, otherwise [ax n]
+eng	-	sING-ING, learnING			"ing" sound, where ng makes most of the syllable, otherwise [ih ng]
+
+SILENCES AND CLOSURES:
+pau	-	silence					During unsing/silent periods.
+br	-	[breath]				dude's gotta breath
+exh	-	[exhale]				end breaths, end of phrase exhale.
+cl	-	[closure]				silent/held consonant closures. (obtain) [ah b cl t ey n]
+cs	-	[held stop]				held stop/plosive consonant. For when the silence is held.
+vf	-	[fry end]	#			vocal fry

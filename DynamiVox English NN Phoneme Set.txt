@@ -1,0 +1,101 @@
+DRAFT - DO NOT USE
+DynamiVox phoneme set for DNN datasets. By Causticism.
+Based on Arpabet. Not compatible with CMU Dictionary Arpabet.
+Updated: 2021-09-23 (YYYY-MM-DD)
+
+[phone]	[US words]		[UK words]		[desc]
+
+VOWELS:
+
+	monophthongs:
+ah	-	bUtt		#			"uh" sound.
+aa	-	clock		fAther			open ah.
+ao	-	bOUght, stORy	#			un/rounded aw. **US English uses unrounded by itself but rounded for rhotic. It's fine.
+ae	-	bAt		#
+ax	-	commA, parrOt	#			schwa.
+iy	-	bEAt,petIt	#
+ih	-	sIt		#
+uh	-	bOOk, nOOk	#
+uw	-	bOOt, sUIt	#
+eh	-	bEt, plEthera	#
+er	-	bIRd, nERd	#
+
+	diphthongs:
+ay	-	bIte		#
+a	-	[optional] kite: ki-i-ite		Stylistic dropping of diphthong. Such as during glottals and staccato. Including this requires much more data. Don't include if voice provider almost always drops and use [ay] instead.
+ey	-	bAIt		#
+e	-	[optional] stay: sta-a-ay		Stylistic dropping of diphthong. Such as during glottals and staccato. Including this requires much more data. Don't include if voice provider almost always drops and use [ey] instead.
+oy	-	bOY		#
+aw	-	plOW, abOUt	#
+ow	-	bOAT 		#
+o	-	[optional] tow: to-o-ow			Stylistic dropping of diphthong. Such as during glottals and staccato. Including this requires much more data. Won't work for rhotic "or" sound.
+
+CONSONANTS: (voiced and unvoiced are paired)
+p	-	PoP		#				
+b	-	BoB		#				
+t	-	TaT		#				
+d	-	DaD		#				
+k	-	CaKE		#				
+g	-	GaG		#				
+s	-	SaS		#				
+z	-	ZooS		#				
+ch	-	CHurCH		#				
+jh	-	JuDGE		#			Makes "dg" sound for end of words. like [d][zh] or [dZ] in x-sampa.
+sh	-	Ship, puSH	#				
+zh	-	pleaSure	#			The "judge" example is [j ah d zh], not [j ah zh]. To avoid and confusion.
+f	-	FlooF		#				
+v	-	Verge, nerVe	#				
+h	-	Happy		#			starting only.
+	Sometimes [hh] is dropped in phrases like "when he", sounding like "when-nee". A short [h] phoneme should still be included in the label.
+th	-	THin, myTH	#				
+dh	-	THis, widTH	#			
+n	-	NaNNy, paN	#			
+m	-	MoM, MoMent	#			
+ng	-	baNG, suNG	#			-ing has it's own phoneme.
+w	-	Wisp		#			starting only.
+y	-	Yes		#			starting only.
+r	-	Road, caR	#			rhotic shares same phoneme. It's fine.
+l	-	List, caLL	#			dark L shares same phoneme. It's fine.
+
+q	-	we-eat batten				glottal stop and vowel separator. NOT vocal fry. (we-eat, batten.)
+dx	-	buTTer		shuT-up			flapped d/tt. Use in UK English is spotty.
+	**NOTE: If your dialect pronounces the r in words like "straw" are "very" as a tap/flap, please still label it as [r].
+
+ALLOPHONES:
+
+el	-	peopLE, doubLE				vowel-like l, where l makes most of the syllable, otherwise [ax l]
+em	-	bottOM *may omit			vowel-like m, where m makes most of the syllable, otherwise [ax m]
+en	-	buttON	*may omit			vowel-like n, where n makes most of the syllable, otherwise [ax n]
+eng	-	sING-ING, learnING			"ing" sound, where ng makes most of the syllable, otherwise [ih ng]
+	NOTE: Syllabic consonants always pose timing difficulties and including these may be beneficial. Labeling depends on if the performer sustains the vowel or the consonant.
+	UPDATE v0.1.6: More testing required and may not be necessary at all. [el] is being kept specifically for a sustained [l].
+	UPDATE v0.1.9: Usage of these phonemes should be kept strictly for when/if the performer sustains the consonant and not the vowel (at all). These are optional.
+
+ux	-	UNUSED FOR DNN				secondary [uw], like "dude".
+nx	-	UNUSED FOR DNN				flapped/tapped [n]. (winter, winner).
+	**IF IN DATASET: label dropped [t] flaps as [n t] but make the [t] very small.
+axr	-	UNUSED FOR DNN				[er] with preceding schwa. Also can be thought of as reduced [er]. (diner)
+ix	-	UNUSED FOR DNN				ih-esque schwa (roses, demon, planet)
+hv	-	UNUSED FOR DNN				voiced [h] sound. Not needed for DNN as model will likely learn this on it's own.
+
+ADDITIONAL:
+pau	-	silence (default)			During unsung/silent periods.
+br	-	[breath]				dude's gotta breath
+exh	-	[exhale]				end breaths, end of phrase exhale.
+cl	-	[closure]				silent/held consonant closures in clusters. For when closure is the exception/not normal. (invalid example: obtain) [ah b cl t ey n]
+	NOTE: Unlike Japanese (which is the exception), [cl] for English/other languages closes the PREVIOUS consonant. Please keep this consistent.
+cs	-	[held stop]				held stop/plosive consonant. For when the silence is held. (similar to Japanese usage of [cl] but not syllabic.
+vf	-	[fry end]	#			vocal fry at end of phrase or between vowels.
+	UPDATE 0.1.12: Vocal fry can happen anywhere but much more data would be needed for this to work well. Keeping as a start/end sound should require less data. Label as it appears either way.
+
+sil	-	UNUSED					Same as pau, some use for longer silence. Wavesurfer default.
+
+pcl	-	UNUSED		#			[cl] but specific to [p]. Don't use, requires more data and doesn't improve anything.
+bcl	-	UNUSED		#			[cl] but specific to [b]. Don't use, requires more data and doesn't improve anything.
+tcl	-	UNUSED		#			[cl] but specific to [t]. Don't use, requires more data and doesn't improve anything.
+dcl	-	UNUSED		#			[cl] but specific to [d]. Don't use, requires more data and doesn't improve anything.
+kcl	-	UNUSED		#			[cl] but specific to [k]. Don't use, requires more data and doesn't improve anything.
+gcl	-	UNUSED		#			[cl] but specific to [g]. Don't use, requires more data and doesn't improve anything.
+
+xx	-	UNUSED		#			Voiceless velar fricative. Scottish/Welsh specific. Incredibly rare.
+							Label as [k] instead unless you want to create even more work.

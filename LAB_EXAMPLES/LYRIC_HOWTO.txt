@@ -1,0 +1,21 @@
+NNSVS at the time of writing doesn't support english dictionaries.
+The lyrics in the MusicXML/UST files should be written phonetically.
+
+Each syllable has it's own note.
+Any pitch runs (where the pitch changes for the same syllable) will also have it's own note AND phonetic label.
+
+The consonants should be attached to the syllable they are a part of.
+
+Syllables can be split into it's "onset", "nucleus" and "coda".
+The "onset" is the starting consonant(s) of a syllable.
+The "nucleus" is the sustained vowel of a syllable.
+The "coda" is the ending consonant of a syllable.
+
+For example "sparkler" is two syllables, split into spar-kler.
+These would be inserted in the XML/UST as two notes, [s p a r] [k l er].
+
+onset	nucleus	coda	onset	nucleus	coda
+[s p]	  [a]	[r]  -  [k l]	 [er]	none
+
+Proper placement is important for the model to learn how to use consonants appropriately.
+You wouldn't want the model to use a consonant meant for the start of a syllable at the end or vice versa.
