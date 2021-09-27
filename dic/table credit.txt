@@ -1,0 +1,7 @@
+english.table is lightly modified from the syllabified version of cmu dict 0.6, found at: http://webdocs.cs.ualberta.ca/~kondrak/cmudict.html
+
+Susan Bartlett, Grzegorz Kondrak and Colin Cherry.
+On the Syllabification of Phonemes.
+NAACL-HLT 2009. 
+__________
+english1.table is lightly modified cmu dict 0.7b
