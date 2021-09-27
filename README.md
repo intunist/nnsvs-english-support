@@ -1,7 +1,7 @@
 # nnsvs-english-support
 Hed and supporting files for English NNSVS Dataset Creation
 
-This repo contains the files required to create an englsih dataset for use in NNSVS.
+This repo contains the files required to create an English dataset for use in NNSVS.
 Additionally, instructions and examples are provided (or will be provided) for the labeling process.
 
 The phoneme set is based on arpabet has been carefully selected to be compatible with as many English-speaking dialects as possible.
