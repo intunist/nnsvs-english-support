@@ -22,10 +22,12 @@ er	-	bIRd, nERd	#
 	diphthongs:
 ay	-	bIte		#
 a	-	#		#
-ey	-	bAIt		#e	-	#		#
+ey	-	bAIt		#
+e	-	#		#
 oy	-	bOY		#
 aw	-	plOW, abOUt	#
-ow	-	bOAT 		#o	-	#		#
+ow	-	bOAT 		#
+o	-	#		#
 
 CONSONANTS: (voiced and unvoiced are paired)
 p	-	PoP		#				
@@ -39,10 +41,10 @@ z	-	ZooS		#
 ch	-	CHurCH		#				
 jh	-	JuDGE		#			Makes "dg" sound for end of words. like [d][zh] or [dZ] in x-sampa.
 sh	-	Ship, puSH	#				
-zh	-	pleaSure	#			The "judge" example is [j ah d zh], not [j ah zh]. To avoid and confusion.
+zh	-	pleaSure	#			The "judge" example is [j ah d zh], not [j ah zh]. To avoid any confusion.
 f	-	FlooF		#				
 v	-	Verge, nerVe	#				
-h	-	Happy		#			starting only.
+h	-	Happy		#			syllable onset only.
 th	-	THin, myTH	#				
 dh	-	THis, widTH	#			
 n	-	NaNNy, paN	#			
