@@ -5,6 +5,8 @@ This repo contains the files required to create an English dataset for use in NN
 Additionally, instructions and examples are provided (or will be provided) for the labeling process.
 
 The phoneme set is based on arpabet has been carefully selected to be compatible with as many English-speaking dialects as possible.
+
+The estimated amount of audio required for a high quality dataset is 3-4 hours (without silence). A prototype can be made with less.
 ___
 ## Additional Info and Directions
 
