@@ -75,7 +75,7 @@ ux	-	UNUSED FOR DNN				secondary [uw], like "dude".
 nx	-	UNUSED FOR DNN				flapped/tapped [n]. (winter, winner).
 	**IF IN DATASET: label dropped [t] flaps as [n t] but make the [t] very small.
 axr	-	UNUSED FOR DNN				[er] with preceding schwa. Also can be thought of as reduced [er]. (diner)
-ix	-	UNUSED FOR DNN				ih-esque schwa (roses, demon, planet)
+ix	-	UNUSED FOR DNN				ih-esque schwa (roses, demon, planet). Use [ax] instead for these schwas.
 hv	-	UNUSED FOR DNN				voiced [h] sound. Not needed for DNN as model will likely learn this on it's own.
 
 ADDITIONAL:
