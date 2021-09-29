@@ -58,5 +58,5 @@ If you are using "DynamiVox_English_NNSVS_MINIMAL.hed", use the following values
 Training will not work if these values are incorrect.
 
 A the time of writing, NNSVS doesn't appear to support multi-syllable words in the table. The UST/score will need to be written phonetically.
-For phonetic usts, don't use english.table.
-Leave the japanese one or use an empty table else it may try to match phonemes to pronuncations and fail with `ValueError: could not broadcast input array from shape (###,496) into shape (###,496)`.
+For phonetic usts, don't use english.table, use blank.table.
+Otherwise it may try to match phonemes to pronuncations and fail with `ValueError: could not broadcast input array from shape (###,496) into shape (###,496)`.
