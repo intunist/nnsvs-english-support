@@ -26,6 +26,7 @@ the /dic folder contains several files:
 /english.macron  
 /english.table - syllabified English dictionary  
 /english1.table - non-syllabified English dictionary  
+/blank.table - empty dictionary for phonetic training  
 /table credit.txt - credits for dictionaries  
 
 the /LAB_EXAMPLES folder contains EXAMPLES ON HOW TO LABEL singing.
