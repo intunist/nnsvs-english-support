@@ -21,12 +21,12 @@ However, the basic phoneme section should be about the same.
 
 "DynamiVox Phone Ref.txt" is a cleaned up phoneme document for reference while labeling.
 
-the /dic folder contains several files
-/english.conf - phoneme information
-/english.macron
-/english.table - syllabified English dictionary
-/english1.table - non-syllabified English dictionary
-/table credit.txt - credits for dictionaries
+the /dic folder contains several files:  
+/english.conf - phoneme information  
+/english.macron  
+/english.table - syllabified English dictionary  
+/english1.table - non-syllabified English dictionary  
+/table credit.txt - credits for dictionaries  
 
 the /LAB_EXAMPLES folder contains EXAMPLES ON HOW TO LABEL singing.
 These micro-datasets cannot be trained and are for reference only.
@@ -34,25 +34,27 @@ Usage of these datasets beyond this is strictly prohibited.
 Multiple dialects are included to assist in properly labeling speech.
 Please refer to "LABEL_HOWTO.txt" in the /LAB folder for more information.
 
-NOTE: please change the value of "in_dim" in \train\conf\train\*\model\*.yaml
+You can change the hed file in config.yaml, this is found at `/train/config.yaml`.
+
+NOTE: please change the value of "in_dim" in `/train/conf/train/*/model/*.yaml`
 The values should be set as follows if using "DynamiVox_English_NNSVS.hed":
 
-acoustic_conv.yaml: 496
-acoustic_mdn.yaml: 496
-duration_lstm.yaml: 492
-duration_mdn.yaml: 492
-timelag_ffn.yaml: 492
-timelag_mdn.yaml: 492
+* acoustic_conv.yaml: 496
+* acoustic_mdn.yaml: 496
+* duration_lstm.yaml: 492
+* duration_mdn.yaml: 492
+* timelag_ffn.yaml: 492
+* timelag_mdn.yaml: 492
 
 If you are using "DynamiVox_English_NNSVS_MINIMAL.hed", use the following values:
 
-acoustic_conv.yaml: 349
-acoustic_mdn.yaml: 349
-duration_lstm.yaml: 345
-duration_mdn.yaml: 345
-timelag_ffn.yaml: 345
-timelag_mdn.yaml: 345
+* acoustic_conv.yaml: 349
+* acoustic_mdn.yaml: 349
+* duration_lstm.yaml: 345
+* duration_mdn.yaml: 345
+* timelag_ffn.yaml: 345
+* timelag_mdn.yaml: 345
 
 Training will not work if these values are incorrect.
 
-A the time of writing, NNSVS doesn't support multi-syllable words in the table. The UST/score will need to be written phonetically.
+A the time of writing, NNSVS doesn't appear to support multi-syllable words in the table. The UST/score will need to be written phonetically.
