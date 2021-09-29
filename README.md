@@ -35,7 +35,7 @@ Multiple dialects are included to assist in properly labeling speech.
 Please refer to "LABEL_HOWTO.txt" in the /LAB folder for more information.
 
 NOTE: please change the value of "in_dim" in \train\conf\train\*\model\*.yaml
-The values should be set as follows if using "DynamiVox English NNSVS.hed":
+The values should be set as follows if using "DynamiVox_English_NNSVS.hed":
 
 acoustic_conv.yaml: 496
 acoustic_mdn.yaml: 496
@@ -44,7 +44,7 @@ duration_mdn.yaml: 492
 timelag_ffn.yaml: 492
 timelag_mdn.yaml: 492
 
-If you are using "DynamiVox English NNSVS MINIMAL.hed", use the following values:
+If you are using "DynamiVox_English_NNSVS_MINIMAL.hed", use the following values:
 
 acoustic_conv.yaml: 349
 acoustic_mdn.yaml: 349
