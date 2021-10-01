@@ -1,4 +1,4 @@
-Both .table files are based on the works of others.
+Both english.table and english1.table files are based on the works of others.
 
 english.table is lightly modified from the syllabified version of cmu dict 0.6, found at: http://webdocs.cs.ualberta.ca/~kondrak/cmudict.html
 
