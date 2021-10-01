@@ -8,7 +8,7 @@ netG:
   _target_: nnsvs.model.LSTMRNN
   in_dim: 492
   out_dim: 1
-  hidden_dim: 192
+  hidden_dim: 128
   num_layers: 2
   bidirectional: true
   dropout: 0.5
