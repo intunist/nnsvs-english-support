@@ -99,7 +99,7 @@ gcl	-	UNUSED		#			[cl] but specific to [g]. Don't use, requires more data and do
 xx	-	UNUSED		#			Voiceless velar fricative. Scottish/Welsh specific. Incredibly rare.
 							Label as [k] instead unless you want to create even more work.
 SUFFIXES:
-0.1.19 of the ehd adds suffix support. These suffixed should be used on vowel phonemes only.
+v0.1.19 of the ehd adds suffix support. These suffixed should be used on vowel phonemes only.
 Input as phone_suffix, with an underscore.
 
 _f	-	[falsetto]				Sustained falsetto on vowel
