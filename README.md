@@ -8,6 +8,18 @@ The phoneme set is based on arpabet has been carefully selected to be compatible
 
 The estimated amount of audio required for a high quality dataset is 3-4 hours (without silence). A prototype can be made with less.
 ___
+Version 0.1.19 of the hed adds support for adding suffixes to your dataset. The suffixes are OPTIONAL and for a small dataset you _should not_ use them.
+| Suffix | purpose                                 |
+| ------ | --------------------------------------- |
+| \_f    | (falsetto)                              |
+| \_b    | (belt)                                  |
+| \_d    | (devoiced/whisper)                      |
+| \_c    | (creaky/vocal fry of false cord scream) |
+| \_g    | (growl ofguttural scream)               |
+
+Adding any suffixes to a dataset requires you to add quie _a lot_ more audio. For a full 4 hour dataset, each additional suffix will require about 1.5-2 hours of additional audio each.
+Suffixes may be useful for better targeting the tone of a dataset. (ex: If you are working on a strong dataset and some unwanted falsetto notes exist in tthe dataset, you could label them as [`ay_f`].)
+___
 ## Additional Info and Directions
 
 The HED file was written by hand for NNSVS, it may not work in other tools as-is.
