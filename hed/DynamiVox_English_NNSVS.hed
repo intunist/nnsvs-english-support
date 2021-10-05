@@ -90,9 +90,9 @@ QS      "R-Front_Consonant"                     {*+p=*,*+b=*,*+f=*,*+v=*,*+m=*,*
 QS      "L-Central_Consonant"                   {*^t-*,*^d-*,*^ch-*,*^s-*,*^z-*,*^th-*,*^dh-*,*^n-*,*^r-*,*^l-*,*^dx-*,*^nx-*,*^tcl-*,*^dcl-*}
 QS      "C-Central_Consonant"                   {*-t+*,*-d+*,*-ch+*,*-s+*,*-z+*,*-th+*,*-dh+*,*-n+*,*-r+*,*-l+*,*-dx+*,*-nx+*,*-tcl+*,*-dcl+*}
 QS      "R-Central_Consonant"                   {*+t=*,*+d=*,*+ch=*,*+s=*,*+z=*,*+th=*,*+dh=*,*+n=*,*+r=*,*+l=*,*+dx=*,*+nx=*,*+tcl=*,*+dcl=*}
-QS      "L-Back_Consonant"                      {*^k-*,*^g-*,*^jh-*,*^sh-*,*^zh-*,*^h-*,*^ng-*,*^y-*,*^q-*,*^hv-*,*^kcl-*,*^gcl-*,*^xx-*}
-QS      "C-Back_Consonant"                      {*-k+*,*-g+*,*-jh+*,*-sh+*,*-zh+*,*-h+*,*-ng+*,*-y+*,*-q+*,*-hv+*,*-kcl+*,*-gcl+*,*-xx+*}
-QS      "R-Back_Consonant"                      {*+k=*,*+g=*,*+jh=*,*+sh=*,*+zh=*,*+h=*,*+ng=*,*+y=*,*+q=*,*+hv=*,*+kcl=*,*+gcl=*,*+xx=*}
+QS      "L-Back_Consonant"                      {*^k-*,*^g-*,*^j-*,*^sh-*,*^zh-*,*^h-*,*^ng-*,*^y-*,*^q-*,*^hv-*,*^kcl-*,*^gcl-*,*^xx-*}
+QS      "C-Back_Consonant"                      {*-k+*,*-g+*,*-j+*,*-sh+*,*-zh+*,*-h+*,*-ng+*,*-y+*,*-q+*,*-hv+*,*-kcl+*,*-gcl+*,*-xx+*}
+QS      "R-Back_Consonant"                      {*+k=*,*+g=*,*+j=*,*+sh=*,*+zh=*,*+h=*,*+ng=*,*+y=*,*+q=*,*+hv=*,*+kcl=*,*+gcl=*,*+xx=*}
 
 QS      "L-Nasal"                               {*^en-*,*^em-*,*^ng-*,*^eng-*,*m+*,*^m-*}
 QS      "C-Nasal"                               {*-en+*,*-em+*,*-ng+*,*-eng+*,*m+*,*-m+*}
@@ -117,16 +117,16 @@ QS      "L-Back_Fricative"                      {*^sh-*,*^zh-*,*^h-*,*^hv-*}
 QS      "C-Back_Fricative"                      {*-sh+*,*-zh+*,*-h+*,*-hv+*}
 QS      "R-Back_Fricative"                      {*+sh=*,*+zh=*,*+h=*,*+hv=*}
 
-QS      "L-Affricate_Consonant"                 {*^ch-*,*^jh-*}
-QS      "C-Affricate_Consonant"                 {*-ch+*,*-jh+*}
-QS      "R-Affricate_Consonant"                 {*+ch=*,*+jh=*}
+QS      "L-Affricate_Consonant"                 {*^ch-*,*^j-*}
+QS      "C-Affricate_Consonant"                 {*-ch+*,*-j+*}
+QS      "R-Affricate_Consonant"                 {*+ch=*,*+j=*}
 QS      "L-Not_Affricate"                       {*^s-*,*^z-*,*^sh-*,*^zh-*,*^f-*,*^v-*,*^h-*,*^th-*,*^dh-*,*^hv-*,*^xx-*}
 QS      "C-Not_Affricate"                       {*-s+*,*-z+*,*-sh+*,*-zh+*,*-f+*,*-v+*,*-h+*,*-th+*,*-dh+*,*-hv+*,*-xx+*}
 QS      "R-Not_Affricate"                       {*+s=*,*+z=*,*+sh=*,*+zh=*,*+f=*,*+v=*,*+h=*,*+th=*,*+dh=*,*+hv=*,*+xx=*}
 
-QS      "L-Coronal_Consonant"                   {*^t-*,*^d-*,*^s-*,*^z-*,*^ch-*,*^jh-*,*^sh-*,*^zh-*,*^th-*,*^dh-*,*^n-*,*^en-*,*^m-*,*^em-*,*^r-*,*^l-*,*^dx-*,*^nx-*,*^tcl-*,*^dcl-*}
-QS      "C-Coronal_Consonant"                   {*-t+*,*-d+*,*-s+*,*-z+*,*-ch+*,*-jh+*,*-sh+*,*-zh+*,*-th+*,*-dh+*,*-n+*,*-en+*,*-m+*,*-em+*,*-r+*,*-l+*,*-dx+*,*-nx+*,*-tcl+*,*-dcl+*}
-QS      "R-Coronal_Consonant"                   {*+t=*,*+d=*,*+s=*,*+z=*,*+ch=*,*+jh=*,*+sh=*,*+zh=*,*+th=*,*+dh=*,*+n=*,*+en=*,*+m=*,*+em=*,*+r=*,*+l=*,*+dx=*,*+nx=*,*+tcl=*,*+dcl=*}
+QS      "L-Coronal_Consonant"                   {*^t-*,*^d-*,*^s-*,*^z-*,*^ch-*,*^j-*,*^sh-*,*^zh-*,*^th-*,*^dh-*,*^n-*,*^en-*,*^m-*,*^em-*,*^r-*,*^l-*,*^dx-*,*^nx-*,*^tcl-*,*^dcl-*}
+QS      "C-Coronal_Consonant"                   {*-t+*,*-d+*,*-s+*,*-z+*,*-ch+*,*-j+*,*-sh+*,*-zh+*,*-th+*,*-dh+*,*-n+*,*-en+*,*-m+*,*-em+*,*-r+*,*-l+*,*-dx+*,*-nx+*,*-tcl+*,*-dcl+*}
+QS      "R-Coronal_Consonant"                   {*+t=*,*+d=*,*+s=*,*+z=*,*+ch=*,*+j=*,*+sh=*,*+zh=*,*+th=*,*+dh=*,*+n=*,*+en=*,*+m=*,*+em=*,*+r=*,*+l=*,*+dx=*,*+nx=*,*+tcl=*,*+dcl=*}
 QS      "L-Non_Coronal"                         {*^p-*,*^b-*,*^k-*,*^g-*,*^f-*,*^v-*,*^h-*,*^ng-*,*^eng-*,*^w-*,*^y-*,*^q-*,*^hv-*,*^pcl-*,*^bcl-*,*^kcl-*,*^gcl-*,*^xx-*}
 QS      "C-Non_Coronal"                         {*-p+*,*-b+*,*-k+*,*-g+*,*-f+*,*-v+*,*-h+*,*-ng+*,*-eng+*,*-w+*,*-y+*,*-q+*,*-hv+*,*-pcl+*,*-bcl+*,*-kcl+*,*-gcl+*,*-xx+*}
 QS      "R-Non_Coronal"                         {*+p=*,*+b=*,*+k=*,*+g=*,*+f=*,*+v=*,*+h=*,*+ng=*,*+eng=*,*+w=*,*+y=*,*+q=*,*+hv=*,*+pcl=*,*+bcl=*,*+kcl=*,*+gcl=*,*+xx=*}
@@ -134,9 +134,9 @@ QS      "R-Non_Coronal"                         {*+p=*,*+b=*,*+k=*,*+g=*,*+f=*,*
 QS      "L-Continuent"                          {*^s-*,*^z-*,*^sh-*,*^zh-*,*^f-*,*^v-*,*^h-*,*^th-*,*^dh-*,*^en-*,*^n-*,*^en-*,*^m-*,*^ng-*,*^eng-*,*^w-*,*^y-*,*^r-*,*^l-*,*^el-*,*^nx-*,*^hv-*,*^xx-*}
 QS      "C-Continuent"                          {*-s+*,*-z+*,*-sh+*,*-zh+*,*-f+*,*-v+*,*-h+*,*-th+*,*-dh+*,*-en+*,*-n+*,*-en+*,*-m+*,*-ng+*,*-eng+*,*-w+*,*-y+*,*-r+*,*-l+*,*-el+*,*-nx+*,*-hv+*,*-xx+*}
 QS      "R-Continuent"                          {*+s=*,*+z=*,*+sh=*,*+zh=*,*+f=*,*+v=*,*+h=*,*+th=*,*+dh=*,*+en=*,*+n=*,*+en=*,*+m=*,*+ng=*,*+eng=*,*+w=*,*+y=*,*+r=*,*+l=*,*+el=*,*+nx=*,*+hv=*,*+xx=*}
-QS      "L-No_Continuent"                       {*^p-*,*^b-*,*^t-*,*^d-*,*^k-*,*^g-*,*^ch-*,*^jh-*,*^q-*,*^dx-*,*^cl-*,*^cs-*,*^pcl-*,*^bcl-*,*^tcl-*,*^dcl-*,*^kcl-*,*^gcl-*}
-QS      "C-No_Continuent"                       {*-p+*,*-b+*,*-t+*,*-d+*,*-k+*,*-g+*,*-ch+*,*-jh+*,*-q+*,*-dx+*,*-cl+*,*-cs+*,*-pcl+*,*-bcl+*,*-tcl+*,*-dcl+*,*-kcl+*,*-gcl+*}
-QS      "R-No_Continuent"                       {*+p=*,*+b=*,*+t=*,*+d=*,*+k=*,*+g=*,*+ch=*,*+jh=*,*+q=*,*+dx=*,*+cl=*,*+cs=*,*+pcl=*,*+bcl=*,*+tcl=*,*+dcl=*,*+kcl=*,*+gcl=*}
+QS      "L-No_Continuent"                       {*^p-*,*^b-*,*^t-*,*^d-*,*^k-*,*^g-*,*^ch-*,*^j-*,*^q-*,*^dx-*,*^cl-*,*^cs-*,*^pcl-*,*^bcl-*,*^tcl-*,*^dcl-*,*^kcl-*,*^gcl-*}
+QS      "C-No_Continuent"                       {*-p+*,*-b+*,*-t+*,*-d+*,*-k+*,*-g+*,*-ch+*,*-j+*,*-q+*,*-dx+*,*-cl+*,*-cs+*,*-pcl+*,*-bcl+*,*-tcl+*,*-dcl+*,*-kcl+*,*-gcl+*}
+QS      "R-No_Continuent"                       {*+p=*,*+b=*,*+t=*,*+d=*,*+k=*,*+g=*,*+ch=*,*+j=*,*+q=*,*+dx=*,*+cl=*,*+cs=*,*+pcl=*,*+bcl=*,*+tcl=*,*+dcl=*,*+kcl=*,*+gcl=*}
 
 QS      "L-Glide"                               {*^w-*,*^y-*,*^r-*,*^l-*,*^el-*,*^h-*,*^hv-*}
 QS      "C-Glide"                               {*-w+*,*-y+*,*-r+*,*-l+*,*-el+*,*-h+*,*-hv+*}
@@ -164,9 +164,9 @@ QS      "R-Back_Stop"                           {*+k=*,*+g=*,*+q=*,*+kcl=*,*+gcl
 QS      "L-Fortis_Consonant"                    {*^p-*,*^t-*,*^k-*,*^s-*,*^ch-*,*^sh-*,*^f-*,*^th-*,*^q-*,*^tcl-*,*^kcl-*,*^xx-*}
 QS      "C-Fortis_Consonant"                    {*-p+*,*-t+*,*-k+*,*-s+*,*-ch+*,*-sh+*,*-f+*,*-th+*,*-q+*,*-tcl+*,*-kcl+*,*-xx+*}
 QS      "R-Fortis_Consonant"                    {*+p=*,*+t=*,*+k=*,*+s=*,*+ch=*,*+sh=*,*+f=*,*+th=*,*+q=*,*+tcl=*,*+kcl=*,*+xx=*}
-QS      "L-Lenis_Consonant"                     {*^b-*,*^d-*,*^g-*,*^z-*,*^jh-*,*^zh-*,*^v-*,*^h-*,*^dh-*,*^dx-*,*^hv-*,*^pcl-*,*^bcl-*,*^dcl-*,*^gcl-*}
-QS      "C-Lenis_Consonant"                     {*-b+*,*-d+*,*-g+*,*-z+*,*-jh+*,*-zh+*,*-v+*,*-h+*,*-dh+*,*-dx+*,*-hv+*,*-pcl+*,*-bcl+*,*-dcl+*,*-gcl+*}
-QS      "R-Lenis_Consonant"                     {*+b=*,*+d=*,*+g=*,*+z=*,*+jh=*,*+zh=*,*+v=*,*+h=*,*+dh=*,*+dx=*,*+hv=*,*+pcl=*,*+bcl=*,*+dcl=*,*+gcl=*}
+QS      "L-Lenis_Consonant"                     {*^b-*,*^d-*,*^g-*,*^z-*,*^j-*,*^zh-*,*^v-*,*^h-*,*^dh-*,*^dx-*,*^hv-*,*^pcl-*,*^bcl-*,*^dcl-*,*^gcl-*}
+QS      "C-Lenis_Consonant"                     {*-b+*,*-d+*,*-g+*,*-z+*,*-j+*,*-zh+*,*-v+*,*-h+*,*-dh+*,*-dx+*,*-hv+*,*-pcl+*,*-bcl+*,*-dcl+*,*-gcl+*}
+QS      "R-Lenis_Consonant"                     {*+b=*,*+d=*,*+g=*,*+z=*,*+j=*,*+zh=*,*+v=*,*+h=*,*+dh=*,*+dx=*,*+hv=*,*+pcl=*,*+bcl=*,*+dcl=*,*+gcl=*}
 
 QS      "L-Liquid"                              {*^w-*,*^y-*,*^r-*,*^l-*,*^el-*,*^h-*,*^hv-*}
 QS      "C-Liquid"                              {*-w+*,*-y+*,*-r+*,*-l+*,*-el+*,*-h+*,*-hv+*}
@@ -179,9 +179,9 @@ QS      "R-Syllabic_Consonant"                  {*+en=*,*+em=*,*+eng=*,*+el=*,*+
 QS      "L-Anterior_Consonant"                  {*^p-*,*^b-*,*^t-*,*^d-*,*^s-*,*^z-*,*^f-*,*^v-*,*^th-*,*^dh-*,*^n-*,*^en-*,*^m-*,*^em-*,*^w-*,*^l-*,*^el-*,*^dx-*,*^nx-*,*^pcl-*,*^bcl-*,*^tcl-*,*^dcl-*}
 QS      "C-Anterior_Consonant"                  {*-p+*,*-b+*,*-t+*,*-d+*,*-s+*,*-z+*,*-f+*,*-v+*,*-th+*,*-dh+*,*-n+*,*-en+*,*-m+*,*-em+*,*-w+*,*-l+*,*-el+*,*-dx+*,*-nx+*,*-pcl+*,*-bcl+*,*-tcl+*,*-dcl+*}
 QS      "R-Anterior_Consonant"                  {*+p=*,*+b=*,*+t=*,*+d=*,*+s=*,*+z=*,*+f=*,*+v=*,*+th=*,*+dh=*,*+n=*,*+en=*,*+m=*,*+em=*,*+w=*,*+l=*,*+el=*,*+dx=*,*+nx=*,*+pcl=*,*+bcl=*,*+tcl=*,*+dcl=*}
-QS      "L-Non_Anterior"                        {*^k-*,*^g-*,*^ch-*,*^jh-*,*^sh-*,*^zh-*,*^h-*,*^ng-*,*^eng-*,*^y-*,*^r-*,*^q-*,*^hv-*,*^kcl-*,*^gcl-*,*^xx-*}
-QS      "C-Non_Anterior"                        {*-k+*,*-g+*,*-ch+*,*-jh+*,*-sh+*,*-zh+*,*-h+*,*-ng+*,*-eng+*,*-y+*,*-r+*,*-q+*,*-hv+*,*-kcl+*,*-gcl+*,*-xx+*}
-QS      "R-Non_Anterior"                        {*+k=*,*+g=*,*+ch=*,*+jh=*,*+sh=*,*+zh=*,*+h=*,*+ng=*,*+eng=*,*+y=*,*+r=*,*+q=*,*+hv=*,*+kcl=*,*+gcl=*,*+xx=*}
+QS      "L-Non_Anterior"                        {*^k-*,*^g-*,*^ch-*,*^j-*,*^sh-*,*^zh-*,*^h-*,*^ng-*,*^eng-*,*^y-*,*^r-*,*^q-*,*^hv-*,*^kcl-*,*^gcl-*,*^xx-*}
+QS      "C-Non_Anterior"                        {*-k+*,*-g+*,*-ch+*,*-j+*,*-sh+*,*-zh+*,*-h+*,*-ng+*,*-eng+*,*-y+*,*-r+*,*-q+*,*-hv+*,*-kcl+*,*-gcl+*,*-xx+*}
+QS      "R-Non_Anterior"                        {*+k=*,*+g=*,*+ch=*,*+j=*,*+sh=*,*+zh=*,*+h=*,*+ng=*,*+eng=*,*+y=*,*+r=*,*+q=*,*+hv=*,*+kcl=*,*+gcl=*,*+xx=*}
 
 QS      "L-ah"                                  {*^ah-*}
 QS      "C-ah"                                  {*-ah+*}
