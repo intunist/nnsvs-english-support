@@ -9,6 +9,7 @@ The phoneme set is based on arpabet has been carefully selected to be compatible
 The estimated amount of audio required for a high quality dataset is 3-4 hours (without silence). A prototype can be made with less.
 ___
 Version v0.1.19 of the hed adds support for adding suffixes to your dataset. The suffixes are OPTIONAL and for a small dataset you _should not_ use them.
+For normal usage, suffixes can be ignored.
 | Suffix | purpose                                 |
 | ------ | --------------------------------------- |
 | \_f    | (falsetto)                              |
