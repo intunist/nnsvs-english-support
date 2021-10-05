@@ -39,7 +39,7 @@ g	-	GaG		#
 s	-	SaS		#				
 z	-	ZooS		#				
 ch	-	CHurCH		#				
-jh	-	JuDGE		#			Makes "dg" sound for end of words. like [d][zh] or [dZ] in x-sampa.
+j	-	JuDGE		#			Makes "dg" sound for end of words. like [d][zh] or [dZ] in x-sampa.
 sh	-	Ship, puSH	#				
 zh	-	pleaSure	#			The "judge" example is [j ah d zh], not [j ah zh]. To avoid any confusion.
 f	-	FlooF		#				
