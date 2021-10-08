@@ -384,9 +384,9 @@ QS      "R-kcl"                                 {*+kcl=*}
 QS      "L-gcl"                                 {*^gcl-*}
 QS      "C-gcl"                                 {*-gcl+*}
 QS      "R-gcl"                                 {*+gcl=*}
-QS      "L-xx"                                  {*^x-*}
-QS      "C-xx"                                  {*-x+*}
-QS      "R-xx"                                  {*+x=*}
+QS      "L-x"                                  {*^x-*}
+QS      "C-x"                                  {*-x+*}
+QS      "R-x"                                  {*+x=*}
 
 QS "L-Phone_NG"      {*%1?^*}
 QS "L-Phone_OK"      {*%0?^*}
