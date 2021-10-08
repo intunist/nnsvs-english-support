@@ -96,7 +96,7 @@ dcl	-	UNUSED		#			[cl] but specific to [d]. Don't use, requires more data and do
 kcl	-	UNUSED		#			[cl] but specific to [k]. Don't use, requires more data and doesn't improve anything.
 gcl	-	UNUSED		#			[cl] but specific to [g]. Don't use, requires more data and doesn't improve anything.
 
-xx	-	UNUSED		#			Voiceless velar fricative. Scottish/Welsh specific. Incredibly rare.
+x	-	UNUSED		#			Voiceless velar fricative. Scottish/Welsh specific. Incredibly rare.
 							Label as [k] instead unless you want to create even more work.
 SUFFIXES:
 v0.1.19 of the ehd adds suffix support. These suffixed should be used on vowel phonemes only.
