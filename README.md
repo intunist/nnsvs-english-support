@@ -12,7 +12,7 @@ Version v0.2.1 of the hed adds support for adding suffixes to your dataset. The 
 For normal usage suffixes can be ignored.
 | Suffix | purpose                                 |
 | ------ | --------------------------------------- |
-| \_ol   | Out of language                         |
+| \_ol   | Out of language (consonants + vowels)   |
 | \_f    | (falsetto)                              |
 | \_b    | (belt)                                  |
 | \_d    | (devoiced/whisper)                      |
