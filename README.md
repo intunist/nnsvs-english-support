@@ -12,11 +12,13 @@ Version v0.2.1 of the hed adds support for adding suffixes to your dataset. The 
 For normal usage suffixes can be ignored.
 | Suffix | purpose                                 |
 | ------ | --------------------------------------- |
+| \_ol   | Out of language                         |
 | \_f    | (falsetto)                              |
 | \_b    | (belt)                                  |
 | \_d    | (devoiced/whisper)                      |
-| \_c    | (creaky/vocal fry of false cord scream) |
-| \_g    | (growl or guttural scream)              |
+| \_c    | (creaky/vocal fry)                      |
+| \_g    | (growl or false cord scream)            |
+| \_gg   | (guttural scream/growl)                 |
 
 Adding any suffixes to a dataset requires you to add quie _a lot_ more audio. For a full 4 hour dataset, each additional suffix will require about 1.5-2 hours of additional audio each.
 Suffixes may be useful for better targeting the tone of a dataset. (ex: If you are working on a strong dataset and some unwanted falsetto notes exist in tthe dataset, you could label them as [`ay_f`].)
