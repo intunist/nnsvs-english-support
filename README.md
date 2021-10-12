@@ -10,6 +10,8 @@ The estimated amount of audio required for a high quality dataset is 3-4 hours (
 ___
 Version v0.2.1 of the hed adds support for adding suffixes to your dataset. The suffixes are OPTIONAL and for a small dataset you _should not_ use them.
 For normal usage suffixes can be ignored.
+Suffixes are primarily intended to isolate phonemes that may not meet the "goal" of your dataset.
+Such as isolating belting notes in a dataset that is intended to be generally soft, or falsetto notes in a dataset that is meant to be powerful, etc.
 | Suffix | purpose                                 |
 | ------ | --------------------------------------- |
 | \_ol   | Out of language (consonants + vowels)   |
@@ -20,7 +22,7 @@ For normal usage suffixes can be ignored.
 | \_g    | (growl or false cord scream)            |
 | \_gg   | (guttural scream/growl)                 |
 
-Adding any suffixes to a dataset requires you to add quie _a lot_ more audio. For a full 4 hour dataset, each additional suffix will require about 1.5-2 hours of additional audio each.
+Adding suffixes to a dataset with the intention of them being fully functional (as opposed to just being nused for isolation) requires you to add quite _a lot_ more audio. For a full 4 hour dataset, each additional suffix will require about 1.5-2 hours of additional audio each.
 Suffixes may be useful for better targeting the tone of a dataset. (ex: If you are working on a strong dataset and some unwanted falsetto notes exist in tthe dataset, you could label them as [`ay_f`].)
 ___
 ## Additional Info and Directions
