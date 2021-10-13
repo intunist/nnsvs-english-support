@@ -192,6 +192,9 @@ QS      "R-br"                                  {*+br=*}
 QS      "L-exh"                                 {*^exh-*}
 QS      "C-exh"                                 {*-exh+*}
 QS      "R-exh"                                 {*+exh=*}
+QS      "L-cr"                                  {*^cr-*}
+QS      "C-cr"                                  {*-cr+*}
+QS      "R-cr"                                  {*+cr=*}
 QS      "L-cl"                                  {*^cl-*}
 QS      "C-cl"                                  {*-cl+*}
 QS      "R-cl"                                  {*+cl=*}
