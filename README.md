@@ -7,24 +7,7 @@ Additionally, instructions and examples are provided (or will be provided) for t
 The phoneme set is based on arpabet has been carefully selected to be compatible with as many English-speaking dialects as possible.
 
 The estimated amount of audio required for a high quality dataset is 3-4 hours (without silence). A prototype can be made with less.
-___
-Version v0.2.1 of the hed adds support for adding suffixes to your dataset. The suffixes are OPTIONAL and for a small dataset you _should not_ use them.
-For normal usage suffixes can be ignored.
-Suffixes are primarily intended to isolate phonemes that may not meet the "goal" of your dataset.
-Such as isolating belting notes in a dataset that is intended to be generally soft, or falsetto notes in a dataset that is meant to be powerful, etc.
-| Suffix | purpose                                 |
-| ------ | --------------------------------------- |
-| \_ol   | Out of language (consonants + vowels)   |
-| \_f    | (falsetto)                              |
-| \_b    | (belt)                                  |
-| \_d    | (devoiced/whisper)                      |
-| \_c    | (creaky/vocal fry)                      |
-| \_g    | (growl or false cord scream)            |
-| \_gg   | (guttural scream/growl)                 |
 
-Adding suffixes to a dataset with the intention of them being fully functional (as opposed to just being nused for isolation) requires you to add quite _a lot_ more audio. For a full 4 hour dataset, each additional suffix will require about 1.5-2 hours of additional audio each.
-Suffixes may be useful for better targeting the tone of a dataset. (ex: If you are working on a strong dataset and some unwanted falsetto notes exist in tthe dataset, you could label them as [`ay_f`].)
-___
 ## Additional Info and Directions
 
 The HED file was written by hand for NNSVS, it may not work in other tools as-is.
@@ -78,3 +61,22 @@ Training will not work if these values are incorrect.
 A the time of writing, NNSVS doesn't appear to support multi-syllable words in the table. The UST/score will need to be written phonetically.
 For phonetic usts, don't use english.table, use blank.table.
 Otherwise it may try to match phonemes to pronuncations and fail with `ValueError: could not broadcast input array from shape (###,496) into shape (###,496)`.
+___
+Version v0.2.1 now includes an optional HED that adds support for adding suffixes to your dataset. The suffixes are OPTIONAL and for a small dataset you _should not_ use them.
+For normal usage suffixes can be ignored.
+Suffixes are primarily intended to isolate phonemes that may not meet the "goal" of your dataset.
+Such as isolating belting notes in a dataset that is intended to be generally soft, or falsetto notes in a dataset that is meant to be powerful, etc.
+| Suffix | purpose                                 |
+| ------ | --------------------------------------- |
+| \_ol   | Out of language (consonants + vowels)   |
+| \_f    | (falsetto)                              |
+| \_b    | (belt)                                  |
+| \_d    | (devoiced/whisper)                      |
+| \_c    | (creaky/vocal fry)                      |
+| \_g    | (growl or false cord scream)            |
+| \_gg   | (guttural scream/growl)                 |
+
+Adding suffixes to a dataset with the intention of them being fully functional (as opposed to just being nused for isolation) requires you to add quite _a lot_ more audio. For a full 4 hour dataset, each additional suffix will require about 1.5-2 hours of additional audio each.
+Suffixes may be useful for better targeting the tone of a dataset. (ex: If you are working on a strong dataset and some unwanted falsetto notes exist in tthe dataset, you could label them as [`ay_f`].)
+
+NOTE: The usage of suffixes increases the RAM/VRAM requirements for training. You will want to use suffixes sparingly (don't use all of them at once in a dataset, limit it to ~2 types) and remove the ones you do not need from the HED file. English already requires a lot of vram and suffixes eexacerbate this.
