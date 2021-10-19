@@ -1,6 +1,5 @@
-DynamiVox phoneme set for DNN datasets. By Causticism.
+DynamiVox phoneme set for DNN datasets.
 Based on Arpabet. Not compatible with CMU Dictionary Arpabet.
-Updated: 2021-10-5 (YYYY-MM-DD)
 
 [phone]	[US words]		[UK words]		[desc]
 
@@ -86,6 +85,8 @@ cl	-	[closure]				silent/held consonant closures in clusters. For when closure i
 cs	-	[held stop]				held stop/plosive consonant. For when the silence is held. (similar to Japanese usage of [cl] but not syllabic.
 vf	-	[fry]		#			Incidental vocal fry, such as at end of phrase or between vowels. Note: refer to [_c]
 	UPDATE 0.1.12: Vocal fry can happen anywhere but much more data would be needed for this to work well. Keeping as a start/end sound should require less data. Label as it appears either way.
+	
+cr	-	[crack]		#			Optional label for vocal cracks/breaks.
 
 sil	-	UNUSED					Same as pau, some use for longer silence. Wavesurfer default.
 
