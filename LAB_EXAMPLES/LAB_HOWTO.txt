@@ -1,18 +1,18 @@
-English labeling can be a daunting task for newcommers.
+English labeling can be a daunting task for newcomers.
 This document hopes to explain DynamiVox's method of labeling as clearly as possible.
 
-Please refer to "DynamiVox English NN Phoneme Set v[x.x.x].txt" in the base directory.
+Please refer to "DynamiVox English NN Phoneme Set.txt" in the base directory.
 This list of phonemes will be needed during the labeling process.
 
-During the labeling process, DynamiVox Phone Ref.txt" can be used as active reference.
+During the labeling process, “DynamiVox Phone Ref.txt" can be used as active reference.
 Please keep the notes from the full phoneme set in mind while using this reference doc.
 Note that the "CMU Pronouncing Dictionary" may not be accurate reference as it uses a smaller phoneme set.
-	This is mainly due to the lack of [ax] in the CMU phoneme set.
+        This is mainly due to the lack of [ax] and syllabics in the CMU phoneme set.
 
 Unlike speech, singing DOES NOT contain stress symbols. This should make labeling easier.
 
 DynamiVox takes a "looser" approach to phonology for NN datasets.
-Focusing on the intended purpose of the sound rather than the actual pronuncation.
+Focusing on the intended purpose of the sound rather than the actual pronunciation.
 We found this allows the labeling to be more accurate to the performance and easier to label across dialects.
 The phoneme set has been adjusted accordingly, with notes provided.
 
@@ -31,7 +31,7 @@ Because the intended purpose of this sound is to act as an [r], it is labeled as
 This also goes for vowels, where the shape may change based on pitch or place in the performance.
 
 **The only exception is the "schwa" [ax] phoneme.
-English is a fairly lazy lanauge and many vowels can be replaced with a schwa at almost any time.
+English is a fairly lazy language and many vowels can be replaced with a schwa at almost any time.
 In these cases, always label a schwa as [ax] and not the "intended" vowel.
 
 Keep in mind that if a sound is skipped, it should not be labeled.
@@ -44,39 +44,39 @@ Syllabic consonants are consonants that take the role of vowels for their syllab
 These include [en], [em], [el], and [eng].
 For syllabic consonants, the consonant is sustained instead of the vowel.
 the syllabic phonemes should also be used when the syllable is very short and hard to determine.
-When the consnants is not syllabic, these will most likely be labeled as [ax n], [ax m], [ax l], and [ih ng].
+When the consonants is not syllabic, these will most likely be labeled as [ax n], [ax m], [ax l], and [ih ng].
 Examples:
 [en]
-	button:
-	"buttooooooon" [b ah t ax n]
-	"buttonnnnnnn" [b ah t en]
+        button:
+        "buttooooooon" [b ah t ax n]
+        "buttonnnnnnn" [b ah t en]
 [em]
-	bottom
-	"bottooooooom" [b aa t ax m]
-	"bottommmmmmm" [b aa t em]
+        bottom
+        "bottooooooom" [b aa t ax m]
+        "bottommmmmmm" [b aa t em]
 [el]
-	puddle
-	"pudd______le" [p ah dx ax l]
-	"puddllllllle" [p ah dx el]
+        puddle
+        "pudd______le" [p ah dx ax l]
+        "puddllllllle" [p ah dx el]
 [eng]
-	bring
-	"briiiiiiiing" [b r ih ng]
-	"brinnnnnnnng" [b r eng]
+        bring
+        "briiiiiiiing" [b r ih ng]
+        "brinnnnnnnng" [b r eng]
 
 There are many small quirks in every dialect that need to be accounted for.
-Most you may figure out without being aware of them, others will require concouse consideration.
+Most you may figure out without being aware of them, others will require conscious consideration.
 The main goal is to account for these quirks without adding to the phoneme set.
 Remember, the more phonemes you have, the more audio you will need to train those phonemes!
 An example of a quirk: The flapped [n].
 For some speakers, "winter" and "winner" are pronounced the same.
-A flapped n is sometimes labeled as [nx], but to reduce training this is labled as [n]
+A flapped n is sometimes labeled as [nx], but to reduce training this is labeled as [n]
 Please refer to the "flapped n US" folder for an example.
 
 And for a final note. The [cl] phoneme.
 The [cl] phoneme is used to control "consonant closures", however the model will learn this contextually on it's own.
-Instead, the [cl] phoneme is used as a toggle, to label consonants in clusters that don't match the default pronuncation.
+Instead, the [cl] phoneme is used as a toggle, to label consonants in clusters that don't match the default pronunciation.
 As an example, "Kit Kat" is open said where the [t] are closures (they aren't pronounced)
-For concatinative synthesis these would be labeled as [t][cl]. However, for NN this would be contextually learned.
-However, if the vocalist pronounced the [t] fully (the opposite of what is expected, then you would add [cl].
+For concatenative synthesis these would be labeled as [t][cl]/[tcl]. However, for NN this would be contextually learned.
+However, if the vocalist pronounced the [t] fully (the opposite of what is expected), then you would add [cl].
 The same applies to the reverse.
-Do not confuse [cl] with adding a [axh] or [exh] release after some consnants.
+Do not confuse [cl] with adding a [axh] or [exh] release after some consonants.
