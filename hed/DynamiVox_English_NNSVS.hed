@@ -4,9 +4,9 @@ QS      "C-Phone_Language_Independent_Break"     {b@*}
 QS      "C-Phone_Language_Independent_Consonant" {c@*}
 QS      "C-Phone_Language_Independent_Vowel"     {v@*}
 
-QS      "L-Silences"                            {*^sil-*,*^pau-*,*^br-*,*^exh-*,*^vf-*}
-QS      "C-Silences"                            {*-sil+*,*-pau+*,*-br+*,*-exh+*,*-vf+*}
-QS      "R-Silences"                            {*+sil=*,*+pau=*,*+br=*,*+exh=*,*+vf=*}
+QS      "L-Silences"                            {*^sil-*,*^pau-*,*^br-*,*^exh-*,*^axh-*,*^vf-*}
+QS      "C-Silences"                            {*-sil+*,*-pau+*,*-br+*,*-exh+*,*-axh+*,*-vf+*}
+QS      "R-Silences"                            {*+sil=*,*+pau=*,*+br=*,*+exh=*,*+axh=*,*+vf=*}
 
 QS      "L-Vowel"                               {*^ah-*,*^aa-*,*^ao-*,*^ae-*,*^ax-*,*^iy-*,*^ih-*,*^uh-*,*^uw-*,*^eh-*,*^er-*,*^ay-*,*^a-*,*^ey-*,*^e-*,*^oy-*,*^aw-*,*^ow-*,*^o-*,*^el-*,*^em-*,*^en-*,*^eng-*,*^ux-*,*^axr-*,*^ix-*}
 QS      "C-Vowel"                               {*-ah+*,*-aa+*,*-ao+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-uh+*,*-uw+*,*-eh+*,*-er+*,*-ay+*,*-a+*,*-ey+*,*-e+*,*-oy+*,*-aw+*,*-ow+*,*-o+*,*-el+*,*-em+*,*-en+*,*-eng+*,*-ux+*,*-axr+*,*-ix+*}
@@ -360,6 +360,9 @@ QS      "R-br"                                  {*+br=*}
 QS      "L-exh"                                 {*^exh-*}
 QS      "C-exh"                                 {*-exh+*}
 QS      "R-exh"                                 {*+exh=*}
+QS      "L-axh"                                 {*^axh-*}
+QS      "C-axh"                                 {*-axh+*}
+QS      "R-axh"                                 {*+axh=*}
 QS      "L-cr"                                  {*^cr-*}
 QS      "C-cr"                                  {*-cr+*}
 QS      "R-cr"                                  {*+cr=*}
