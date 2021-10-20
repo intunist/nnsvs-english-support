@@ -67,7 +67,8 @@ eng	-	sING-ING, learnING			"ing" sound, where ng makes most of the syllable, oth
 SILENCES AND CLOSURES:
 pau	-	silence					During unsing/silent periods.
 br	-	[breath]				dude's gotta breath
-exh	-	[exhale]				end breaths, end of phrase exhale.
+exh	-	[exhale]				end breaths, end of phrase exhale. devoiced.
+axh	-	[release]				voiced variation of [exh]. voiced schwa exhale/release.
 cl	-	[closure]				silent/held consonant closures. (obtain) [ah b cl t ey n]
 cs	-	[held stop]				held stop/plosive consonant. For when the silence is held.
 vf	-	[fry end]	#			vocal fry
