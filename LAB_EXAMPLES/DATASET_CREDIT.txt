@@ -1,3 +1,3 @@
-dyv_en-us_theta, dyv_en-us_susumu, dyv_en-uk_ada, dyv_en-de_lizard are provided by DynamiVox. Labeling was done by Jeremy "Causticism" Burke@Dynamivox.
+dyv_en-us_theta, dyv_en-us_susumu, dyv_en-uk_ada, dyv_en-de_lizard are provided by DynamiVox. Labeling was done by causticism@DynamiVox.
 
-en-us_kim(idfk what to call this yet) is recorded by @ontanned(twitter), labeling provided by Causticism@DynamiVox.
+en-us_kim is recorded by @ontanned(twitter), labeling provided by causticism@DynamiVox.
