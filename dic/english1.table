@@ -1,25 +1,33 @@
 br br
-pau pau
+pau pau[pau] pau
 R pau
-sil sil
-exh exh
-vf vf
-cl cl
-cs cs
+[sil] sil
+exh exh[exh] exhaxh axh[axh] axh
+vf vf[vf] vf
+cl cl[cl] cl
+cs cs[cs] cs
 [ah] ah
 [aa] aa
+aa aa
 [ao] ao
+ao ao
 [ae] ae
+ae ae
 [ax] ax
+ax ax
 [iy] iy
+iy iy
 [ih] ih
+ih ih
 [uh] uh
 [uw] uw
+uw uw
 [eh] eh
 [er] er
 [ay] ay
 [a] a
 [ey] ey
+ey ey
 [e] e
 [oy] oy
 [aw] aw
@@ -34,17 +42,25 @@ cs cs
 [s] s
 [z] z
 [ch] ch
+ch ch
 [j] j
+[jh] j
 [sh] sh
+sh sh
 [zh] zh
+zh zh
 [f] f
 [v] v
 [h] h
+[hh] h
 [th] th
+th th
 [dh] dh
+dh dh
 [n] n
 [m] m
 [ng] ng
+ng ng
 [w] w
 [y] y
 [r] r
@@ -55,17 +71,15 @@ cs cs
 [en] en
 [eng] eng
 [ux] ux
+ux ux
 [nx] nx
+nx nx
 [axr] axr
+axr axr
 [ix] ix
+ix ix
 [hv] hv
-[pau] pau
-[br] br
-[exh] exh
-[cl] cl
-[cs] cs
-[vf] vf
-[cr] cr
+hv hv
 [x] xa  ah
 a's  ey z
 a(2)  ey
@@ -1398,7 +1412,6 @@ adweek  ae d - w iy k
 adwell  ah d - w eh l
 ady  ey - d iy
 adz  ae d z
-ae  ey
 aegean  ih - j iy - ah n
 aegerter  eh - g er - t er
 aegis  iy - j ah s
@@ -6781,7 +6794,6 @@ awning  aa - n ih ng
 awoke  ah - w ow k
 awry  er - ay
 awtrey  ao - t r iy
-ax  ae k s
 axa  ae k - s ah
 axa's  ae k - s ah z
 axe  ae k s
@@ -31184,7 +31196,6 @@ discovers  d ih - s k ah - v er z
 discovery  d ih - s k ah - v er - iy
 discovery's  d ih - s k ah - v er - iy z
 discovery's(2)  d ih - s k ah - v r iy z
-discovery(2)  d ih - s k ah - v r iy
 discovery(2)  d ih - s k ah - v r iy
 discredit  d ih s - k r eh - d ah t
 discredited  d ih s - k r eh - d ih - t ih d
@@ -105097,7 +105108,6 @@ sharply  sh aa r p - l iy
 sharpnack  sh aa r p - n ah k
 sharpness  sh aa r p - n ah s
 sharps  sh aa r p s
-sharpshooter  sh aa r p - sh uw - t er
 sharpshooter  sh aa r p - sh uw - t er
 sharpshooters  sh aa r p - sh uw - t er z
 sharpton  sh aa r p - t ah n
