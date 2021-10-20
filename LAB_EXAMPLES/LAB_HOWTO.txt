@@ -19,8 +19,8 @@ The phoneme set has been adjusted accordingly, with notes provided.
 Keep in mind that phonemes need to be tied to a note in the XML/UST and vice versa.
 Extra of either can cause NNSVS training to fail during segmentation.
 If you have multiple note to represent a "vocal run", these extra notes will require a separate vowel phoneme label.
-You should also only have as many [sil] as there are Rests in your UST file.
-If working with MusicXML, have only one [sil] during a resting/silent period.
+You should also only have as many [pau] as there are Rests in your UST file.
+If working with MusicXML, have only one [pau] during a resting/silent period.
 
 Some confusion may arise when labeling allophones, syllabic consonants, and other dialectal quirks.
 Allophones are groups of sounds that fill the same phoneme.
@@ -33,6 +33,12 @@ This also goes for vowels, where the shape may change based on pitch or place in
 **The only exception is the "schwa" [ax] phoneme.
 English is a fairly lazy lanauge and many vowels can be replaced with a schwa at almost any time.
 In these cases, always label a schwa as [ax] and not the "intended" vowel.
+
+Keep in mind that if a sound is skipped, it should not be labeled.
+For example, "next song" often drops the "t". So it would be labeled as [n eh k s][s ao ng] instead of [n eh k s t][s ao ng].
+
+The [h] phoneme can be a bit difficult. The [h] phoneme is shaped by the following phoneme.
+As an example, "when he" can sound like "whenny". It is suggested to still label the [h] phoneme in these cases, even if i s very small.
 
 Syllabic consonants are consonants that take the role of vowels for their syllable.
 These include [en], [em], [el], and [eng].
@@ -63,6 +69,14 @@ The main goal is to account for these quirks without adding to the phoneme set.
 Remember, the more phonemes you have, the more audio you will need to train those phonemes!
 An example of a quirk: The flapped [n].
 For some speakers, "winter" and "winner" are pronounced the same.
-A flapped n is sometimes labeled as [nx], but to reduce training this is labled as [n][t].
+A flapped n is sometimes labeled as [nx], but to reduce training this is labled as [n]
 Please refer to the "flapped n US" folder for an example.
 
+And for a final note. The [cl] phoneme.
+The [cl] phoneme is used to control "consonant closures", however the model will learn this contextually on it's own.
+Instead, the [cl] phoneme is used as a toggle, to label consonants in clusters that don't match the default pronuncation.
+As an example, "Kit Kat" is open said where the [t] are closures (they aren't pronounced)
+For concatinative synthesis these would be labeled as [t][cl]. However, for NN this would be contextually learned.
+However, if the vocalist pronounced the [t] fully (the opposite of what is expected, then you would add [cl].
+The same applies to the reverse.
+Do not confuse [cl] with adding a [axh] or [exh] release after some consnants.
