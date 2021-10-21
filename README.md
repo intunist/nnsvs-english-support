@@ -24,9 +24,9 @@ However, the basic phoneme section should be about the same.
 the /dic folder contains several files:  
 /english.conf - phoneme information  
 /english.macron  
-/english.table - syllabified English dictionary  
-/english1.table - non-syllabified English dictionary  
-/blank.table - empty dictionary for phonetic training  
+/english.table - non-syllabified English dictionary  
+/english1.table - syllabified English dictionary  
+/blank.table - basic dictionary for phonetic training  
 /table credit.txt - credits for dictionaries  
 
 the /LAB_EXAMPLES folder contains EXAMPLES ON HOW TO LABEL singing.
