@@ -1,10 +1,8 @@
 pau
 sil
 br durceil 0.5
-
 exh durceil 0.4
 axh durceil 0.4
-
 ah durfloor 0.05
 aa durfloor 0.05
 ao durfloor 0.05
@@ -16,7 +14,6 @@ uh durfloor 0.05
 uw durfloor 0.05
 eh durfloor 0.05
 er durfloor 0.05
-
 ay durfloor 0.05
 ey durfloor 0.05
 oy durfloor 0.05
@@ -25,16 +22,13 @@ ow durfloor 0.05
 a durfloor 0.05
 e durfloor 0.05
 o durfloor 0.05
-
 el durfloor 0.05
 em durfloor 0.05
 en durfloor 0.05
 eng durfloor 0.05
-
 ux
 axr durfloor 0.05
 ix
-
 p durceil 0.3
 b durceil 0.3
 t durceil 0.3
@@ -62,12 +56,10 @@ th durceil 0.3
 dh durceil 0.3
 ng durceil 0.3
 dx durceil 0.2
-
 hv durceil 0.3
 hh durceil 0.3
 nx durceil 0.2
 x durceil 0.3
-
 pcl durceil 0.3
 bcl durceil 0.3
 tcl durceil 0.3
