@@ -40,21 +40,21 @@ You can change the hed file in config.yaml, this is found at `/train/config.yaml
 NOTE: please change the value of "in_dim" in `/train/conf/train/*/model/*.yaml`
 The values should be set as follows if using "DynamiVox_English_NNSVS.hed":
 
-* acoustic_conv.yaml: 505
-* acoustic_mdn.yaml: 505
-* duration_lstm.yaml: 501
-* duration_mdn.yaml: 501
-* timelag_ffn.yaml: 501
-* timelag_mdn.yaml: 501
+* acoustic_conv.yaml: 523
+* acoustic_mdn.yaml: 523
+* duration_lstm.yaml: 519
+* duration_mdn.yaml: 519
+* timelag_ffn.yaml: 519
+* timelag_mdn.yaml: 519
 
 If you are using "DynamiVox_English_NNSVS_MINIMAL.hed", use the following values:
 
-* acoustic_conv.yaml: 358
-* acoustic_mdn.yaml: 358
-* duration_lstm.yaml: 354
-* duration_mdn.yaml: 354
-* timelag_ffn.yaml: 354
-* timelag_mdn.yaml: 354
+* acoustic_conv.yaml: 370
+* acoustic_mdn.yaml: 370
+* duration_lstm.yaml: 366
+* duration_mdn.yaml: 366
+* timelag_ffn.yaml: 366
+* timelag_mdn.yaml: 366
 
 Training will not work if these values are incorrect.
 
