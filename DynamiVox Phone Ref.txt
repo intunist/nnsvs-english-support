@@ -52,7 +52,7 @@ m	-	MoM, MoMent	#
 ng	-	baNG, suNG	#			-ing has it's own phoneme.
 w	-	Wisp		#			starting only.
 y	-	Yes		#			starting only.
-r	-	Road, caR	#			rhotic shares same phoneme. It's fine.
+r	-	Road, caR	caR			rhotic shares same phoneme. It's fine. UK dropped r as well.
 l	-	List, caLL	#			dark L shares same phoneme. It's fine.
 q	-	we-eat batten				glottal stop and vowel separator. NOT vocal fry. (we-eat, batten.)
 dx	-	buTTer		shuT-up			flapped d/tt. Use in UK English is spotty.
@@ -65,8 +65,8 @@ en	-	buttON	*may omit			vowel-like n, where n makes most of the syllable, otherw
 eng	-	sING-ING, learnING			"ing" sound, where ng makes most of the syllable, otherwise [ih ng]
 
 SILENCES AND CLOSURES:
-pau	-	silence					During unsing/silent periods.
-br	-	[breath]				dude's gotta breath
+pau	-	silence					During unsung/silent periods.
+br	-	[breath]				dude's gotta breathe
 exh	-	[exhale]				end breaths, end of phrase exhale. devoiced.
 axh	-	[release]				voiced variation of [exh]. voiced schwa exhale/release.
 cl	-	[closure]				silent/held consonant closures. (obtain) [ah b cl t ey n]
