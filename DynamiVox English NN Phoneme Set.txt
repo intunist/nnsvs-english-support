@@ -64,7 +64,7 @@ ALLOPHONES:
 el	-	peopLE, doubLE				vowel-like l, where l makes most of the syllable, otherwise [ax l]
 em	-	bottOM *may omit			vowel-like m, where m makes most of the syllable, otherwise [ax m]
 en	-	buttON	*may omit			vowel-like n, where n makes most of the syllable, otherwise [ax n]
-eng	-	sING-ING, learnING			"ing" sound, where ng makes most of the syllable, otherwise [ih ng]
+eng	-	REMOVED	FOR v3.1			"ing" sound, use [ih ng] instead
 	NOTE: Syllabic consonants always pose timing difficulties and including these may be beneficial. Labeling depends on if the performer sustains the vowel or the consonant.
 	UPDATE v0.1.6: More testing required and may not be necessary at all. [el] is being kept specifically for a sustained [l].
 	UPDATE v0.1.9: Usage of these phonemes should be kept strictly for when/if the performer sustains the consonant and not the vowel (at all). These are optional.
