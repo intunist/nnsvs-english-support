@@ -58,10 +58,6 @@ Examples:
         puddle
         "pudd______le" [p ah dx ax l]
         "puddllllllle" [p ah dx el]
-[eng]
-        bring
-        "briiiiiiiing" [b r ih ng]
-        "brinnnnnnnng" [b r eng]
 
 There are many small quirks in every dialect that need to be accounted for.
 Most you may figure out without being aware of them, others will require conscious consideration.
@@ -72,7 +68,7 @@ For some speakers, "winter" and "winner" are pronounced the same.
 A flapped n is sometimes labeled as [nx], but to reduce training this is labeled as [n]
 Please refer to the "flapped n US" folder for an example.
 
-And for a final note. The [cl] phoneme.
+Additionally, we have the [cl] phoneme.
 The [cl] phoneme is used to control "consonant closures", however the model will learn this contextually on it's own.
 Instead, the [cl] phoneme is used as a toggle, to label consonants in clusters that don't match the default pronunciation.
 As an example, "Kit Kat" is open said where the [t] are closures (they aren't pronounced)
@@ -80,3 +76,9 @@ For concatenative synthesis these would be labeled as [t][cl]/[tcl]. However, fo
 However, if the vocalist pronounced the [t] fully (the opposite of what is expected), then you would add [cl].
 The same applies to the reverse.
 Do not confuse [cl] with adding a [axh] or [exh] release after some consonants.
+The [cl] goes AFTER the consonant to alter it.
+
+And as a final note, we now have the [cs] phoneme.
+[cs] stands for "consonant sustain" and is for holding the silence of hard/popped (and devoiced) consonants.
+[cs] goes BEFORE the consonant to hold it's silence.
+For example, if you hold the [k] in "poker" it would be labled as [p ow cs k er].
