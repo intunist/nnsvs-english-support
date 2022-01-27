@@ -15,7 +15,7 @@ For example "sparkler" is two syllables, split into spar-kler.
 These would be inserted in the XML/UST as two notes, [s p a r] [k l er].
 
 onset	nucleus	coda	onset	nucleus	coda
-[s p]	  [a]	[r]  -  [k l]	 [er]	none
+[s p]	 [aa]	[r]  -  [k l]	 [er]	none
 
 Proper placement is important for the model to learn how to use consonants appropriately.
 You wouldn't want the model to use a consonant meant for the start of a syllable at the end or vice versa.
