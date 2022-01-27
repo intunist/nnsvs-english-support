@@ -62,7 +62,7 @@ SYLLABIC:
 el	-	peopLE, doubLE				vowel-like l, where l makes most of the syllable, otherwise [ax l]
 em	-	bottOM *may omit			vowel-like m, where m makes most of the syllable, otherwise [ax m]
 en	-	buttON	*may omit			vowel-like n, where n makes most of the syllable, otherwise [ax n]
-eng	-	sING-ING, learnING			"ing" sound, where ng makes most of the syllable, otherwise [ih ng]
+REMOVED	-	sING-ING, learnING			"ing" sound, where ng makes most of the syllable, USE [ih ng] INSTEAD
 
 SILENCES AND CLOSURES:
 pau	-	silence					During unsung/silent periods.
