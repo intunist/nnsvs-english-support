@@ -1,5 +1,11 @@
-winter
-[w ih n t er]
-[w ih nx er]
+It should be noted that Dynamivox English doesn't support the tapped n phoneme ([nx]) on it's own.
+Instead, it will be handled contextually based on length.
 
-XML/UST: wi-nter (for flapped n only. otherwise win-ter)
+For example, the word "winter" with the "t" pronounced would be:
+[w ih n t er]
+But with a tapped n it would be labeled as:
+[w ih n er]
+
+This means that "winner" and "winter" have the same phonetic transcription but this is fine as it will sound correct in the context of the whole phrase.
+
+XML/UST: [w ih][n er]
