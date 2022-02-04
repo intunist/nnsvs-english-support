@@ -39,12 +39,12 @@ g	-	GaG		#
 s	-	SaS		#				
 z	-	ZooS		#				
 ch	-	CHurCH		#				
-j	-	JuDGE		#			Makes "dg" sound for end of words. like [d][zh] or [dZ] in x-sampa.
+jh	-	JuDGE		#			Makes "dg" sound for end of words. like [d][zh] or [dZ] in x-sampa.
 sh	-	Ship, puSH	#				
 zh	-	pleaSure	#			The "judge" example is [j ah d zh], not [j ah zh]. To avoid any confusion.
 f	-	FlooF		#				
 v	-	Verge, nerVe	#				
-h	-	Happy		#			syllable onset only.
+hh	-	Happy		#			syllable onset only.
 th	-	THin, myTH	#				
 dh	-	THis, widTH	#			
 n	-	NaNNy, paN	#			
