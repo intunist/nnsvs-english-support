@@ -38,12 +38,12 @@ g	-	GaG		#
 s	-	SaS		#				
 z	-	ZooS		#				
 ch	-	CHurCH		#				
-j	-	JuDGE		#			Makes "dg" sound for end of words. like [d][zh] or [dZ] in x-sampa.
+jh	-	JuDGE		#			Makes "dg" sound for end of words. like [d][zh] or [dZ] in x-sampa.
 sh	-	Ship, puSH	#				
 zh	-	pleaSure	#			The "judge" example is [j ah d zh], not [j ah zh]. To avoid and confusion.
 f	-	FlooF		#				
 v	-	Verge, nerVe	#				
-h	-	Happy		#			starting only.
+hh	-	Happy		#			starting only.
 	Sometimes [hh] is dropped in phrases like "when he", sounding like "when-nee". A short [h] phoneme should still be included in the label.
 th	-	THin, myTH	#				
 dh	-	THis, widTH	#			
