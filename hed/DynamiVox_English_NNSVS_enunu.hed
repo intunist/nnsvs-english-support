@@ -1,9 +1,3 @@
-QS      "C-Phone_Language_Independent_Silence"   {s@*}
-QS      "C-Phone_Language_Independent_Pause"     {p@*}
-QS      "C-Phone_Language_Independent_Break"     {b@*}
-QS      "C-Phone_Language_Independent_Consonant" {c@*}
-QS      "C-Phone_Language_Independent_Vowel"     {v@*}
-
 QS      "L-Silences"                            {*^sil-*,*^pau-*,*^br-*,*^exh-*,*^axh-*,*^vf-*}
 QS      "C-Silences"                            {*-sil+*,*-pau+*,*-br+*,*-exh+*,*-axh+*,*-vf+*}
 QS      "R-Silences"                            {*+sil=*,*+pau=*,*+br=*,*+exh=*,*+axh=*,*+vf=*}
