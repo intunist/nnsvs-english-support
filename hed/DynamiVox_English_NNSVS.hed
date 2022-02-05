@@ -164,9 +164,9 @@ QS      "R-Back_Stop"                           {*+k=*,*+g=*,*+q=*}
 QS      "L-Fortis_Consonant"                    {*^p-*,*^t-*,*^k-*,*^s-*,*^ch-*,*^sh-*,*^f-*,*^th-*,*^q-*,*^x-*}
 QS      "C-Fortis_Consonant"                    {*-p+*,*-t+*,*-k+*,*-s+*,*-ch+*,*-sh+*,*-f+*,*-th+*,*-q+*,*-x+*}
 QS      "R-Fortis_Consonant"                    {*+p=*,*+t=*,*+k=*,*+s=*,*+ch=*,*+sh=*,*+f=*,*+th=*,*+q=*,*+x=*}
-QS      "L-Lenis_Consonant"                     {*^b-*,*^d-*,*^g-*,*^z-*,*^jh-*,*^zh-*,*^v-*,*^h-*,*^hh-*,*^dh-*,*^dx-*}
-QS      "C-Lenis_Consonant"                     {*-b+*,*-d+*,*-g+*,*-z+*,*-jh+*,*-zh+*,*-v+*,*-h+*,*-hh+*,*-dh+*,*-dx+*}
-QS      "R-Lenis_Consonant"                     {*+b=*,*+d=*,*+g=*,*+z=*,*+jh=*,*+zh=*,*+v=*,*+h=*,*+hh=*,*+dh=*,*+dx=*}
+QS      "L-Lenis_Consonant"                     {*^b-*,*^d-*,*^g-*,*^z-*,*^jh-*,*^zh-*,*^v-*,*^hh-*,*^dh-*,*^dx-*}
+QS      "C-Lenis_Consonant"                     {*-b+*,*-d+*,*-g+*,*-z+*,*-jh+*,*-zh+*,*-v+*,*-hh+*,*-dh+*,*-dx+*}
+QS      "R-Lenis_Consonant"                     {*+b=*,*+d=*,*+g=*,*+z=*,*+jh=*,*+zh=*,*+v=*,*+hh=*,*+dh=*,*+dx=*}
 
 QS      "L-Liquid"                              {*^w-*,*^y-*,*^r-*,*^l-*,*^el-*,*^hh-*}
 QS      "C-Liquid"                              {*-w+*,*-y+*,*-r+*,*-l+*,*-el+*,*-hh+*}
@@ -186,9 +186,9 @@ QS      "R-Syllabic_Nasal"                      {*+en=*,*+em=*}
 QS      "L-Anterior_Consonant"                  {*^p-*,*^b-*,*^t-*,*^d-*,*^s-*,*^z-*,*^f-*,*^v-*,*^th-*,*^dh-*,*^n-*,*^en-*,*^m-*,*^em-*,*^w-*,*^l-*,*^el-*,*^dx-*,*^rr-*}
 QS      "C-Anterior_Consonant"                  {*-p+*,*-b+*,*-t+*,*-d+*,*-s+*,*-z+*,*-f+*,*-v+*,*-th+*,*-dh+*,*-n+*,*-en+*,*-m+*,*-em+*,*-w+*,*-l+*,*-el+*,*-dx+*,*-rr+*}
 QS      "R-Anterior_Consonant"                  {*+p=*,*+b=*,*+t=*,*+d=*,*+s=*,*+z=*,*+f=*,*+v=*,*+th=*,*+dh=*,*+n=*,*+en=*,*+m=*,*+em=*,*+w=*,*+l=*,*+el=*,*+dx=*,*+rr=*}
-QS      "L-Non_Anterior"                        {*^k-*,*^g-*,*^ch-*,*^jh-*,*^sh-*,*^zh-*,*^h-*,*^hh-*,*^ng-*,*^y-*,*^r-*,*^q-*,*^x-*,*^rx-*}
-QS      "C-Non_Anterior"                        {*-k+*,*-g+*,*-ch+*,*-jh+*,*-sh+*,*-zh+*,*-h+*,*-hh+*,*-ng+*,*-y+*,*-r+*,*-q+*,*-x+*,*-rx+*}
-QS      "R-Non_Anterior"                        {*+k=*,*+g=*,*+ch=*,*+jh=*,*+sh=*,*+zh=*,*+h=*,*+hh=*,*+ng=*,*+y=*,*+r=*,*+q=*,*+x=*,*+rx=*}
+QS      "L-Non_Anterior"                        {*^k-*,*^g-*,*^ch-*,*^jh-*,*^sh-*,*^zh-*,*^hh-*,*^ng-*,*^y-*,*^r-*,*^q-*,*^x-*,*^rx-*}
+QS      "C-Non_Anterior"                        {*-k+*,*-g+*,*-ch+*,*-jh+*,*-sh+*,*-zh+*,*-hh+*,*-ng+*,*-y+*,*-r+*,*-q+*,*-x+*,*-rx+*}
+QS      "R-Non_Anterior"                        {*+k=*,*+g=*,*+ch=*,*+jh=*,*+sh=*,*+zh=*,*+hh=*,*+ng=*,*+y=*,*+r=*,*+q=*,*+x=*,*+rx=*}
 
 QS      "L-ah"                                  {*^ah-*}
 QS      "C-ah"                                  {*-ah+*}
@@ -289,9 +289,6 @@ QS      "R-f"                                   {*+f=*}
 QS      "L-v"                                   {*^v-*}
 QS      "C-v"                                   {*-v+*}
 QS      "R-v"                                   {*+v=*}
-QS      "L-h"                                   {*^h-*}
-QS      "C-h"                                   {*-h+*}
-QS      "R-h"                                   {*+h=*}
 QS      "L-hh"                                  {*^hh-*}
 QS      "C-hh"                                  {*-hh+*}
 QS      "R-hh"                                  {*+hh=*}
