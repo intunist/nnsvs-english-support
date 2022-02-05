@@ -108,9 +108,6 @@ QS      "R-f"                                   {*+f=*}
 QS      "L-v"                                   {*^v-*}
 QS      "C-v"                                   {*-v+*}
 QS      "R-v"                                   {*+v=*}
-QS      "L-h"                                   {*^h-*}
-QS      "C-h"                                   {*-h+*}
-QS      "R-h"                                   {*+h=*}
 QS      "L-hh"                                  {*^hh-*}
 QS      "C-hh"                                  {*-hh+*}
 QS      "R-hh"                                  {*+hh=*}
