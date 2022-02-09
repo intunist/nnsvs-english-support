@@ -63,7 +63,7 @@ Training will not work if these values are incorrect.
 
 A the time of writing, NNSVS doesn't appear to support multi-syllable words in the table. The UST/score will need to be written phonetically.
 For phonetic usts, don't use english.table, use blank.table.
-Otherwise it may try to match phonemes to pronuncations and fail with `ValueError: could not broadcast input array from shape (###,496) into shape (###,496)`.
+Otherwise it may try to match phonemes to pronuncations and fail with `ValueError: could not broadcast input array from shape (###,476) into shape (###,476)`.
 ___
 Version v0.2.1 now includes an optional HED that adds support for adding suffixes to your dataset. The suffixes are OPTIONAL and for a small dataset you _should not_ use them.
 For normal usage suffixes can be ignored.
