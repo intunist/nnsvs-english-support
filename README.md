@@ -8,6 +8,10 @@ The phoneme set is based on arpabet has been carefully selected to be compatible
 
 The estimated amount of audio required for a high quality dataset is 3-4 hours (without silence). A prototype can be made with less.
 
+Here is an example of a model trained with an 8.5 MINUTE dataset from HydroChromatic.
+
+https://user-images.githubusercontent.com/16280813/153196769-54e76249-ebd6-4df5-8e9b-846e48e22035.mp4
+
 ## Additional Info and Directions
 
 The HED file was written by hand for NNSVS, it may not work in other tools as-is.
