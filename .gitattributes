@@ -1,3 +1,5 @@
 .gitattributes export-ignore
 shiro_files/ export-ignore
 LAB_EXAMPLES/ export-ignore
+hed/old/ export-ignore
+dic/old/ export-ignore
