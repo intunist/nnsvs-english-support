@@ -23,9 +23,7 @@ However, the basic phoneme section should be about the same.
 
 the /dic folder contains several files:  
 /english.conf - phoneme information  
-/english.macron  
-/english.table - non-syllabified English dictionary  
-/english1.table - syllabified English dictionary  
+/amepd_dvx.table - DynamiVox (heavily) modified [AMEPD](https://github.com/rhdunn/amepd) dictionary  
 /blank.table - basic dictionary for phonetic training  
 /table credit.txt - credits for dictionaries  
 
@@ -40,21 +38,22 @@ You can change the hed file in config.yaml, this is found at `/train/config.yaml
 NOTE: please change the value of "in_dim" in `/train/conf/train/*/model/*.yaml`
 The values should be set as follows if using "DynamiVox_English_NNSVS.hed":
 
-* acoustic_conv.yaml: 523
-* acoustic_mdn.yaml: 523
-* duration_lstm.yaml: 519
-* duration_mdn.yaml: 519
-* timelag_ffn.yaml: 519
-* timelag_mdn.yaml: 519
+* acoustic_conv.yaml: 476
+* acoustic_mdn.yaml: 476
+* duration_lstm.yaml: 472
+* duration_mdn.yaml: 472
+* timelag_ffn.yaml: 472
+* timelag_mdn.yaml: 472
 
 If you are using "DynamiVox_English_NNSVS_MINIMAL.hed", use the following values:
+The "MINIMAL" hed file is useful for rMDN training.
 
-* acoustic_conv.yaml: 370
-* acoustic_mdn.yaml: 370
-* duration_lstm.yaml: 366
-* duration_mdn.yaml: 366
-* timelag_ffn.yaml: 366
-* timelag_mdn.yaml: 366
+* acoustic_conv.yaml: 323
+* acoustic_mdn.yaml: 323
+* duration_lstm.yaml: 319
+* duration_mdn.yaml: 319
+* timelag_ffn.yaml: 319
+* timelag_mdn.yaml: 319
 
 Training will not work if these values are incorrect.
 
