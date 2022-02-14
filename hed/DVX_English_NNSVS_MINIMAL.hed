@@ -177,9 +177,9 @@ QS      "R-axh"                                 {*+axh=*}
 QS      "L-cr"                                  {*^cr-*}
 QS      "C-cr"                                  {*-cr+*}
 QS      "R-cr"                                  {*+cr=*}
-QS      "L-cl"                                  {*^cl-*}
-QS      "C-cl"                                  {*-cl+*}
-QS      "R-cl"                                  {*+cl=*}
+QS      "L-ct"                                  {*^ct-*}
+QS      "C-ct"                                  {*-ct+*}
+QS      "R-ct"                                  {*+ct=*}
 QS      "L-cs"                                  {*^cs-*}
 QS      "C-cs"                                  {*-cs+*}
 QS      "R-cs"                                  {*+cs=*}
