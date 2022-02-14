@@ -68,15 +68,16 @@ For some speakers, "winter" and "winner" are pronounced the same.
 A flapped n is sometimes labeled as [nx], but to reduce training this is labeled as [n]
 Please refer to the "flapped n US" folder for an example.
 
-Additionally, we have the [cl] phoneme.
-The [cl] phoneme is used to control "consonant closures", however the model will learn this contextually on it's own.
-Instead, the [cl] phoneme is used as a toggle, to label consonants in clusters that don't match the default pronunciation.
-As an example, "Kit Kat" is open said where the [t] are closures (they aren't pronounced)
-For concatenative synthesis these would be labeled as [t][cl]/[tcl]. However, for NN this would be contextually learned.
-However, if the vocalist pronounced the [t] fully (the opposite of what is expected), then you would add [cl].
+Additionally, we have the [ct] phoneme.
+The [ct] phoneme is used to control "consonant closures", however the model will learn this contextually on it's own.
+Instead, the [ct] phoneme is used as a toggle, to label consonants in clusters that don't match the default pronunciation.
+As an example, "Kit Kat" is open said where the [t] phonemes are closures (they aren't pronounced**).
+For concatenative synthesis these would be labeled as [tcl]. However, for NN this would be contextually learned.
+However, if the vocalist pronounced the [t] fully (the opposite of what is expected), then you would add [ct].
 The same applies to the reverse.
-Do not confuse [cl] with adding a [axh] or [exh] release after some consonants.
-The [cl] goes AFTER the consonant to alter it.
+Do not confuse [ct] with adding a [axh] or [exh] release after some consonants.
+The [ct] goes AFTER the consonant to alter it.
+** some speakers use a glottal stop instead of a closure [t], this should be labeled as [q].
 
 And as a final note, we now have the [cs] phoneme.
 [cs] stands for "consonant sustain" and is for holding the silence of hard/popped (and devoiced) consonants.
