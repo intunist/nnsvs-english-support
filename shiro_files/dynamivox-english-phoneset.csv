@@ -1,5 +1,4 @@
 pau
-sil
 exh durceil 0.4
 axh durceil 0.4
 ah durfloor 0.05
@@ -24,10 +23,6 @@ o durfloor 0.05
 el durfloor 0.05
 em durfloor 0.05
 en durfloor 0.05
-eng durfloor 0.05
-ux
-axr durfloor 0.05
-ix
 p durceil 0.3
 b durceil 0.3
 t durceil 0.3
@@ -36,34 +31,24 @@ k durceil 0.3
 g durceil 0.3
 s durceil 0.3
 z durceil 0.3
-j durceil 0.3
+jh durceil 0.3
 f durceil 0.3
 v durceil 0.3
-h durceil 0.3
+hh durceil 0.3
 n durceil 0.3
 m durceil 0.3
-w durceil 0.3
-y durceil 0.3
+w durceil 0.3 durfloor 0.015
+y durceil 0.3 durfloor 0.015
 r durceil 0.3
 l durceil 0.3
 q durceil 0.35
-jh durceil 0.3
 ch durceil 0.3
 sh durceil 0.3
 zh durceil 0.3
 th durceil 0.3
 dh durceil 0.3
 ng durceil 0.3
-dx durceil 0.2
-hv durceil 0.3
-hh durceil 0.3
-nx durceil 0.2
+dx durceil 0.15
 x durceil 0.3
-cl durceil 0.3
-cs durceil 0.3
-pcl durceil 0.3
-bcl durceil 0.3
-tcl durceil 0.3
-dcl durceil 0.3
-kcl durceil 0.3
-gcl durceil 0.3
+cl durceil 0.5
+ct durceil 0.5
