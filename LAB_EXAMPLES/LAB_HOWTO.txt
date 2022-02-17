@@ -22,10 +22,10 @@ If you have multiple note to represent a "vocal run", these extra notes will req
 You should also only have as many [pau] as there are Rests in your UST file.
 If working with MusicXML, have only one [pau] during a resting/silent period.
 
-Some confusion may arise when labeling allophones, syllabic consonants, and other dialectal quirks.
+Some confusion may arise when labeling allophones, syllabic consonants, and other "dialectal quirks".
 Allophones are groups of sounds that fill the same phoneme.
 In our case we are following the "looser" approach.
-An example would be some speakers using the tap [dx] (x-sampa [4]) in place of [r]. in words like "street".
+An example would be some speakers, Such as those from Scotland, using the tap [dx] (x-sampa [4]) in place of [r] in words like "street".
 "street" = [s t r iy t] or [s t r iy q] ([q] is glottal stop)
 Because the intended purpose of this sound is to act as an [r], it is labeled as an [r] and not [dx].
 This also goes for vowels, where the shape may change based on pitch or place in the performance.
