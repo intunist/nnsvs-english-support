@@ -83,7 +83,7 @@ exh	-	[exhale]				end breaths, end of phrase exhale. devoiced.
 axh	-	[release]				voiced variation of [exh]. voiced schwa exhale/release.
 ct	-	[closure toggle]			Toggles the closure state of a consonant, To override default context. Do not use if the consonant is normal for it's context. (optional)
 	NOTE: Unlike Japanese (which is the exception), [cl] for English/other languages closes the PREVIOUS consonant. Please keep this consistent. You may end up not using this phoneme at all and that is NORMAL.
-cs	-	[held stop]				held stop/plosive consonant. For when the silence is held. (similar to Japanese usage of [cl] but not syllabic. (optional)
+cl	-	[held stop]				held stop/plosive consonant. For when the silence is held. Similar to Japanese usage but not syllabic.
 vf	-	[fry]		#			Incidental vocal fry, such as at end of phrase or between vowels. Note: refer to [_c]
 	UPDATE 0.1.12: Vocal fry can happen anywhere but much more data would be needed for this to work well. Keeping as a start/end sound should require less data. Label as it appears either way.
 	
