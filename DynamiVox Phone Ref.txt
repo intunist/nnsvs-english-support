@@ -70,5 +70,5 @@ br	-	[breath]				dude's gotta breathe
 exh	-	[exhale]				end breaths, end of phrase exhale. devoiced.
 axh	-	[release]				voiced variation of [exh]. voiced schwa exhale/release.
 ct	-	[closure-toggle]			override the default state of a consonant's closure.
-cs	-	[held stop]				held stop/plosive consonant. For when the silence is held.
+cl	-	[held stop]				Held stop/plosive consonant. For when the silence is held. Same as Japanese usage.
 vf	-	[fry end]	#			vocal fry
