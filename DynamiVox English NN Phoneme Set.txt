@@ -81,9 +81,9 @@ pau	-	silence (default)			During unsung/silent periods.
 br	-	[breath]				dude's gotta breath
 exh	-	[exhale]				end breaths, end of phrase exhale. devoiced.
 axh	-	[release]				voiced variation of [exh]. voiced schwa exhale/release.
-ct	-	[closure toggle]			Toggles the closure state of a consonant, To override default context. Do not use if the consonant is normal for it's context.
+ct	-	[closure toggle]			Toggles the closure state of a consonant, To override default context. Do not use if the consonant is normal for it's context. (optional)
 	NOTE: Unlike Japanese (which is the exception), [cl] for English/other languages closes the PREVIOUS consonant. Please keep this consistent. You may end up not using this phoneme at all and that is NORMAL.
-cs	-	[held stop]				held stop/plosive consonant. For when the silence is held. (similar to Japanese usage of [cl] but not syllabic.
+cs	-	[held stop]				held stop/plosive consonant. For when the silence is held. (similar to Japanese usage of [cl] but not syllabic. (optional)
 vf	-	[fry]		#			Incidental vocal fry, such as at end of phrase or between vowels. Note: refer to [_c]
 	UPDATE 0.1.12: Vocal fry can happen anywhere but much more data would be needed for this to work well. Keeping as a start/end sound should require less data. Label as it appears either way.
 	
@@ -108,6 +108,7 @@ x	-	UNUSED		#			Voiceless velar fricative. Scottish/Welsh specific. Incredibly r
 SUFFIXES:
 v0.1.19 of the ehd adds suffix support. These suffixed should be used on vowel phonemes only.
 Input as phone_suffix, with an underscore.
+As of v0.4.0 suffixes are unsupported in the current hed. Youcan manually download the old hed file or add these suffixes yourself to the current hed.
 
 _f	-	[falsetto]				Sustained falsetto on vowel
 _b	-	[belt]					Sustained belt on vowel
