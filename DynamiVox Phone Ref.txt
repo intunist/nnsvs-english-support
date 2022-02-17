@@ -21,13 +21,13 @@ er	-	bIRd, nERd	#
 
 	diphthongs:
 ay	-	bIte		#
-a	-	#		#
+a	-	(optional)	#
 ey	-	bAIt		#
-e	-	#		#
+e	-	(optional)	#
 oy	-	bOY		#
 aw	-	plOW, abOUt	#
 ow	-	bOAT 		#
-o	-	#		#
+o	-	(optional)	#
 
 CONSONANTS: (voiced and unvoiced are paired)
 p	-	PoP		#				
