@@ -71,4 +71,4 @@ exh	-	[exhale]				end breaths, end of phrase exhale. devoiced.
 axh	-	[release]				voiced variation of [exh]. voiced schwa exhale/release.
 ct	-	[closure-toggle]			override the default state of a consonant's closure.
 cl	-	[held stop]				Held stop/plosive consonant. For when the silence is held. Similar to Japanese usage but not syllabic.
-vf	-	[fry end]	#			vocal fry
+vf	-	[vocal fry]	#			vocal fry
