@@ -41,7 +41,8 @@ The [h] phoneme can be a bit difficult. The [h] phoneme is shaped by the followi
 As an example, "when he" can sound like "whenny". It is suggested to still label the [h] phoneme in these cases, even if i s very small.
 
 Syllabic consonants are consonants that take the role of vowels for their syllable.
-These include [en], [em], [el], and [eng].
+These include [en], [em], and [el].
+NOTE: [eng] was removed in 0.4.0 as it provided no benefit, label as [ih ng] instead.
 For syllabic consonants, the consonant is sustained instead of the vowel.
 the syllabic phonemes should also be used when the syllable is very short and hard to determine.
 When the consonants is not syllabic, these will most likely be labeled as [ax n], [ax m], [ax l], and [ih ng].
