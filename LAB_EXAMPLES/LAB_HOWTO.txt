@@ -81,6 +81,6 @@ The [ct] goes AFTER the consonant to alter it.
 ** some speakers use a glottal stop instead of a closure [t], this should be labeled as [q].
 
 And as a final note, we now have the [ct] phoneme.
-[cl] stands for "consonant sustain" and is for holding the silence of hard/popped consonants for an abnormally long time.
+[cl] stands for "closure" and is for holding/sustianing the silence of hard/popped consonants for an abnormally long time.
 [cl] goes BEFORE the consonant to hold it's silence.
 For example, if you hold the [k] in "poker" it would be labled as [p ow cs k er].
