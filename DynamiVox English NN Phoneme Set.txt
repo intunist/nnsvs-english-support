@@ -96,13 +96,6 @@ rx	-	[fricative r]	#			Fricative r phoneme. Like French or German.
 
 sil	-	UNUSED					Same as pau, some use for longer silence. Wavesurfer default.
 
-pcl	-	UNUSED		#			[cl] but specific to [p]. Don't use, requires more data and doesn't improve anything.
-bcl	-	UNUSED		#			[cl] but specific to [b]. Don't use, requires more data and doesn't improve anything.
-tcl	-	UNUSED		#			[cl] but specific to [t]. Don't use, requires more data and doesn't improve anything.
-dcl	-	UNUSED		#			[cl] but specific to [d]. Don't use, requires more data and doesn't improve anything.
-kcl	-	UNUSED		#			[cl] but specific to [k]. Don't use, requires more data and doesn't improve anything.
-gcl	-	UNUSED		#			[cl] but specific to [g]. Don't use, requires more data and doesn't improve anything.
-
 x	-	UNUSED		#			Voiceless velar fricative. Scottish/Welsh specific. Incredibly rare.
 							Label as [k] instead unless you want to create even more work.
 SUFFIXES:
