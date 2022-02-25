@@ -69,12 +69,12 @@ eng	-	REMOVED	FOR v3.1			"ing" sound, use [ih ng] instead
 	UPDATE v0.1.6: More testing required and may not be necessary at all. [el] is being kept specifically for a sustained [l].
 	UPDATE v0.1.9: Usage of these phonemes should be kept strictly for when/if the performer sustains the consonant and not the vowel (at all). These are optional.
 
-ux	-	UNUSED FOR DNN				secondary [uw], like "dude".
-nx	-	UNUSED FOR DNN				flapped/tapped [n]. (winter, winner).
-	**IF IN DATASET: label dropped [t] flaps as [n t] but make the [t] very small.
-axr	-	UNUSED FOR DNN				[er] with preceding schwa. Also can be thought of as reduced [er]. (diner)
-ix	-	UNUSED FOR DNN				ih-esque schwa (roses, demon, planet). Use [ax] instead for these schwas.
-hv	-	UNUSED FOR DNN				voiced [h] sound. Not needed for DNN as model will likely learn this on it's own.
+THE FOLLOWING SECTION IS UNSUPPORTED PHONEMES. ALL OF THESE ARE HANDLED CONTEXTUALLY BY OTHER PHONEMES. THESE WILL NOT WORK OR PROVIDE ANY BENEFIT.
+ux	-	UNUSED FOR NN				secondary [uw], like "dude". Use [uw] as it'll be handled contextually.
+nx	-	UNUSED FOR NN				flapped/tapped [n]. (winter, winner). Use [n] as it'll be handled contextually.
+axr	-	UNUSED FOR NN				[er] with preceding schwa. Also can be thought of as reduced [er]. (diner)
+ix	-	UNUSED FOR NN				ih-esque schwa (roses, demon, planet). Use [ax] instead for these schwas.
+hv	-	UNUSED FOR NN				voiced [h] sound. Not needed for DNN as model will likely learn this on it's own.
 
 ADDITIONAL:
 pau	-	silence (default)			During unsung/silent periods.
