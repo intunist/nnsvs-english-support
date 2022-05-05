@@ -64,22 +64,32 @@ Training will not work if these values are incorrect.
 A the time of writing, NNSVS doesn't appear to support multi-syllable words in the table. The UST/score will need to be written phonetically.
 For phonetic usts, don't use english.table, use blank.table.
 Otherwise it may try to match phonemes to pronuncations and fail with `ValueError: could not broadcast input array from shape (###,476) into shape (###,476)`.
-___
-Version v0.2.1 now includes an optional HED that adds support for adding suffixes to your dataset. The suffixes are OPTIONAL and for a small dataset you _should not_ use them.
-For normal usage suffixes can be ignored.
-Suffixes are primarily intended to isolate phonemes that may not meet the "goal" of your dataset.
-Such as isolating belting notes in a dataset that is intended to be generally soft, or falsetto notes in a dataset that is meant to be powerful, etc.
-| Suffix | purpose                                 |
-| ------ | --------------------------------------- |
-| \_ol   | Out of language (consonants + vowels)   |
-| \_f    | (falsetto)                              |
-| \_b    | (belt)                                  |
-| \_d    | (devoiced/whisper)                      |
-| \_c    | (creaky/vocal fry)                      |
-| \_g    | (growl or false cord scream)            |
-| \_gg   | (guttural scream/growl)                 |
 
-Adding suffixes to a dataset with the intention of them being fully functional (as opposed to just being nused for isolation) requires you to add quite _a lot_ more audio. For a full 4 hour dataset, each additional suffix will require about 1.5-2 hours of additional audio each.
-Suffixes may be useful for better targeting the tone of a dataset. (ex: If you are working on a strong dataset and some unwanted falsetto notes exist in tthe dataset, you could label them as [`ay_f`].)
+Version 0.6.0 adds support for ENUNU's flag system for swapping voice timbre.
 
-NOTE: The usage of suffixes increases the RAM/VRAM requirements for training. You will want to use suffixes sparingly (don't use all of them at once in a dataset, limit it to ~2 types) and remove the ones you do not need from the HED file. English already requires a lot of vram and suffixes exacerbate this.
+Here is a list of the currently supported flags:
+
+| Flag | Purpose               |
+|------|-----------------------|
+| F    | falsetto              |
+| H    | head voice            |
+| SF   | soft                  |
+| ST   | strong                |
+| OPN  | open_wide_vowel       |
+| CLS  | closed_narrow_vowel   |
+| W    | whisper_devoiced      |
+| S    | false_cord_fry_scream |
+| G    | guttural_scream_growl |
+| B    | bright_resonance      |
+| D    | dark_resonance        |
+| Y    | young_higher_formant  |
+| O    | older_lower_formant   |
+| T    | thin                  |
+| R    | fry_rattle            |
+| N    | nasal                 |
+| HPY  | happy                 |
+| SAD  | sad                   |
+| MAD  | mad                   |
+| 1    | additional_1          |
+| 2    | additional_2          |
+| 3    | additional_3          |
