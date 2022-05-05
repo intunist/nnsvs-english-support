@@ -1,7 +1,7 @@
 #HED for NNSVS English
-#in_dim: 332(duration/timelag), 328(acoustic)
+#in_dim: 413(duration/timelag), 417(acoustic)
 #in_rest_idx: 23
-#in_lfx0_idx: 413
+#in_lfx0_idx: 368
 
 #tone flags
 QS      "falsetto"                              {*^F_*}
