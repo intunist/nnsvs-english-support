@@ -89,7 +89,7 @@ vf	-	[fry]		#			Incidental vocal fry, such as at end of phrase or between vowels
 	
 cr	-	[crack]		#			Optional label for vocal cracks/breaks.
 
-ol	-	[out of lang]	#			phonetic sounds that are out-of-language or unsupported. Allows you to label around invalid sounds or sounds you want to dispose of.
+trash	-	[trash]		#			phonetic sounds that are out-of-language or unsupported. Allows you to label around invalid sounds or sounds you want to dispose of.
 
 rr	-	[trilled r]	#			Trilled r phoneme. Like Spanish.
 rx	-	[fricative r]	#			Fricative r phoneme. Like French or German.
@@ -97,14 +97,4 @@ rx	-	[fricative r]	#			Fricative r phoneme. Like French or German.
 sil	-	UNUSED					Same as pau, some use for longer silence. Wavesurfer default.
 
 x	-	UNUSED		#			Voiceless velar fricative. Scottish/Welsh specific. Incredibly rare.
-							Label as [k] instead unless you want to create even more work.
-SUFFIXES:
-v0.1.19 of the ehd adds suffix support. These suffixed should be used on vowel phonemes only.
-Input as phone_suffix, with an underscore.
-As of v0.4.0 suffixes are unsupported in the current hed. Youcan manually download the old hed file or add these suffixes yourself to the current hed.
-
-_f	-	[falsetto]				Sustained falsetto on vowel
-_b	-	[belt]					Sustained belt on vowel
-_d	-	[devoiced/whisper]			Sustained whisper on vowel
-_c	-	[creaky/vocal fry][false cord scream]	Sustained vocal fry or false cord scream. One or other, not both. note: refer to [vf] for incidental fry.
-_g	-	[growl][guttural scream]		Sustained voiced or guttural growl. One or other, not both.
+							Label as [k] instead unless you want to create even more work
