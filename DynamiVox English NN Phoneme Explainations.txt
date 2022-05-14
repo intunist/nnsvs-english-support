@@ -66,8 +66,7 @@ em	-	bottOM *may omit			vowel-like m, where m makes most of the syllable, otherw
 en	-	buttON	*may omit			vowel-like n, where n makes most of the syllable, otherwise [ax n]
 eng	-	REMOVED	FOR v3.1			"ing" sound, use [ih ng] instead
 	NOTE: Syllabic consonants always pose timing difficulties and including these may be beneficial. Labeling depends on if the performer sustains the vowel or the consonant.
-	UPDATE v0.1.6: More testing required and may not be necessary at all. [el] is being kept specifically for a sustained [l].
-	UPDATE v0.1.9: Usage of these phonemes should be kept strictly for when/if the performer sustains the consonant and not the vowel (at all). These are optional.
+	Usage of these phonemes should be kept strictly for when/if the performer sustains the consonant and not the vowel (at all). These are optional.
 
 THE FOLLOWING SECTION IS UNSUPPORTED PHONEMES. ALL OF THESE ARE HANDLED CONTEXTUALLY BY OTHER PHONEMES. THESE WILL NOT WORK OR PROVIDE ANY BENEFIT.
 ux	-	UNUSED FOR NN				secondary [uw], like "dude". Use [uw] as it'll be handled contextually.
