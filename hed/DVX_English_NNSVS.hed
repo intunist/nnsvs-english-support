@@ -128,9 +128,9 @@ QS      "R-Nasal"                               {*+en=*,*+em=*,*+ng=*,*n+*,*+m=*
 QS      "L-Fricative"                           {*^s-*,*^z-*,*^ch-*,*^sh-*,*^zh-*,*^f-*,*^v-*,*^hh-*,*^th-*,*^dh-*,*^x-*,*^rx-*}
 QS      "C-Fricative"                           {*-s+*,*-z+*,*-ch+*,*-sh+*,*-zh+*,*-f+*,*-v+*,*-hh+*,*-th+*,*-dh+*,*-x+*,*-rx+*}
 QS      "R-Fricative"                           {*+s=*,*+z=*,*+ch=*,*+sh=*,*+zh=*,*+f=*,*+v=*,*+hh=*,*+th=*,*+dh=*,*+x=*,*+rx=*}
-QS      "L-Voiced_Fricative"                    {*^z-*,*^zh-*,*^v-*,*^dh-*,*^rx-*}
-QS      "C-Voiced_Fricative"                    {*-z+*,*-zh+*,*-v+*,*-dh+*,*-rx+*}
-QS      "R-Voiced_Fricative"                    {*+z=*,*+zh=*,*+v=*,*+dh=*,*+rx=*}
+QS      "L-Voiced_Fricative"                    {*^z-*,*^zh-*,*^v-*,*^hh-*,*^dh-*,*^rx-*}
+QS      "C-Voiced_Fricative"                    {*-z+*,*-zh+*,*-v+*,*-hh+*,*-dh+*,*-rx+*}
+QS      "R-Voiced_Fricative"                    {*+z=*,*+zh=*,*+v=*,*+hh=*,*+dh=*,*+rx=*}
 QS      "L-Unvoiced_Fricative"                  {*^s-*,*^ch-*,*^sh-*,*^f-*,*^hh-*,*^th-*,*^x-*}
 QS      "C-Unvoiced_Fricative"                  {*-s+*,*-ch+*,*-sh+*,*-f+*,*-hh+*,*-th+*,*-x+*}
 QS      "R-Unvoiced_Fricative"                  {*+s=*,*+ch=*,*+sh=*,*+f=*,*+hh=*,*+th=*,*+x=*}
