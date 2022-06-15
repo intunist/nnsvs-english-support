@@ -5,7 +5,7 @@ This is a list of the currently supported phonemes, examples, and other various 
 |---------|-------------------|------------|--------------------------------------------------------------------------------------------------------|
 | ah      | bUtt              | #          | 'uh' sound.                                                                                            |
 | aa      | clOck             | fAther     | open ah.                                                                                               |
-| ao      | bOUght, stORy     | #          | un/rounded aw. **US English uses unrounded by itself but rounded for rhotic. It's fine.                |
+| ao      | bOUght, stORy     | nAUght     | un/rounded aw. **US English uses unrounded by itself but rounded for rhotic. It's fine.                |
 | ae      | bAt               | #          |                                                                                                        |
 | ax      | commA, parrOt     | bAth, bAt  | schwa for US. Context "ah" for UK and other.                                                           |
 | iy      | bEAt,petIt        | #          |                                                                                                        |
@@ -43,17 +43,17 @@ Voice and unvoiced equivalents are paired (ex: k/g, t/d)
 | zh      | pleaSure          | #          | The 'judge' example is [j ah d zh], not [j ah zh]. To avoid any confusion.                             |
 | f       | FlooF             | #          |                                                                                                        |
 | v       | Verge, nerVe      | #          |                                                                                                        |
-| hh      | Happy             | #          | syllable onset only.                                                                                   |
+| hh      | Happy             | Herb       | syllable onset only.                                                                                   |
 | th      | THin, myTH        | #          |                                                                                                        |
 | dh      | THis, widTH       | #          |                                                                                                        |
 | n       | NaNNy, paN        | #          |                                                                                                        |
 | m       | MoM, MoMent       | #          |                                                                                                        |
 | ng      | baNG, suNG        | #          | ing has it's own phoneme.                                                                              |
-| w       | Wisp              | #          | starting only.                                                                                         |
-| y       | Yes               | #          | starting only.                                                                                         |
+| w       | Wisp              | #          | syllable onset only.                                                                                   |
+| y       | Yes               | #          | syllable onset only.                                                                                   |
 | r       | Road, caR         | caR        | rhotic shares same phoneme. It's fine. UK dropped r as well.                                           |
 | l       | List, caLL        | #          | dark L shares same phoneme. It's fine.                                                                 |
-| q       | we-eat batten     |            | glottal stop and vowel separator. NOT vocal fry.                                                       |
+| q       | we-eat batten     | bottom     | glottal stop and vowel separator. NOT vocal fry.                                                       |
 | dx      | buTTer            | shuTup     | flapped d/tt. Use in UK English is spotty.                                                             |
 ### Syllabic vowels:
 Consonants that have a vowel-like quality in terms of sustain. Technically optional.
@@ -61,7 +61,7 @@ Consonants that have a vowel-like quality in terms of sustain. Technically optio
 |---------|-------------------|------------|--------------------------------------------------------------------------------------------------------|
 | el      | peopLE, doubLE    |            | vowellike l, where l makes most of the syllable, otherwise [ax l]                                      |
 | em      | bottOM *may omit* |            | vowellike m, where m makes most of the syllable, otherwise [ax m]                                      |
-| en      | buttON,*may omit* |            | vowellike n, where n makes most of the syllable, otherwise [ax n]                                      |
+| en      | buttON *may omit* |            | vowellike n, where n makes most of the syllable, otherwise [ax n]                                      |
 | REMOVED | sINGING, learnING |            | 'ing' sound, where ng makes most of the syllable, _**USE [ih ng] INSTEAD**_                            |
 ### Utility phonemes:
 Phonemes that aren't strictly vocal sounds but are useful in one way of another
@@ -71,6 +71,6 @@ Phonemes that aren't strictly vocal sounds but are useful in one way of another
 | br      | [breath]          |            | REMOVED IN v0.7.0 DUE TO MODEL INSTABILITY                                                             |
 | exh     | [exhale]          |            | end breaths, end of phrase exhale. devoiced.                                                           |
 | axh     | [release]         |            | voiced variation of [exh]. voiced schwa exhale/release.                                                |
-| ct      | [closuretoggle]   |            | override the default state of a consonant's closure.                                                   |
+| ct      | [closure-toggle]  |            | override the default state of a consonant's closure.                                                   |
 | cl      | [held stop]       |            | Held stop/plosive consonant. For when the silence is held. Similar to Japanese usage but not syllabic. |
 | vf      | [vocal fry]       |            | vocal fry                                                                                              |
