@@ -1,5 +1,5 @@
 # nnsvs-english-support
-Hed and supporting files for English NNSVS Dataset Creation
+HED and supporting files for English NNSVS Dataset Creation
 
 This repo contains the files required to create an English dataset for use in NNSVS.
 Additionally, instructions and examples are provided (or will be provided) for the labeling process.
@@ -41,25 +41,7 @@ Please refer to "LABEL_HOWTO.txt" in the /LAB folder for more information.
 You can change the hed file in config.yaml, this is found at `/train/config.yaml`.
 
 NOTE: please change the value of "in_dim" in `/train/conf/train/*/model/*.yaml`
-The values should be set as follows if using "DynamiVox_English_NNSVS.hed":
-
-* acoustic_conv.yaml: 417
-* acoustic_mdn.yaml: 417
-* duration_lstm.yaml: 413
-* duration_mdn.yaml: 413
-* timelag_ffn.yaml: 413
-* timelag_mdn.yaml: 413
-
-If you are using "DynamiVox_English_NNSVS_MINIMAL.hed", use the following values:
-The "MINIMAL" hed file is useful for rMDN training.
-
-* acoustic_conv.yaml: 264
-* acoustic_mdn.yaml: 264
-* duration_lstm.yaml: 260
-* duration_mdn.yaml: 260
-* timelag_ffn.yaml: 260
-* timelag_mdn.yaml: 260
-
+The values should be set based on the values provided in the HED files.
 Training will not work if these values are incorrect.
 
 A the time of writing, NNSVS doesn't appear to support multi-syllable words in the table. The UST/score will need to be written phonetically.
