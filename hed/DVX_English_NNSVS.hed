@@ -1,5 +1,5 @@
 #HED for NNSVS English
-#in_dim: 413(duration/timelag), 417(acoustic)
+#in_dim: 434(duration/timelag), 438(acoustic)
 #in_rest_idx: 23
 #in_lfx0_idx: 368
 
@@ -31,9 +31,30 @@ QS      "additional_3"                          {*^3_*}
 
 #Phonetic definitions
 
-QS      "L-Silences"                            {*^sil-*,*^pau-*,*^br-*,*^exh-*,*^axh-*,*^vf-*}
-QS      "C-Silences"                            {*-sil+*,*-pau+*,*-br+*,*-exh+*,*-axh+*,*-vf+*}
-QS      "R-Silences"                            {*+sil=*,*+pau=*,*+br=*,*+exh=*,*+axh=*,*+vf=*}
+QS      "L-Silence"                            {*^sil-*,*^pau-*}
+QS      "C-Silence"                            {*-sil+*,*-pau+*}
+QS      "R-Silence"                            {*+sil=*,*+pau=*}
+
+# technically should add all of the occlusive consonants here as well but it's fine.
+QS      "L-Occlusive"                          {*^vf-*,*^q-*}
+QS      "C-Occlusive"                          {*-vf+*,*-q+*}
+QS      "R-Occlusive"                          {*+vf=*,*+q=*}
+QS      "L-Voiced_Occlusive"                   {*^vf-*}
+QS      "C-Voiced_Occlusive"                   {*-vf+*}
+QS      "R-Voiced_Occlusive"                   {*+vf=*}
+QS      "L-Unvoiced_Occlusive"                 {*^q-*}
+QS      "C-Unvoiced_Occlusive"                 {*-q+*}
+QS      "R-Unvoiced_Occlusive"                 {*+q=*}
+
+QS      "L-Exhale"                             {*^exh-*,*^axh-*}
+QS      "C-Exhale"                             {*-exh+*,*-axh+*}
+QS      "R-Exhale"                             {*+exh=*,*+axh=*}
+QS      "L-Voiced_Exhale"                      {*^axh-*}
+QS      "C-Voiced_Exhale"                      {*-axh+*}
+QS      "R-Voiced_Exhale"                      {*+axh=*}
+QS      "L-Unvoiced_Exhale"                    {*^exh-*}
+QS      "C-Unvoiced_Exhale"                    {*-exh+*}
+QS      "R-Unvoiced_Exhale"                    {*+exh=*}
 
 QS      "L-Vowel"                               {*^ah-*,*^aa-*,*^ao-*,*^ae-*,*^ax-*,*^iy-*,*^ih-*,*^uh-*,*^uw-*,*^eh-*,*^er-*,*^ay-*,*^a-*,*^ey-*,*^e-*,*^oy-*,*^aw-*,*^ow-*,*^o-*,*^el-*,*^em-*,*^en-*}
 QS      "C-Vowel"                               {*-ah+*,*-aa+*,*-ao+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-uh+*,*-uw+*,*-eh+*,*-er+*,*-ay+*,*-a+*,*-ey+*,*-e+*,*-oy+*,*-aw+*,*-ow+*,*-o+*,*-el+*,*-em+*,*-en+*}
@@ -217,6 +238,15 @@ QS      "L-Non_Anterior"                        {*^k-*,*^g-*,*^ch-*,*^jh-*,*^sh-
 QS      "C-Non_Anterior"                        {*-k+*,*-g+*,*-ch+*,*-jh+*,*-sh+*,*-zh+*,*-hh+*,*-ng+*,*-y+*,*-r+*,*-q+*,*-x+*,*-rx+*}
 QS      "R-Non_Anterior"                        {*+k=*,*+g=*,*+ch=*,*+jh=*,*+sh=*,*+zh=*,*+hh=*,*+ng=*,*+y=*,*+r=*,*+q=*,*+x=*,*+rx=*}
 
+# NNSVS "force_fix_vuv" patch.
+QS      "L-Phone_Yuusei_Boin"                   {*^ah-*,*^aa-*,*^ao-*,*^ae-*,*^ax-*,*^iy-*,*^ih-*,*^uh-*,*^uw-*,*^eh-*,*^er-*,*^ay-*,*^a-*,*^ey-*,*^e-*,*^oy-*,*^aw-*,*^ow-*,*^o-*,*^el-*,*^em-*,*^en-*}
+QS      "C-Phone_Yuusei_Boin"                   {*-ah+*,*-aa+*,*-ao+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-uh+*,*-uw+*,*-eh+*,*-er+*,*-ay+*,*-a+*,*-ey+*,*-e+*,*-oy+*,*-aw+*,*-ow+*,*-o+*,*-el+*,*-em+*,*-en+*}
+QS      "R-Phone_Yuusei_Boin"                   {*+ah=*,*+aa=*,*+ao=*,*+ae=*,*+ax=*,*+iy=*,*+ih=*,*+uh=*,*+uw=*,*+eh=*,*+er=*,*+ay=*,*+a=*,*+ey=*,*+e=*,*+oy=*,*+aw=*,*+ow=*,*+o=*,*+el=*,*+em=*,*+en=*}
+
+QS      "L-Phone_Muon"                          {*^sil-*,*^pau-*}
+QS      "C-Phone_Muon"                          {*-sil+*,*-pau+*}
+QS      "R-Phone_Muon"                          {*+sil=*,*+pau=*}
+
 QS      "L-ah"                                  {*^ah-*}
 QS      "C-ah"                                  {*-ah+*}
 QS      "R-ah"                                  {*+ah=*}
@@ -373,9 +403,6 @@ QS      "R-sil"                                 {*+sil=*}
 QS      "L-pau"                                 {*^pau-*}
 QS      "C-pau"                                 {*-pau+*}
 QS      "R-pau"                                 {*+pau=*}
-QS      "L-br"                                  {*^br-*}
-QS      "C-br"                                  {*-br+*}
-QS      "R-br"                                  {*+br=*}
 QS      "L-exh"                                 {*^exh-*}
 QS      "C-exh"                                 {*-exh+*}
 QS      "R-exh"                                 {*+exh=*}
