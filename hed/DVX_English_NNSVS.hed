@@ -1,7 +1,7 @@
 #HED for NNSVS English
 #in_dim: 434(duration/timelag), 438(acoustic)
 #in_rest_idx: 23
-#in_lfx0_idx: 368
+#in_lfx0_idx: 389
 
 #tone flags
 QS      "falsetto"                              {*^F_*}
@@ -88,21 +88,21 @@ QS      "L-Neigther_F_or_L"                     {*^hh-*,*^n-*,*^m-*,*^ng-*,*^w-*
 QS      "C-Neigther_F_or_L"                     {*-hh+*,*-n+*,*-m+*,*-ng+*,*-w+*,*-y+*,*-r+*,*-rx+*,*-l+*,*-el+*,*-em+*,*-en+*}
 QS      "R-Neigther_F_or_L"                     {*+hh=*,*+n=*,*+m=*,*+ng=*,*+w=*,*+y=*,*+r=*,*+rx=*,*+l=*,*+el=*,*+em=*,*+en=*}
 
-QS      "L-AVowel"                              {*^ah-*,*^aa-*,*^ae-*,*^ay-*,*^a-*,*^aw-*}
-QS      "C-AVowel"                              {*-ah+*,*-aa+*,*-ae+*,*-ay+*,*-a+*,*-aw+*}
-QS      "R-AVowel"                              {*+ah=*,*+aa=*,*+ae=*,*+ay=*,*+a=*,*+aw=*}
-QS      "L-EVowel"                              {*^eh-*,*^er-*,*^ey-*,*^e-*}
-QS      "C-EVowel"                              {*-eh+*,*-er+*,*-ey+*,*-e+*}
-QS      "R-EVowel"                              {*+eh=*,*+er=*,*+ey=*,*+e=*}
-QS      "L-IVowel"                              {*^iy-*,*^ih-*,*^ix-*}
-QS      "C-IVowel"                              {*-iy+*,*-ih+*,*-ix+*}
-QS      "R-IVowel"                              {*+iy=*,*+ih=*,*+ix=*}
-QS      "L-OVowel"                              {*^oy-*,*^ow-*,*^o-*,*^ao-*}
-QS      "C-OVowel"                              {*-oy+*,*-ow+*,*-o+*,*-ao+*}
-QS      "R-OVowel"                              {*+oy=*,*+ow=*,*+o=*,*+ao=*}
-QS      "L-UVowel"                              {*^ax-*,*^uh-*,*^uw-*,*^el-*,*^em-*,*^en-*}
-QS      "C-UVowel"                              {*-ax+*,*-uh+*,*-uw+*,*-el+*,*-em+*,*-en+*}
-QS      "R-UVowel"                              {*+ax=*,*+uh=*,*+uw=*,*+el=*,*+em=*,*+en=*}
+QS      "L-A_Vowel"                              {*^ah-*,*^aa-*,*^ae-*,*^ay-*,*^a-*,*^aw-*}
+QS      "C-A_Vowel"                              {*-ah+*,*-aa+*,*-ae+*,*-ay+*,*-a+*,*-aw+*}
+QS      "R-A_Vowel"                              {*+ah=*,*+aa=*,*+ae=*,*+ay=*,*+a=*,*+aw=*}
+QS      "L-E_Vowel"                              {*^eh-*,*^er-*,*^ey-*,*^e-*}
+QS      "C-E_Vowel"                              {*-eh+*,*-er+*,*-ey+*,*-e+*}
+QS      "R-E_Vowel"                              {*+eh=*,*+er=*,*+ey=*,*+e=*}
+QS      "L-I_Vowel"                              {*^iy-*,*^ih-*,*^ix-*}
+QS      "C-I_Vowel"                              {*-iy+*,*-ih+*,*-ix+*}
+QS      "R-I_Vowel"                              {*+iy=*,*+ih=*,*+ix=*}
+QS      "L-O_Vowel"                              {*^oy-*,*^ow-*,*^o-*,*^ao-*}
+QS      "C-O_Vowel"                              {*-oy+*,*-ow+*,*-o+*,*-ao+*}
+QS      "R-O_Vowel"                              {*+oy=*,*+ow=*,*+o=*,*+ao=*}
+QS      "L-U_Vowel"                              {*^ax-*,*^uh-*,*^uw-*,*^el-*,*^em-*,*^en-*}
+QS      "C-U_Vowel"                              {*-ax+*,*-uh+*,*-uw+*,*-el+*,*-em+*,*-en+*}
+QS      "R-U_Vowel"                              {*+ax=*,*+uh=*,*+uw=*,*+el=*,*+em=*,*+en=*}
 
 QS      "L-Rounded_Vowel"                       {*^ao-*,*^uh-*,*^uw-*,*^oy-*,*^ow-*,*^o-*}
 QS      "C-Rounded_Vowel"                       {*-ao+*,*-uh+*,*-uw+*,*-oy+*,*-ow+*,*-o+*}
