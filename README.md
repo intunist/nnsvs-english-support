@@ -28,7 +28,7 @@ However, the basic phoneme section should be about the same.
 
 the /dic folder contains several files:  
 /english.conf - phoneme information  
-/amepd_dvx.table - DynamiVox (heavily) modified [AMEPD](https://github.com/rhdunn/amepd) dictionary  
+/amepd_dvx.table - DYVAUX (heavily) modified [AMEPD](https://github.com/rhdunn/amepd) dictionary  
 /blank.table - basic dictionary for phonetic training  
 /table credit.txt - credits for dictionaries  
 
