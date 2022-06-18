@@ -239,13 +239,13 @@ QS      "C-Non_Anterior"                        {*-k+*,*-g+*,*-ch+*,*-jh+*,*-sh+
 QS      "R-Non_Anterior"                        {*+k=*,*+g=*,*+ch=*,*+jh=*,*+sh=*,*+zh=*,*+hh=*,*+ng=*,*+y=*,*+r=*,*+q=*,*+x=*,*+rx=*}
 
 # NNSVS "force_fix_vuv" patch.
-QS      "L-Phone_Yuusei_Boin"                   {*^ah-*,*^aa-*,*^ao-*,*^ae-*,*^ax-*,*^iy-*,*^ih-*,*^uh-*,*^uw-*,*^eh-*,*^er-*,*^ay-*,*^a-*,*^ey-*,*^e-*,*^oy-*,*^aw-*,*^ow-*,*^o-*,*^el-*,*^em-*,*^en-*}
-QS      "C-Phone_Yuusei_Boin"                   {*-ah+*,*-aa+*,*-ao+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-uh+*,*-uw+*,*-eh+*,*-er+*,*-ay+*,*-a+*,*-ey+*,*-e+*,*-oy+*,*-aw+*,*-ow+*,*-o+*,*-el+*,*-em+*,*-en+*}
-QS      "R-Phone_Yuusei_Boin"                   {*+ah=*,*+aa=*,*+ao=*,*+ae=*,*+ax=*,*+iy=*,*+ih=*,*+uh=*,*+uw=*,*+eh=*,*+er=*,*+ay=*,*+a=*,*+ey=*,*+e=*,*+oy=*,*+aw=*,*+ow=*,*+o=*,*+el=*,*+em=*,*+en=*}
+QS      "L-VUV_Voiced"                          {*^axh-*,*^ah-*,*^aa-*,*^ao-*,*^ae-*,*^ax-*,*^iy-*,*^ih-*,*^uh-*,*^uw-*,*^eh-*,*^er-*,*^ay-*,*^a-*,*^ey-*,*^e-*,*^oy-*,*^aw-*,*^ow-*,*^o-*,*^el-*,*^em-*,*^en-*,*^b-*,*^d-*,*^g-*,*^z-*,*^jh-*,*^zh-*,*^v-*,*^dh-*,*^n-*,*^m-*,*^ng-*,*^w-*,*^y-*,*^r-*,*^rr-*,*^rx-*,*^l-*,*^dx-*}
+QS      "C-VUV_Voiced"                          {*-axh+*,*-ah+*,*-aa+*,*-ao+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-uh+*,*-uw+*,*-eh+*,*-er+*,*-ay+*,*-a+*,*-ey+*,*-e+*,*-oy+*,*-aw+*,*-ow+*,*-o+*,*-el+*,*-em+*,*-en+*,*-b+*,*-d+*,*-g+*,*-z+*,*-jh+*,*-zh+*,*-v+*,*-dh+*,*-n+*,*-m+*,*-ng+*,*-w+*,*-y+*,*-r+*,*-rr+*,*-rx+*,*-l+*,*-dx+*}
+QS      "R-VUV_Voiced"                          {*+axh=*,*+ah=*,*+aa=*,*+ao=*,*+ae=*,*+ax=*,*+iy=*,*+ih=*,*+uh=*,*+uw=*,*+eh=*,*+er=*,*+ay=*,*+a=*,*+ey=*,*+e=*,*+oy=*,*+aw=*,*+ow=*,*+o=*,*+el=*,*+em=*,*+en=*,*+b=*,*+d=*,*+g=*,*+z=*,*+jh=*,*+zh=*,*+v=*,*+dh=*,*+n=*,*+m=*,*+ng=*,*+w=*,*+y=*,*+r=*,*+rr=*,*+rx=*,*+l=*,*+dx=*}
 
-QS      "L-Phone_Muon"                          {*^sil-*,*^pau-*}
-QS      "C-Phone_Muon"                          {*-sil+*,*-pau+*}
-QS      "R-Phone_Muon"                          {*+sil=*,*+pau=*}
+QS      "L-VUV_Unvoiced"                        {*^sil-*,*^pau-*,*^exh-*,*^p-*,*^t-*,*^k-*,*^s-*,*^ch-*,*^sh-*,*^f-*,*^hh-*,*^th-*,*^q-*,*^x-*}
+QS      "C-VUV_Unvoiced"                        {*-sil+*,*-pau+*,*-exh=*,*-p+*,*-t+*,*-k+*,*-s+*,*-ch+*,*-sh+*,*-f+*,*-hh+*,*-th+*,*-q+*,*-x+*}
+QS      "R-VUV_Unvoiced"                        {*+sil=*,*+pau=*,*+exh=*,*+p=*,*+t=*,*+k=*,*+s=*,*+ch=*,*+sh=*,*+f=*,*+hh=*,*+th=*,*+q=*,*+x=*}
 
 QS      "L-ah"                                  {*^ah-*}
 QS      "C-ah"                                  {*-ah+*}
