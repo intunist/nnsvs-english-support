@@ -1,19 +1,19 @@
 This is a list of the currently supported phonemes, examples, and other various notes.
 
 ### Vowels - monophthongs:
-| phoneme | US Example        | UK Example | Description                                                                                            |
-|---------|-------------------|------------|--------------------------------------------------------------------------------------------------------|
-| ah      | bUtt              | #          | 'uh' sound.                                                                                            |
-| aa      | clOck             | fAther     | open ah.                                                                                               |
-| ao      | bOUght, stORy     | nAUght     | un/rounded aw. **US English uses unrounded by itself but rounded for rhotic. It's fine.                |
-| ae      | bAt               | #          |                                                                                                        |
-| ax      | commA, parrOt     | bAth, bAt  | schwa for US. Context "ah" for UK and other.                                                           |
-| iy      | bEAt,petIt        | #          |                                                                                                        |
-| ih      | sIt               | #          |                                                                                                        |
-| uh      | bOOk, nOOk        | #          |                                                                                                        |
-| uw      | bOOt, sUIt        | #          |                                                                                                        |
-| eh      | bEt, plEthera     | #          |                                                                                                        |
-| er      | bIRd, nERd        | bIRd       |                                                                                                        |
+| phoneme | US Example        | UK Example   | Description                                                                                            |
+|---------|-------------------|--------------|--------------------------------------------------------------------------------------------------------|
+| ah      | hUt               | #            | 'uh' sound.                                                                                            |
+| aa      | clOck             | fAther, plOt | open ah.                                                                                               |
+| ao      | bOUght, stORy     | nAUght, cORe | un/rounded aw. **US English uses unrounded by itself but rounded for rhotic. It's fine.                |
+| ae      | bAt               | bAth, bAt    | "at" sound for US. Contextual "ah/ae" for UK and similar.                                              |
+| ax      | commA, parrOt     | #            | schwa.                                                                                                 |
+| iy      | bEAt,petIt        | #            |                                                                                                        |
+| ih      | sIt               | #            |                                                                                                        |
+| uh      | bOOk, nOOk        | #            |                                                                                                        |
+| uw      | bOOt, sUIt        | #            |                                                                                                        |
+| eh      | bEt, plEthera     | #            |                                                                                                        |
+| er      | bIRd, nERd        | bIRd         |                                                                                                        |
 ### Vowels - diphthongs:
 | phoneme | US Example        | UK Example | Description                                                                                            |
 |---------|-------------------|------------|--------------------------------------------------------------------------------------------------------|
