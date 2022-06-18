@@ -1,7 +1,7 @@
 #HED for NNSVS English, for Conv1dResnetMDN training.
-#in_dim: 260(duration/timelag), 264(acoustic)
+#in_dim: 263(duration/timelag), 267(acoustic)
 #in_rest_idx: 23
-#in_lfx0_idx: 215
+#in_lfx0_idx: 221
 
 #tone flags
 QS      "falsetto"                              {*^F_*}
@@ -31,9 +31,9 @@ QS      "additional_3"                          {*^3_*}
 
 #Phonetic definitions
 
-QS      "L-Silences"                            {*^sil-*,*^pau-*,*^br-*,*^exh-*,*^axh-*,*^vf-*}
-QS      "C-Silences"                            {*-sil+*,*-pau+*,*-br+*,*-exh+*,*-axh+*,*-vf+*}
-QS      "R-Silences"                            {*+sil=*,*+pau=*,*+br=*,*+exh=*,*+axh=*,*+vf=*}
+QS      "L-Silence"                            {*^sil-*,*^pau-*}
+QS      "C-Silence"                            {*-sil+*,*-pau+*}
+QS      "R-Silence"                            {*+sil=*,*+pau=*}
 
 QS      "L-Vowel"                               {*^ah-*,*^aa-*,*^ao-*,*^ae-*,*^ax-*,*^iy-*,*^ih-*,*^uh-*,*^uw-*,*^eh-*,*^er-*,*^ay-*,*^a-*,*^ey-*,*^e-*,*^oy-*,*^aw-*,*^ow-*,*^o-*,*^el-*,*^em-*,*^en-*}
 QS      "C-Vowel"                               {*-ah+*,*-aa+*,*-ao+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-uh+*,*-uw+*,*-eh+*,*-er+*,*-ay+*,*-a+*,*-ey+*,*-e+*,*-oy+*,*-aw+*,*-ow+*,*-o+*,*-el+*,*-em+*,*-en+*}
@@ -41,6 +41,15 @@ QS      "R-Vowel"                               {*+ah=*,*+aa=*,*+ao=*,*+ae=*,*+a
 QS      "L-Consonant"                           {*^p-*,*^b-*,*^t-*,*^d-*,*^k-*,*^g-*,*^s-*,*^z-*,*^ch-*,*^jh-*,*^sh-*,*^zh-*,*^f-*,*^v-*,*^hh-*,*^th-*,*^dh-*,*^n-*,*^m-*,*^ng-*,*^w-*,*^y-*,*^r-*,*^rr-*,*^rx-*,*^l-*,*^q-*,*^dx-*,*^x-*}
 QS      "C-Consonant"                           {*-p+*,*-b+*,*-t+*,*-d+*,*-k+*,*-g+*,*-s+*,*-z+*,*-ch+*,*-jh+*,*-sh+*,*-zh+*,*-f+*,*-v+*,*-hh+*,*-th+*,*-dh+*,*-n+*,*-m+*,*-ng+*,*-w+*,*-y+*,*-r+*,*-rr+*,*-rx+*,*-l+*,*-q+*,*-dx+*,*-x+*}
 QS      "R-Consonant"                           {*+p=*,*+b=*,*+t=*,*+d=*,*+k=*,*+g=*,*+s=*,*+z=*,*+ch=*,*+jh=*,*+sh=*,*+zh=*,*+f=*,*+v=*,*+hh=*,*+th=*,*+dh=*,*+n=*,*+m=*,*+ng=*,*+w=*,*+y=*,*+r=*,*+rr=*,*+rx=*,*+l=*,*+q=*,*+dx=*,*+x=*}
+
+# NNSVS "force_fix_vuv" patch.
+QS      "L-VUV_Voiced"                          {*^axh-*,*^ah-*,*^aa-*,*^ao-*,*^ae-*,*^ax-*,*^iy-*,*^ih-*,*^uh-*,*^uw-*,*^eh-*,*^er-*,*^ay-*,*^a-*,*^ey-*,*^e-*,*^oy-*,*^aw-*,*^ow-*,*^o-*,*^el-*,*^em-*,*^en-*,*^b-*,*^d-*,*^g-*,*^z-*,*^jh-*,*^zh-*,*^v-*,*^dh-*,*^n-*,*^m-*,*^ng-*,*^w-*,*^y-*,*^r-*,*^rr-*,*^rx-*,*^l-*,*^dx-*}
+QS      "C-VUV_Voiced"                          {*-axh+*,*-ah+*,*-aa+*,*-ao+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-uh+*,*-uw+*,*-eh+*,*-er+*,*-ay+*,*-a+*,*-ey+*,*-e+*,*-oy+*,*-aw+*,*-ow+*,*-o+*,*-el+*,*-em+*,*-en+*,*-b+*,*-d+*,*-g+*,*-z+*,*-jh+*,*-zh+*,*-v+*,*-dh+*,*-n+*,*-m+*,*-ng+*,*-w+*,*-y+*,*-r+*,*-rr+*,*-rx+*,*-l+*,*-dx+*}
+QS      "R-VUV_Voiced"                          {*+axh=*,*+ah=*,*+aa=*,*+ao=*,*+ae=*,*+ax=*,*+iy=*,*+ih=*,*+uh=*,*+uw=*,*+eh=*,*+er=*,*+ay=*,*+a=*,*+ey=*,*+e=*,*+oy=*,*+aw=*,*+ow=*,*+o=*,*+el=*,*+em=*,*+en=*,*+b=*,*+d=*,*+g=*,*+z=*,*+jh=*,*+zh=*,*+v=*,*+dh=*,*+n=*,*+m=*,*+ng=*,*+w=*,*+y=*,*+r=*,*+rr=*,*+rx=*,*+l=*,*+dx=*}
+
+QS      "L-VUV_Unvoiced"                        {*^sil-*,*^pau-*,*^exh-*,*^p-*,*^t-*,*^k-*,*^s-*,*^ch-*,*^sh-*,*^f-*,*^hh-*,*^th-*,*^q-*,*^x-*}
+QS      "C-VUV_Unvoiced"                        {*-sil+*,*-pau+*,*-exh=*,*-p+*,*-t+*,*-k+*,*-s+*,*-ch+*,*-sh+*,*-f+*,*-hh+*,*-th+*,*-q+*,*-x+*}
+QS      "R-VUV_Unvoiced"                        {*+sil=*,*+pau=*,*+exh=*,*+p=*,*+t=*,*+k=*,*+s=*,*+ch=*,*+sh=*,*+f=*,*+hh=*,*+th=*,*+q=*,*+x=*}
 
 QS      "L-ah"                                  {*^ah-*}
 QS      "C-ah"                                  {*-ah+*}
@@ -198,9 +207,6 @@ QS      "R-sil"                                 {*+sil=*}
 QS      "L-pau"                                 {*^pau-*}
 QS      "C-pau"                                 {*-pau+*}
 QS      "R-pau"                                 {*+pau=*}
-QS      "L-br"                                  {*^br-*}
-QS      "C-br"                                  {*-br+*}
-QS      "R-br"                                  {*+br=*}
 QS      "L-exh"                                 {*^exh-*}
 QS      "C-exh"                                 {*-exh+*}
 QS      "R-exh"                                 {*+exh=*}
