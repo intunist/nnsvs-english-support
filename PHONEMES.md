@@ -56,21 +56,21 @@ Voice and unvoiced equivalents are paired (ex: k/g, t/d)
 | q       | we-eat batten     | bottom     | glottal stop and vowel separator. NOT vocal fry.                                                       |
 | dx      | buTTer            | shuTup     | flapped d/tt. Use in UK English is spotty.                                                             |
 ### Syllabic vowels:
-Consonants that have a vowel-like quality in terms of sustain. Technically optional.
+Consonants that have a vowel-like quality in terms of sustain. **Technically optional.**
 | phoneme | US Example        | UK Example | Description                                                                                            |
 |---------|-------------------|------------|--------------------------------------------------------------------------------------------------------|
 | el      | peopLE, doubLE    |            | vowellike l, where l makes most of the syllable, otherwise [ax l]                                      |
-| em      | bottOM *may omit* |            | vowellike m, where m makes most of the syllable, otherwise [ax m]                                      |
-| en      | buttON *may omit* |            | vowellike n, where n makes most of the syllable, otherwise [ax n]                                      |
+| em      | bottOM            |            | vowellike m, where m makes most of the syllable, otherwise [ax m]                                      |
+| en      | buttON            |            | vowellike n, where n makes most of the syllable, otherwise [ax n]                                      |
 | REMOVED | sINGING, learnING |            | 'ing' sound, where ng makes most of the syllable, _**USE [ih ng] INSTEAD**_                            |
 ### Utility phonemes:
 Phonemes that aren't strictly vocal sounds but are useful in one way of another
-| phoneme | US Example        | UK Example | Description                                                                                            |
-|---------|-------------------|------------|--------------------------------------------------------------------------------------------------------|
-| pau     | silence           |            | During unsung/silent periods.                                                                          |
-| br      | [breath]          |            | REMOVED IN v0.7.0 DUE TO MODEL INSTABILITY                                                             |
-| exh     | [exhale]          |            | end breaths, end of phrase exhale. devoiced.                                                           |
-| axh     | [release]         |            | voiced variation of [exh]. voiced schwa exhale/release.                                                |
-| ct      | [closure-toggle]  |            | override the default state of a consonant's closure.                                                   |
-| cl      | [held stop]       |            | Held stop/plosive consonant. For when the silence is held. Similar to Japanese usage but not syllabic. |
-| vf      | [vocal fry]       |            | vocal fry                                                                                              |
+| phoneme | Example          | Description                                                                                            |
+|---------|------------------| -------------------------------------------------------------------------------------------------------|
+| pau     | silence          | During unsung/silent periods.                                                                          |
+| br      | [breath]         | REMOVED IN v0.7.0 DUE TO MODEL INSTABILITY                                                             |
+| exh     | [exhale]         | end breaths, end of phrase exhale. devoiced.                                                           |
+| axh     | [release]        | voiced variation of [exh]. voiced schwa exhale/release.                                                |
+| ct      | [closure-toggle] | override the default state of a consonant's closure.                                                   |
+| cl      | [held stop]      | Held stop/plosive consonant. For when the silence is held. Similar to Japanese usage but not syllabic. |
+| vf      | [vocal fry]      | vocal fry    
