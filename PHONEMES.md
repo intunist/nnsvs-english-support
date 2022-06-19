@@ -1,5 +1,6 @@
 This is a list of the currently supported phonemes, examples, and other various notes.
-This phoneme set covers all English phonetic sounds across ALL dialects, utilizing NNSVS's phoneme context. No new phonemes will be added as they will not improve the phoneme set or model capability.
+
+This phoneme set **covers all English phonetic sounds across ALL dialects**, utilizing NNSVS's phoneme context. No new phonemes will be added as they will not improve the phoneme set or model capability regardless of dialect.
 ### Vowels - monophthongs:
 | phoneme | US Example        | UK Example   | Description                                                                                            |
 |---------|-------------------|--------------|--------------------------------------------------------------------------------------------------------|
