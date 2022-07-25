@@ -44,7 +44,7 @@ Voice and unvoiced equivalents are paired (ex: k/g, t/d)
 | zh      | pleaSure          | #          | The 'judge' example is [j ah d zh], not [j ah zh]. To avoid any confusion.                             |
 | f       | FlooF             | #          |                                                                                                        |
 | v       | Verge, nerVe      | #          |                                                                                                        |
-| hh      | Happy             | Herb       | syllable onset only. Use [exh] for end-oh-note exhales.                                                |
+| hh      | Happy             | Herb       | syllable onset only. Use [exh] for end-of-note exhales.                                                |
 | th      | THin, myTH        | #          |                                                                                                        |
 | dh      | THis, widTH       | #          |                                                                                                        |
 | n       | NaNNy, paN        | #          |                                                                                                        |
