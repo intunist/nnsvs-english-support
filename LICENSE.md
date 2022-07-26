@@ -4,6 +4,8 @@ Please contact DYVAUX for commericial use.
 By using all OR ANY PART of our projects you MUST credit us (and any other parties) and link back to our license.
 This also includes but is not limited to referencing pieces our work to build yours. Our work is not a template to be copied from without proper credit.
 
+If you have any questions, please contact us.
+
 A different license may be provided for specific files/components.
 Files from other sources will have its own license terms from its authors and will be included with those files.
 
