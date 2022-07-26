@@ -1,4 +1,9 @@
-#HED for NNSVS English, for Conv1dResnetMDN training.
+### NOTICE ###
+# By using all OR ANY PART of this HED file you MUST follow our license at https://github.com/DYVAUX/nnsvs-english-support/blob/main/LICENSE.md
+# This includes using parts of our work in yours. If you have questions about the license please contact us.
+# We should not have to include this notice in our files but bad actors had forced our hand.
+
+#HED for NNSVS English, for use_MDN: true training.
 #in_dim: 263(duration/timelag), 267(acoustic)
 #in_rest_idx: 23
 #in_lfx0_idx: 221
