@@ -1,3 +1,8 @@
+### NOTICE
+By using all OR ANY PART of this HED file you MUST follow our license at https://github.com/DYVAUX/nnsvs-english-support/blob/main/LICENSE.md
+This includes using parts of our work in yours. If you have questions about the license please contact us.
+We should not have to include this notice in our files but bad actors had forced our hand.
+___
 This is a list of the currently supported phonemes, examples, and other various notes.
 
 This phoneme set **covers all English phonetic sounds across ALL dialects**, utilizing NNSVS's phoneme context. No new phonemes will be added as they will not improve the phoneme set or model capability regardless of dialect.
