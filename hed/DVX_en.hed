@@ -4,9 +4,9 @@
 # We should not have to include this notice in our files but bad actors had forced our hand.
 
 #HED for NNSVS English
-#in_dim: 434(duration/timelag), 438(acoustic)
+#in_dim: 431(duration/timelag), 435(acoustic)
 #in_rest_idx: 23
-#in_lfx0_idx: 389
+#in_lfx0_idx: 386
 
 #tone flags
 QS      "falsetto"                              {*^F_*}
@@ -40,16 +40,15 @@ QS      "L-Silence"                            {*^sil-*,*^pau-*}
 QS      "C-Silence"                            {*-sil+*,*-pau+*}
 QS      "R-Silence"                            {*+sil=*,*+pau=*}
 
-# technically should add all of the occlusive consonants here as well but it's fine.
-QS      "L-Occlusive"                          {*^vf-*,*^q-*}
-QS      "C-Occlusive"                          {*-vf+*,*-q+*}
-QS      "R-Occlusive"                          {*+vf=*,*+q=*}
-QS      "L-Voiced_Occlusive"                   {*^vf-*}
-QS      "C-Voiced_Occlusive"                   {*-vf+*}
-QS      "R-Voiced_Occlusive"                   {*+vf=*}
-QS      "L-Unvoiced_Occlusive"                 {*^q-*}
-QS      "C-Unvoiced_Occlusive"                 {*-q+*}
-QS      "R-Unvoiced_Occlusive"                 {*+q=*}
+QS      "L-Full_Occlusive"                     {*^vf-*,*^q-*,*^p-*,*^b-*,*^t-*,*^d-*,*^k-*,*^g-*,*^q-*,*^ct-*,*^cl-*}
+QS      "C-Full_Occlusive"                     {*-vf+*,*-q+*,*-p+*,*-b+*,*-t+*,*-d+*,*-k+*,*-g+*,*-q+*,*-ct+*,*-cl+*}
+QS      "R-Full_Occlusive"                     {*+vf=*,*+q=*,*+p=*,*+b=*,*+t=*,*+d=*,*+k=*,*+g=*,*+q=*,*+ct=*,*+cl=*}
+QS      "L-Voiced_Full_Occlusive"              {*^vf-*,*^b-*,*^d-*,*^g-*,*^ct-*,*^cl-*}
+QS      "C-Voiced_Full_Occlusive"              {*-vf+*,*-b+*,*-d+*,*-g+*,*-ct+*,*-cl+*}
+QS      "R-Voiced_Full_Occlusive"              {*+vf=*,*+b=*,*+d=*,*+g=*,*+ct=*,*+cl=*}
+QS      "L-Unvoiced_Full_Occlusive"            {*^p-*,*^t-*,*^k-*,*^q-*}
+QS      "C-Unvoiced_Full_Occlusive"            {*-p+*,*-t+*,*-k+*,*-q+*}
+QS      "R-Unvoiced_Full_Occlusive"            {*+p=*,*+t=*,*+k=*,*+q=*}
 
 QS      "L-Exhale"                             {*^exh-*,*^axh-*}
 QS      "C-Exhale"                             {*-exh+*,*-axh+*}
@@ -88,10 +87,6 @@ QS      "R-Unvoiced_Consonant"                  {*+p=*,*+t=*,*+k=*,*+s=*,*+ch=*,
 QS      "L-Dipthong_Vowel"                      {*^ay-*,*^ey-*,*^oy-*,*^aw-*,*^ow-*,*^el-*,*^em-*,*^en-*}
 QS      "C-Dipthong_Vowel"                      {*-ay+*,*-ey+*,*-oy+*,*-aw+*,*-ow+*,*-el+*,*-em+*,*-en+*}
 QS      "R-Dipthong_Vowel"                      {*+ay=*,*+ey=*,*+oy=*,*+aw=*,*+ow=*,*+el=*,*+em=*,*+en=*}
-
-QS      "L-Neigther_F_or_L"                     {*^hh-*,*^n-*,*^m-*,*^ng-*,*^w-*,*^y-*,*^r-*,*^rx-*,*^l-*,*^el-*,*^em-*,*^en-*}
-QS      "C-Neigther_F_or_L"                     {*-hh+*,*-n+*,*-m+*,*-ng+*,*-w+*,*-y+*,*-r+*,*-rx+*,*-l+*,*-el+*,*-em+*,*-en+*}
-QS      "R-Neigther_F_or_L"                     {*+hh=*,*+n=*,*+m=*,*+ng=*,*+w=*,*+y=*,*+r=*,*+rx=*,*+l=*,*+el=*,*+em=*,*+en=*}
 
 QS      "L-A_Vowel"                              {*^ah-*,*^aa-*,*^ae-*,*^ay-*,*^a-*,*^aw-*}
 QS      "C-A_Vowel"                              {*-ah+*,*-aa+*,*-ae+*,*-ay+*,*-a+*,*-aw+*}
