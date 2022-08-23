@@ -4,9 +4,9 @@
 # We should not have to include this notice in our files but bad actors had forced our hand.
 
 #HED for NNSVS English, for use_MDN: true training.
-#in_dim: 263(duration/timelag), 267(acoustic)
+#in_dim: 254(duration/timelag), 258(acoustic)
 #in_rest_idx: 14
-#in_lfx0_idx: 221
+#in_lfx0_idx: 209
 
 #tone flags
 QS      "falsetto"                              {*^F_*}
