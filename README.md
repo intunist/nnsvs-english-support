@@ -1,5 +1,7 @@
 # nnsvs-english-support
-HED and supporting files for English NNSVS Dataset Creation
+**The original NNSVS English support.**
+
+Support for English NNSVS Dataset Creation
 <br/>Now maintained by Intunist.
 
 This repo contains the files required to create an English dataset for use in NNSVS.
@@ -62,18 +64,9 @@ Here is a list of the currently supported flags:
 | OPN  | open_wide_vowel       |
 | CLS  | closed_narrow_vowel   |
 | W    | whisper_devoiced      |
-| S    | false_cord_fry_scream |
-| G    | guttural_scream_growl |
-| B    | bright_resonance      |
-| D    | dark_resonance        |
-| Y    | young_higher_formant  |
-| O    | older_lower_formant   |
-| T    | thin                  |
-| R    | fry_rattle            |
+| BR   | bright_resonance      |
+| DR   | dark_resonance        |
 | N    | nasal                 |
-| HPY  | happy                 |
-| SAD  | sad                   |
-| MAD  | mad                   |
 | 1    | additional_1          |
 | 2    | additional_2          |
 | 3    | additional_3          |
