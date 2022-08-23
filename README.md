@@ -1,6 +1,6 @@
 # nnsvs-english-support
 HED and supporting files for English NNSVS Dataset Creation
-<br/>Now maintained by UPT3.
+<br/>Now maintained by Intunist.
 
 This repo contains the files required to create an English dataset for use in NNSVS.
 Additionally, instructions and examples are provided (or will be provided) for the labeling process.
