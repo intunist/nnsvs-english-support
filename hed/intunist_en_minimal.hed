@@ -5,7 +5,7 @@
 
 #HED for NNSVS English, for use_MDN: true training.
 #in_dim: 263(duration/timelag), 267(acoustic)
-#in_rest_idx: 23
+#in_rest_idx: 14
 #in_lfx0_idx: 221
 
 #tone flags
@@ -16,19 +16,9 @@ QS      "strong"                                {*^ST_*}
 QS      "open_wide_vowel"                       {*^OPN_*}
 QS      "closed_narrow_vowel"                   {*^CLS_*}
 QS      "whisper_devoiced"                      {*^W_*}
-QS      "false_cord_fry_scream"                 {*^S_*}
-QS      "guttural_scream_growl"                 {*^G_*}
-QS      "bright_resonance"                      {*^B_*}
-QS      "dark_resonance"                        {*^D_*}
-QS      "young_higher_formant"                  {*^Y_*}
-QS      "older_lower_formant"                   {*^O_*}
-QS      "thin"                                  {*^T_*}
-QS      "fry_rattle"                            {*^R_*}
+QS      "bright_resonance"                      {*^BR_*}
+QS      "dark_resonance"                        {*^DR_*}
 QS      "nasal"                                 {*^N_*}
-#emotion flags
-QS      "happy"                                 {*^HPY_*}
-QS      "sad"                                   {*^SAD_*}
-QS      "mad"                                   {*^MAD_*}
 #custom flags
 QS      "additional_1"                          {*^1_*}
 QS      "additional_2"                          {*^2_*}
