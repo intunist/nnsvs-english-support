@@ -12,7 +12,7 @@ The phoneme set is based on arpabet has been carefully selected to be compatible
 NOTE: A pretrained model for English is not available at this time. Expect 8+ hours of audio to be required for a very high quality result.
 The estimated amount of audio required for a somewhat decent model is about 4 hours (without silence). A prototype can be made with less (~1 hour).
 
-Here is an example of a model trained on a 40 minutes dataset, provided by HydroChromatic.
+An example of a model trained with a 40 minute dataset, provided by HydroChromatic.
 
 https://user-images.githubusercontent.com/110702124/187005012-cb678204-9a3a-46b1-a80f-940874489cf2.mp4
 
