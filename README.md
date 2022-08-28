@@ -4,6 +4,8 @@
 Support for English NNSVS Dataset Creation
 <br/>Now maintained by Intunist.
 
+Support for UK, US, and Australian English has been fully confirmed.
+
 This repo contains the files required to create an English dataset for use in NNSVS.
 Additionally, instructions and examples are provided (or will be provided) for the labeling process.
 
