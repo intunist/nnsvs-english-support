@@ -14,7 +14,7 @@ The estimated amount of audio required for a somewhat decent model is about 4 ho
 
 An example of a model trained with a 40 minute dataset, provided by HydroChromatic.
 
-https://user-images.githubusercontent.com/110702124/187005012-cb678204-9a3a-46b1-a80f-940874489cf2.mp4
+https://user-images.githubusercontent.com/110702124/187097191-1e959345-5426-4e75-babb-6a27ca1922ab.mp4
 
 And an 8.5m example from an earlier release.
 
