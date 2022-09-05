@@ -4,5 +4,6 @@ The version of DVX_AMEPD included is heavily modified from the original for our 
 We will continuously update this dictionary for more accurate American English singing pronuncation.
 
 UK English dictionary is a UNFINISHED initial version based on OPEN-IPA-DICT. This dictionary is a very early version and needs about ~650 (known) manual corrections.
+These dictionaries cannot cover every possible dialect, for UK english you will need to make your own judgements. While the dictionary lacks rhotic/imaginary [r] phonemes, you may wish to include these anyways for context.
 
 DO NOT USE these dictionaries for training. All training should be PHONETIC ONLY.
