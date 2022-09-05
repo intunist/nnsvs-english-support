@@ -6,6 +6,6 @@ We will continuously update this dictionary for more accurate American English s
 UK English dictionary is a UNFINISHED initial version based on OPEN-IPA-DICT. This dictionary is a very early version and needs about ~650 (known) manual corrections.
 
 <br />These dictionaries cannot cover every possible dialect, you will need to make your own judgements. While the UK dictionary lacks rhotic/imaginary [r] phonemes, you may include these if you prefer.
-<br />
+<br />Single syllable words are more likely to need imaginary [r] in UK dictioanry.
 
 DO NOT USE these dictionaries for training. All training should be PHONETIC ONLY.
