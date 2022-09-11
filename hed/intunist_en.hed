@@ -23,6 +23,7 @@ QS      "nasal_resonance"                       {*^N_*}
 QS      "additional_1"                          {*^1_*}
 QS      "additional_2"                          {*^2_*}
 QS      "additional_3"                          {*^3_*}
+#custom flags can be used for anything you'd like. other languages, unlisted tones, anything.
 
 #Phonetic definitions
 
