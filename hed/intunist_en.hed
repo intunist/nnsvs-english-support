@@ -8,27 +8,10 @@
 #in_rest_idx: 14
 #in_lfx0_idx: 377
 
-#tone flags
-QS      "falsetto"                              {*^F_*}
-QS      "head_voice"                            {*^H_*}
-QS      "soft"                                  {*^SF_*}
-QS      "strong"                                {*^ST_*}
-QS      "open_wide_vowel"                       {*^OPN_*}
-QS      "closed_narrow_vowel"                   {*^CLS_*}
-QS      "whisper_devoiced"                      {*^W_*}
-QS      "bright_resonance"                      {*^V_*}
-QS      "dark_resonance"                        {*^D_*}
-QS      "nasal_resonance"                       {*^N_*}
-#custom flags
-QS      "additional_1"                          {*^1_*}
-QS      "additional_2"                          {*^2_*}
-QS      "additional_3"                          {*^3_*}
-#custom flags can be used for anything you'd like. other languages, unlisted tones, anything.
-
 #Phonetic definitions
 
-QS      "L-Silence"                            {*^sil-*,*^pau-*}
 QS      "C-Silence"                            {*-sil+*,*-pau+*}
+QS      "L-Silence"                            {*^sil-*,*^pau-*}
 QS      "R-Silence"                            {*+sil=*,*+pau=*}
 
 QS      "L-Full_Occlusive"                     {*^vf-*,*^q-*,*^p-*,*^b-*,*^t-*,*^d-*,*^k-*,*^g-*,*^q-*,*^ct-*,*^cl-*}
@@ -418,6 +401,23 @@ QS      "R-x"                                   {*+x=*}
 QS      "L-trash"                               {*^trash-*}
 QS      "C-trash"                               {*-trash+*}
 QS      "R-trash"                               {*+trash=*}
+
+#tone flags
+QS      "falsetto"                              {*^F_*}
+QS      "head_voice"                            {*^H_*}
+QS      "soft"                                  {*^SF_*}
+QS      "strong"                                {*^ST_*}
+QS      "open_wide_vowel"                       {*^OPN_*}
+QS      "closed_narrow_vowel"                   {*^CLS_*}
+QS      "whisper_devoiced"                      {*^W_*}
+QS      "bright_resonance"                      {*^V_*}
+QS      "dark_resonance"                        {*^D_*}
+QS      "nasal_resonance"                       {*^N_*}
+#custom flags
+QS      "additional_1"                          {*^1_*}
+QS      "additional_2"                          {*^2_*}
+QS      "additional_3"                          {*^3_*}
+#custom flags can be used for anything you'd like. other languages, unlisted tones, anything.
 
 #The following was copied from the NNSVS hed
 
