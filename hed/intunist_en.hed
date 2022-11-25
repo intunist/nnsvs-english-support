@@ -10,9 +10,9 @@
 
 #Phonetic definitions
 
-QS      "C-Silence"                            {*-sil+*,*-pau+*}
-QS      "L-Silence"                            {*^sil-*,*^pau-*}
-QS      "R-Silence"                            {*+sil=*,*+pau=*}
+QS      "C-Silence"                            {*-pau+*}
+QS      "L-Silence"                            {*^pau-*}
+QS      "R-Silence"                            {*+pau=*}
 
 QS      "L-Full_Occlusive"                     {*^vf-*,*^q-*,*^p-*,*^b-*,*^t-*,*^d-*,*^k-*,*^g-*,*^q-*,*^ct-*,*^cl-*}
 QS      "C-Full_Occlusive"                     {*-vf+*,*-q+*,*-p+*,*-b+*,*-t+*,*-d+*,*-k+*,*-g+*,*-q+*,*-ct+*,*-cl+*}
@@ -371,9 +371,6 @@ QS      "R-em"                                  {*+em=*}
 QS      "L-en"                                  {*^en-*}
 QS      "C-en"                                  {*-en+*}
 QS      "R-en"                                  {*+en=*}
-QS      "L-sil"                                 {*^sil-*}
-QS      "C-sil"                                 {*-sil+*}
-QS      "R-sil"                                 {*+sil=*}
 QS      "L-pau"                                 {*^pau-*}
 QS      "C-pau"                                 {*-pau+*}
 QS      "R-pau"                                 {*+pau=*}
