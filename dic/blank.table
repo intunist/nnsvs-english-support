@@ -73,4 +73,950 @@ dcl d cl
 kcl k cl
 gcl g cl
 x x
-ol ol
+trash trash
+
+# Supplimentary Japanese support
+
+息 br
+ア ah
+あ aa
+イ ih
+い iy
+いぇ y eh
+ウ uh
+う uw
+ヴ v uw
+ヴァ v ah
+ヴぁ v aa
+ウィ w ih
+うぃ w iy
+ヴぃ v iy
+ヴゥ v uh
+ヴぅ v uw
+ウェ w ey
+うぇ w eh
+ヴェ v ey
+ヴぇ v eh
+ウォ w ao
+うぉ w ow
+ヴォ v ao
+ヴぉ v ow
+エ ey
+え eh
+オ ao
+お ow
+カ k ah
+か k aa
+ガ g ah
+が g aa
+キ k ih
+き k iy
+ギ g ih
+ぎ g iy
+キェ k y ey
+きぇ k y eh
+ギェ g y ey
+ぎぇ g y eh
+キャ k y ah
+きゃ k y aa
+ギャ g y ah
+ぎゃ g y aa
+キュ k y uh
+きゅ k y uw
+ギュ g y uh
+ぎゅ g y uw
+キョ k y ao
+きょ k y ow
+ギョ g y ao
+ぎょ g y ow
+ク k uh
+く k uw
+グ g uh
+ぐ g uw
+クァ k w ah
+くぁ k w aa
+グァ g w ah
+ぐぁ g w aa
+クィ k w ih
+くぃ k w iy
+グィ g w ih
+ぐぃ g w iy
+クゥ k w uh
+くぅ k w uw
+グゥ g w uh
+ぐぅ g w uw
+クェ k w ey
+くぇ k w eh
+グェ g w ey
+ぐぇ g w eh
+クォ k w ao
+くぉ k w ow
+グォ g w ao
+ぐぉ g w ow
+グヮ g w ah
+ぐゎ g w aa
+ケ k ey
+け k eh
+ゲ g ey
+げ g eh
+コ k ao
+こ k ow
+ゴ g ao
+ご g ow
+サ s ah
+さ s aa
+ザ z ah
+ざ z aa
+シ sh ih
+し sh iy
+ジ j ih
+じ j iy
+シィ s ih
+しぃ s iy
+シェ sh ey
+しぇ sh eh
+ジェ j ey
+じぇ j eh
+シャ sh ah
+しゃ sh aa
+ジャ j ah
+じゃ j aa
+シュ sh uh
+しゅ sh uw
+ジュ j uh
+じゅ j uw
+ショ sh ao
+しょ sh ow
+ジョ j ao
+じょ j ow
+ス s uh
+す s uw
+ズ z uh
+ず z uw
+スィ s ih
+すぃ s iy
+ズィ z ih
+ずぃ z iy
+セ s ey
+せ s eh
+ゼ z ey
+ぜ z eh
+ソ s ao
+そ s ow
+ゾ z ao
+ぞ z ow
+タ t ah
+た t aa
+ダ d ah
+だ d aa
+チ ch ih
+ち ch iy
+チェ ch ey
+ちぇ ch eh
+チャ ch ah
+ちゃ ch aa
+ヂャ j ah
+ぢゃ j aa
+チュ ch uh
+ちゅ ch uw
+チョ ch ao
+ちょ ch ow
+ッ cl
+っ cl
+ツ t s uh
+つ t s uw
+ヅ z uh
+づ z uw
+ツァ t s ah
+つぁ t s aa
+ヅァ z ah
+ツィ t s ih
+つぃ t s iy
+ヅィ z ih
+づぃ z iy
+ツェ t s ey
+つぇ t s eh
+ヅェ z ey
+づぇ z eh
+ツォ t s ao
+つぉ t s ow
+ヅォ z ao
+づぉ z ow
+テ t ey
+て t eh
+デ d ey
+で d eh
+ティ t ih
+てぃ t iy
+ディ d ih
+でぃ d iy
+でぇ d y eh
+テャ t y ah
+てゃ t y aa
+デャ d y ah
+でゃ d y aa
+テュ t y uh
+てゅ t y uw
+デュ d y uh
+でゅ d y uw
+テョ t y ao
+てょ t y ow
+デョ d y ao
+でょ d y ow
+ト t ao
+と t ow
+ド d ao
+ど d ow
+トゥ t uh
+とぅ t uw
+ドゥ d uh
+どぅ d uw
+ナ n ah
+な n aa
+ニ n ih
+に n iy
+ニェ n y ey
+にぇ n y eh
+ニャ n y ah
+にゃ n y aa
+ニュ n y uh
+にゅ n y uw
+ニョ n y ao
+にょ n y ow
+ヌ n uh
+ぬ n uw
+ネ n ey
+ね n eh
+ノ n ao
+の n ow
+ハ h ah
+は h aa
+バ b ah
+ば b aa
+パ p ah
+ぱ p aa
+ヒ h ih
+ひ h iy
+ビ b ih
+び b iy
+ピ p ih
+ぴ p iy
+ヒェ h y ey
+ひぇ h y eh
+ビェ b y ey
+びぇ b y eh
+ピェ p y ey
+ぴぇ p y eh
+ヒャ h y ah
+ひゃ h y aa
+ビャ b y ah
+びゃ b y aa
+ピャ p y ah
+ぴゃ p y aa
+ヒュ h y uh
+ひゅ h y uw
+ビュ b y uh
+びゅ b y uw
+ピュ p y uh
+ぴゅ p y uw
+ヒョ h y ao
+ひょ h y ow
+ビョ b y ao
+びょ b y ow
+ピョ p y ao
+ぴょ p y ow
+フ f uh
+ふ f uw
+ブ b uh
+ぶ b uw
+プ p uh
+ぷ p uw
+ファ f ah
+ふぁ f aa
+フィ f ih
+ふぃ f iy
+フェ f ey
+ふぇ f eh
+フォ f ao
+ふぉ f ow
+ヘ h ey
+へ h eh
+べ b eh
+ペ p ey
+ぺ p eh
+ホ h ao
+ほ h ow
+ボ B ao
+ぼ b ow
+ポ p ao
+ぽ p ow
+マ m ah
+ま m aa
+ミ m ih
+み m iy
+ミェ m y ey
+みぇ m y eh
+ミャ m y ah
+みゃ m y aa
+ミュ m y uh
+みゅ m y uw
+ミョ m y ao
+みょ m y ow
+ム m uh
+む m uw
+メ m ey
+め m eh
+モ m ao
+も m ow
+ヤ y ah
+や y aa
+ユ y uh
+ゆ y uw
+ヨ y ao
+よ y ow
+ラ r ah
+ら r aa
+リ r ih
+り r iy
+りぇ r y eh
+りゃ r y aa
+りゅ r y uw
+りょ r y ow
+ル r uh
+る r uw
+レ r ey
+れ r eh
+ロ r ao
+ろ r ow
+ワ w ah
+わ w aa
+ヰ ih
+ゐ iy
+ヱ ey
+ゑ eh
+ヲ ao
+を ow
+ン en
+ん en
+フャ f y ah
+ふゃ f y aa
+フュ f y uh
+ふゅ f y uw
+フィェ f y ey
+ふぃぇ f y eh
+フョ f y ao
+ふょ f y ow
+ヴゃ v y aa
+ヴゅ v y uw
+ヴュ v y uh
+ヴぃぇ v y eh
+ヴょ v y ow
+うぅ w uw
+ウゥ w uh
+てぇ t y eh
+テェ t y ey
+てぃぇ t y eh
+ティェ t y ey
+ぢ j iy
+ヂ j ih
+ぢゅ j uw
+ヂュ j uh
+ぢぇ j eh
+ヂェ j ey
+ぢょ j ow
+ヂョ j ao
+・あ q aa
+・ア q ah
+・い q iy
+・イ q ih
+・う q uw
+・ウ q uh
+・え q eh
+・エ q ey
+・お q ow
+・オ q ao
+・ん q en
+-あ q aa
+-ア q ah
+-い q iy
+-イ q ih
+-う q uw
+-ウ q uh
+-え q eh
+-エ q ey
+-お q ow
+-オ q ao
+-ん q en
+’あ vf aa
+’ア vf ah
+’い vf iy
+’イ vf ih
+’う vf uw
+’ウ vf uh
+’え vf eh
+’エ vf ey
+’お vf ow
+’オ vf ao
+’ん vf en
+あ’ vf aa
+ア’ vf ah
+い’ vf iy
+イ’ vf ih
+う’ vf uw
+ウ’ vf uh
+え’ vf eh
+エ’ vf ey
+お’ vf ow
+オ’ vf ao
+ん’ vf en
+'あ vf aa
+'ア vf ah
+'い vf iy
+'イ vf ih
+'う vf uw
+'ウ vf uh
+'え vf eh
+'エ vf ey
+'お vf ow
+'オ vf ao
+'ん vf en
+あ' vf aa
+ア' vf ah
+い' vf iy
+イ' vf ih
+う' vf uw
+ウ' vf uh
+え' vf eh
+エ' vf ey
+お' vf ow
+オ' vf ao
+ん' vf en
++あ vf aa
++ア vf ah
++い vf iy
++イ vf ih
++う vf uw
++ウ vf uh
++え vf eh
++エ vf ey
++お vf ow
++オ vf ao
++ん vf en
+あ+ aa vf
+ア+ ah vf
+い+ i y vf
+イ+ ih vf
+う+ uw vf
+ウ+ uh vf
+え+ eh vf
+エ+ e y vf
+お+ ow vf
+オ+ ao vf
+ん+ en vf
+あっ aa cl
+いっ i y cl
+いぇっ y eh cl
+うっ uw cl
+ヴっ v uw cl
+ヴぁっ v aa cl
+うぃっ w i y cl
+ヴぃっ v i y cl
+ヴぅっ v uw cl
+うぇっ w eh cl
+ヴぇっ v eh cl
+うぉっ w ow cl
+ヴぉっ v ow cl
+えっ eh cl
+おっ ow cl
+かっ k aa cl
+がっ g aa cl
+きっ k i y cl
+ぎっ g i y cl
+きぇっ k y eh cl
+ぎぇっ g y eh cl
+きゃっ k y aa cl
+ぎゃっ g y aa cl
+きゅっ k y uw cl
+ぎゅっ g y uw cl
+きょっ k y ow cl
+ぎょっ g y ow cl
+くっ k uw cl
+ぐっ g uw cl
+くぁっ k w aa cl
+ぐぁっ g w aa cl
+くぃっ k w i y cl
+ぐぃっ g w i y cl
+くぅっ k w uw cl
+ぐぅっ g w uw cl
+くぇっ k w eh cl
+ぐぇっ g w eh cl
+くぉっ k w ow cl
+ぐぉっ g w ow cl
+ぐゎっ g w aa cl
+けっ k eh cl
+げっ g eh cl
+こっ k ow cl
+ごっ g ow cl
+さっ s aa cl
+ざっ z aa cl
+しっ sh i y cl
+じっ j i y cl
+しぃっ s i y cl
+しぇっ sh eh cl
+じぇっ j eh cl
+しゃっ sh aa cl
+じゃっ j aa cl
+しゅっ sh uw cl
+じゅっ j uw cl
+しょっ sh ow cl
+じょっ j ow cl
+すっ s uw cl
+ずっ z uw cl
+すぃっ s i y cl
+ずぃっ z i y cl
+せっ s eh cl
+ぜっ z eh cl
+そっ s ow cl
+ぞっ z ow cl
+たっ t aa cl
+だっ d aa cl
+ちっ ch i y cl
+ちぇっ ch eh cl
+ちゃっ ch aa cl
+ぢゃっ j aa cl
+ちゅっ ch uw cl
+ちょっ ch ow cl
+つっ t s uw cl
+づっ z uw cl
+つぁっ t s aa cl
+つぃっ t s i y cl
+づぃっ z i y cl
+つぇっ t s eh cl
+づぇっ z eh cl
+つぉっ t s ow cl
+づぉっ z ow cl
+てっ t eh cl
+でっ d eh cl
+てぃっ t i y cl
+でぃっ d i y cl
+でぇっ d y eh cl
+てゃっ t y aa cl
+でゃっ d y aa cl
+てゅっ t y uw cl
+でゅっ d y uw cl
+てょっ t y ow cl
+でょっ d y ow cl
+とっ t ow cl
+どっ d ow cl
+とぅっ t uw cl
+どぅっ d uw cl
+なっ n aa cl
+にっ n i y cl
+にぇっ n y eh cl
+にゃっ n y aa cl
+にゅっ n y uw cl
+にょっ n y ow cl
+ぬっ n uw cl
+ねっ n eh cl
+のっ n ow cl
+はっ h aa cl
+ばっ b aa cl
+ぱっ p aa cl
+ひっ h i y cl
+びっ b i y cl
+ぴっ p i y cl
+ひぇっ h y eh cl
+びぇっ b y eh cl
+ぴぇっ p y eh cl
+ひゃっ h y aa cl
+びゃっ b y aa cl
+ぴゃっ p y aa cl
+ひゅっ h y uw cl
+びゅっ b y uw cl
+ぴゅっ p y uw cl
+ひょっ h y ow cl
+びょっ b y ow cl
+ぴょっ p y ow cl
+ふっ f uw cl
+ぶっ b uw cl
+ぷっ p uw cl
+ふぁっ f aa cl
+ふぃっ f i y cl
+ふぇっ f eh cl
+ふぉっ f ow cl
+へっ h eh cl
+べっ b eh cl
+ぺっ p eh cl
+ほっ h ow cl
+ぼっ b ow cl
+ぽっ p ow cl
+まっ m aa cl
+みっ m i y cl
+みぇっ m y eh cl
+みゃっ m y aa cl
+みゅっ m y uw cl
+みょっ m y ow cl
+むっ m uw cl
+めっ m eh cl
+もっ m ow cl
+やっ y aa cl
+ゆっ y uw cl
+よっ y ow cl
+らっ r aa cl
+りっ r i y cl
+りぇっ r y eh cl
+りゃっ r y aa cl
+りゅっ r y uw cl
+りょっ r y ow cl
+るっ r uw cl
+れっ r eh cl
+ろっ r ow cl
+わっ w aa cl
+ゐっ i y cl
+ゑっ eh cl
+をっ ow cl
+ふゃっ f y aa cl
+ふゅっ f y uw cl
+ふぃぇっ f y eh cl
+ふょっ f y ow cl
+ヴゃっ v y aa cl
+ヴゅっ v y uw cl
+ヴぃぇっ v y eh cl
+ヴょっ v y ow cl
+うぅっ w uw cl
+てぇっ t y eh cl
+てぃぇっ t y eh cl
+ぢっ j i y cl
+ぢゅっ j uw cl
+ぢぇっ j eh cl
+ぢょっ j ow cl
+A ah
+a aa
+I ih
+i iy
+ye y eh
+U uh
+u uw
+vu v uw
+vA v ah
+va v aa
+wI w ih
+wi w iy
+vi v iy
+vU v uh
+wE w ey
+we w eh
+vE v ey
+ve v eh
+wO w ao
+wo w ow
+vO v ao
+vo v ow
+E ey
+e eh
+O ao
+o ow
+kA k ah
+ka k aa
+gA g ah
+ga g aa
+kI k ih
+ki k iy
+gI g ih
+gi g iy
+kyE k y ey
+kye k y eh
+gyE g y ey
+gye g y eh
+kyA k y ah
+kya k y aa
+gyA g y ah
+gya g y aa
+kyU k y uh
+kyu k y uw
+gyU g y uh
+gyu g y uw
+kyO k y ao
+kyo k y ow
+gyO g y ao
+gyo g y ow
+kU k uh
+ku k uw
+gU g uh
+gu g uw
+kwA k w ah
+kwa k w aa
+gwA g w ah
+gwa g w aa
+kwI k w ih
+kwi k w iy
+gwI g w ih
+gwi g w iy
+kwU k w uh
+kwu k w uw
+gwU g w uh
+gwu g w uw
+kwE k w ey
+kwe k w eh
+gwE g w ey
+gwe g w eh
+kwO k w ao
+kwo k w ow
+gwO g w ao
+gwo g w ow
+kE k ey
+ke k eh
+gE g ey
+ge g eh
+kO k ao
+ko k ow
+gO g ao
+go g ow
+sA s ah
+sa s aa
+zA z ah
+za z aa
+shI sh ih
+shi sh iy
+jI j ih
+ji j iy
+sI s ih
+si s iy
+shE sh ey
+she sh eh
+jE j ey
+je j eh
+shA sh ah
+sha sh aa
+jA j ah
+ja j aa
+shU sh uh
+shu sh uw
+jU j uh
+ju j uw
+shO sh ao
+sho sh ow
+jO j ao
+jo j ow
+sU s uh
+su s uw
+zU z uh
+zu z uw
+zI z ih
+zi z iy
+sE s ey
+se s eh
+zE z ey
+ze z eh
+sO s ao
+so s ow
+zO z ao
+zo z ow
+tA t ah
+ta t aa
+dA d ah
+da d aa
+chI ch ih
+chi ch iy
+chE ch ey
+che ch eh
+chA ch ah
+cha ch aa
+chU ch uh
+chu ch uw
+chO ch ao
+cho ch ow
+cl cl
+tsU t s uh
+tsu t s uw
+tsA t s ah
+tsa t s aa
+tsI t s ih
+tsi t s iy
+tsE t s ey
+tse t s eh
+tsO t s ao
+tso t s ow
+tE t ey
+te t eh
+dE d ey
+de d eh
+tI t ih
+ti t iy
+dI d ih
+di d iy
+dye d y eh
+tyA t y ah
+tya t y aa
+dyA d y ah
+dya d y aa
+tyU t y uh
+tyu t y uw
+dyU d y uh
+dyu d y uw
+tyO t y ao
+tyo t y ow
+dyO d y ao
+dyo d y ow
+tO t ao
+to t ow
+dO d ao
+do d ow
+tU t uh
+tu t uw
+dU d uh
+du d uw
+nA n ah
+na n aa
+nI n ih
+ni n iy
+nyE n y ey
+nye n y eh
+nyA n y ah
+nya n y aa
+nyU n y uh
+nyu n y uw
+nyO n y ao
+nyo n y ow
+nU n uh
+nu n uw
+nE n ey
+ne n eh
+nO n ao
+no n ow
+hA h ah
+ha h aa
+bA b ah
+ba b aa
+pA p ah
+pa p aa
+hI h ih
+hi h iy
+BI B ih
+bi b iy
+pI p ih
+pi p iy
+hyE h y ey
+hye h y eh
+byE b y ey
+bye b y eh
+pyE p y ey
+pye p y eh
+hyA h y ah
+hya h y aa
+byA b y ah
+bya b y aa
+pyA p y ah
+pya p y aa
+hyU h y uh
+hyu h y uw
+byU b y uh
+byu b y uw
+pyU p y uh
+pyu p y uw
+hyO h y ao
+hyo h y ow
+byO b y ao
+byo b y ow
+pyO p y ao
+pyo p y ow
+fU f uh
+fu f uw
+bU b uh
+bu b uw
+pU p uh
+pu p uw
+fA f ah
+fa f aa
+fI f ih
+fi f iy
+fE f ey
+fe f eh
+fO f ao
+fo f ow
+hE h ey
+he h eh
+be b eh
+pE p ey
+pe p eh
+hO h ao
+ho h ow
+BO B ao
+bo b ow
+pO p ao
+po p ow
+mA m ah
+ma m aa
+mI m ih
+mi m iy
+myE m y ey
+mye m y eh
+myA m y ah
+mya m y aa
+myU m y uh
+myu m y uw
+myO m y ao
+myo m y ow
+mU m uh
+mu m uw
+mE m ey
+me m eh
+mO m ao
+mo m ow
+yA y ah
+ya y aa
+yU y uh
+yu y uw
+yO y ao
+yo y ow
+rA r ah
+ra r aa
+rI r ih
+ri r iy
+rye r y eh
+rya r y aa
+ryu r y uw
+ryo r y ow
+rU r uh
+ru r uw
+rE r ey
+re r eh
+rO r ao
+ro r ow
+wA w ah
+wa w aa
+N en
+fyA f y ah
+fya f y aa
+fyU f y uh
+fyu f y uw
+fyE f y ey
+fye f y eh
+fyO f y ao
+fyo f y ow
+vya v y aa
+vyu v y uw
+vyU v y uh
+vye v y eh
+vyo v y ow
+wu w uw
+wU w uh
+tye t y eh
+tyE t y ey
+qa q aa
+qe q eh
+qi q iy
+qo q ow
+qu q uw
+qA q ah
+qE q ey
+qI q ih
+qO q ao
+qU q uh
+gs q
+VocalFry vf
+vocalfry vf
+Edge vf
+edge vf
+GlottalStop q
+glottalstop q
