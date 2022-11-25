@@ -95,3 +95,4 @@ v0.9.0 adds supplimental japanese support. This can be used with a flag (ex: 1) 
 | N        | en       |
 | r        | dx       |
 | ts       | t s      |
+| [C]y     | [C] y    |
