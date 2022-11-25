@@ -77,3 +77,21 @@ Here is a list of the currently supported flags:
 | 1    | additional_1          |
 | 2    | additional_2          |
 | 3    | additional_3          |
+
+## Japanese support
+v0.9.0 adds supplimental japanese support. This can be used with a flag (ex: 1) to made a multi-lang model.
+| JP Phone | EN Phone |
+|----------|----------|
+| a        | aa       |
+| e        | eh       |
+| i        | iy       |
+| o        | ow       |
+| u        | uw       |
+| A        | ah       |
+| E        | ey       |
+| I        | ih       |
+| O        | ao       |
+| U        | uh       |
+| N        | en       |
+| r        | dx       |
+| ts       | t s      |
