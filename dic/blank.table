@@ -223,23 +223,23 @@ trash trash
 ちょ ch ow
 ッ cl
 っ cl
-ツ t s uh
-つ t s uw
+ツ th uh
+つ th uw
 ヅ z uh
 づ z uw
-ツァ t s ah
-つぁ t s aa
+ツァ th ah
+つぁ th aa
 ヅァ z ah
-ツィ t s ih
-つぃ t s iy
+ツィ th ih
+つぃ th iy
 ヅィ z ih
 づぃ z iy
-ツェ t s ey
-つぇ t s eh
+ツェ th ey
+つぇ th eh
 ヅェ z ey
 づぇ z eh
-ツォ t s ao
-つぉ t s ow
+ツォ th ao
+つぉ th ow
 ヅォ z ao
 づぉ z ow
 テ t ey
@@ -586,14 +586,14 @@ trash trash
 ぢゃっ j aa cl
 ちゅっ ch uw cl
 ちょっ ch ow cl
-つっ t s uw cl
+つっ th uw cl
 づっ z uw cl
-つぁっ t s aa cl
-つぃっ t s i y cl
+つぁっ th aa cl
+つぃっ th i y cl
 づぃっ z i y cl
-つぇっ t s eh cl
+つぇっ th eh cl
 づぇっ z eh cl
-つぉっ t s ow cl
+つぉっ th ow cl
 づぉっ z ow cl
 てっ t eh cl
 でっ d eh cl
@@ -827,16 +827,16 @@ chu ch uw
 chO ch ao
 cho ch ow
 cl cl
-tsU t s uh
-tsu t s uw
-tsA t s ah
-tsa t s aa
-tsI t s ih
-tsi t s iy
-tsE t s ey
-tse t s eh
-tsO t s ao
-tso t s ow
+tsU th uh
+tsu th uw
+tsA th ah
+tsa th aa
+tsI th ih
+tsi th iy
+tsE th ey
+tse th eh
+tsO th ao
+tso th ow
 tE t ey
 te t eh
 dE d ey
