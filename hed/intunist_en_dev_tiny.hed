@@ -1,0 +1,110 @@
+### NOTICE ###
+# By using all OR ANY PART of this HED file you MUST follow our license at https://github.com/intunist/nnsvs-english-support/blob/main/LICENSE.md
+# This includes using parts of our work in yours or referencing our work as a template. If you have questions about the license please contact us.
+# We should not have to include this notice in our files but bad actors had forced our hand.
+
+#HED for NNSVS English
+#in_dim: 93(duration/timelag), 97(acoustic)
+#in_rest_idx: 0
+#in_lfx0_idx: ###
+#in_ph_start_idx: 2 // in_ph_end_idx: 60
+
+#Phonetic definitions
+
+QS      "C-Silence"                             {*-pau+*}
+
+QS      "C-ah"                                  {*-ah+*}
+QS      "C-aa"                                  {*-aa+*}
+QS      "C-ao"                                  {*-ao+*}
+QS      "C-ae"                                  {*-ae+*}
+QS      "C-ax"                                  {*-ax+*}
+QS      "C-iy"                                  {*-iy+*}
+QS      "C-ih"                                  {*-ih+*}
+QS      "C-uh"                                  {*-uh+*}
+QS      "C-uw"                                  {*-uw+*}
+QS      "C-eh"                                  {*-eh+*}
+QS      "C-er"                                  {*-er+*}
+QS      "C-ay"                                  {*-ay+*}
+QS      "C-a"                                   {*-a+*}
+QS      "C-ey"                                  {*-ey+*}
+QS      "C-e"                                   {*-e+*}
+QS      "C-oy"                                  {*-oy+*}
+QS      "C-aw"                                  {*-aw+*}
+QS      "C-ow"                                  {*-ow+*}
+QS      "C-o"                                   {*-o+*}
+QS      "C-p"                                   {*-p+*}
+QS      "C-b"                                   {*-b+*}
+QS      "C-t"                                   {*-t+*}
+QS      "C-d"                                   {*-d+*}
+QS      "C-k"                                   {*-k+*}
+QS      "C-g"                                   {*-g+*}
+QS      "C-s"                                   {*-s+*}
+QS      "C-z"                                   {*-z+*}
+QS      "C-ch"                                  {*-ch+*}
+QS      "C-jh"                                  {*-jh+*}
+QS      "C-sh"                                  {*-sh+*}
+QS      "C-zh"                                  {*-zh+*}
+QS      "C-f"                                   {*-f+*}
+QS      "C-v"                                   {*-v+*}
+QS      "C-hh"                                  {*-hh+*}
+QS      "C-th"                                  {*-th+*}
+QS      "C-dh"                                  {*-dh+*}
+QS      "C-n"                                   {*-n+*}
+QS      "C-m"                                   {*-m+*}
+QS      "C-ng"                                  {*-ng+*}
+QS      "C-w"                                   {*-w+*}
+QS      "C-y"                                   {*-y+*}
+QS      "C-r"                                   {*-r+*}
+QS      "C-rr"                                  {*-rr+*}
+QS      "C-rx"                                  {*-rx+*}
+QS      "C-l"                                   {*-l+*}
+QS      "C-q"                                   {*-q+*}
+QS      "C-dx"                                  {*-dx+*}
+QS      "C-el"                                  {*-el+*}
+QS      "C-em"                                  {*-em+*}
+QS      "C-en"                                  {*-en+*}
+QS      "C-pau"                                 {*-pau+*}
+QS      "C-exh"                                 {*-exh+*}
+QS      "C-axh"                                 {*-axh+*}
+QS      "C-cr"                                  {*-cr+*}
+QS      "C-ct"                                  {*-ct+*}
+QS      "C-cl"                                  {*-cl+*}
+QS      "C-vf"                                  {*-vf+*}
+QS      "C-x"                                   {*-x+*}
+QS      "C-trash"                               {*-trash+*}
+
+CQS     "d1"                                    {/D:(\NOTE)!}
+CQS     "e1"                                    {/E:(\NOTE)]}
+CQS     "f1"                                    {/F:(\NOTE)#}
+CQS     "e2"                                    {](\d+)^}
+CQS     "p12"                                   {-(\d+)!}
+CQS     "p13"                                   {!(\d+)[}
+CQS     "p14"                                   {[(\d+)$}
+CQS     "p15"                                   {$(\d+)]}
+CQS     "b1"                                    {/B:(\d+)_}
+CQS     "b2"                                    {_(\d+)_}
+CQS     "b3"                                    {_(\d+)@}
+CQS     "e6"                                    {!(\d+)@}
+CQS     "e7"                                    {@(\d+)#}
+CQS     "e8"                                    {#(\d+)+}
+
+CQS     "e10_position_by_note_in_measure"       {](\d+)$}
+CQS     "e11_position_by_note_in_measure"       {$(\d+)|}
+CQS     "e12_position_by_10ms_in_measure"       {|(\d+)[}
+CQS     "e13_position_by_10ms_in_measure"       {[(\d+)&}
+CQS     "e14_position_by_96th_note_in_measure"  {&(\d+)]}
+CQS     "e15_position_by_96th_note_in_measure"  {](\d+)=}
+CQS     "e16_position_by_percent_in_measure"    {=(\d+)^}
+CQS     "e17_position_by_percent_in_measure"    {^(\d+)~}
+CQS     "e18_position_by_note"                  {~(\d+)#}
+CQS     "e19_position_by_note"                  {#(\d+)_}
+CQS     "e20_position_by_10ms"                  {_(\d+);}
+CQS     "e21_position_by_10ms"                  {;(\d+)$}
+CQS     "e22_position_by_96th_note"             {$(\d+)&}
+CQS     "e23_position_by_96th_note"             {&(\d+)%}
+CQS     "e24_position_by_percent"               {%(\d+)[}
+CQS     "e25_position_by_percent"               {[(\d+)|}
+CQS     "e26"                                   {|(\d+)]}
+
+CQS     "e57"                                   {~([pm]\d+)+}
+CQS     "e58"                                   {+([pm]\d+)!}
