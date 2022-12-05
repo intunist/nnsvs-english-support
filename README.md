@@ -4,7 +4,8 @@
 Support for English NNSVS Dataset Creation
 <br/>Now maintained by Intunist.
 
-Support for UK, US, and Australian English has been fully confirmed. You are not expected to use all of the phonemes if your dialect lacks them.
+Support for UK, US, and Australian English has been fully confirmed.
+You are not necessarily expected to use all of the phonemes if your dialect lacks them. You may either drop those phonemes or label them for compatibility with existing scores.
 
 This repo contains the files required to create an English dataset for use in NNSVS.
 Additionally, instructions and examples are provided (or will be provided) for the labeling process.
