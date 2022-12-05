@@ -4,7 +4,7 @@
 # We should not have to include this notice in our files but bad actors had forced our hand.
 
 #HED for NNSVS English
-#in_dim: 180(duration/timelag), 184(acoustic)
+#in_dim: 166(duration/timelag), 170(acoustic)
 #in_rest_idx: 0
 #in_lfx0_idx: ###
 #in_ph_start_idx: 62 // in_ph_end_idx: 120
@@ -151,61 +151,38 @@ QS      "additional_2"                          {*^2_*}
 QS      "additional_3"                          {*^3_*}
 #custom flags can be used for anything you'd like. other languages, unlisted tones, anything.
 
-CQS "d1" {/D:(\NOTE)!}
-CQS "e1" {/E:(\NOTE)]}
-CQS "f1" {/F:(\NOTE)#}
+CQS     "d1"                                    {/D:(\NOTE)!}
+CQS     "e1"                                    {/E:(\NOTE)]}
+CQS     "f1"                                    {/F:(\NOTE)#}
+CQS     "e2"                                    {](\d+)^}
+CQS     "p12"                                   {-(\d+)!}
+CQS     "p13"                                   {!(\d+)[}
+CQS     "p14"                                   {[(\d+)$}
+CQS     "p15"                                   {$(\d+)]}
+CQS     "b1"                                    {/B:(\d+)_}
+CQS     "b2"                                    {_(\d+)_}
+CQS     "b3"                                    {_(\d+)@}
+CQS     "e6"                                    {!(\d+)@}
+CQS     "e7"                                    {@(\d+)#}
+CQS     "e8"                                    {#(\d+)+}
 
-CQS "d2" {!(\d+)#}
-CQS "e2" {](\d+)^}
-CQS "f2" {#(\d+)#}
+CQS     "e10_position_by_note_in_measure"       {](\d+)$}
+CQS     "e11_position_by_note_in_measure"       {$(\d+)|}
+CQS     "e12_position_by_10ms_in_measure"       {|(\d+)[}
+CQS     "e13_position_by_10ms_in_measure"       {[(\d+)&}
+CQS     "e14_position_by_96th_note_in_measure"  {&(\d+)]}
+CQS     "e15_position_by_96th_note_in_measure"  {](\d+)=}
+CQS     "e16_position_by_percent_in_measure"    {=(\d+)^}
+CQS     "e17_position_by_percent_in_measure"    {^(\d+)~}
+CQS     "e18_position_by_note"                  {~(\d+)#}
+CQS     "e19_position_by_note"                  {#(\d+)_}
+CQS     "e20_position_by_10ms"                  {_(\d+);}
+CQS     "e21_position_by_10ms"                  {;(\d+)$}
+CQS     "e22_position_by_96th_note"             {$(\d+)&}
+CQS     "e23_position_by_96th_note"             {&(\d+)%}
+CQS     "e24_position_by_percent"               {%(\d+)[}
+CQS     "e25_position_by_percent"               {[(\d+)|}
+CQS     "e26"                                   {|(\d+)]}
 
-CQS "p12" {-(\d+)!}
-CQS "p13" {!(\d+)[}
-
-CQS "p14" {[(\d+)$}
-CQS "p15" {$(\d+)]}
-
-CQS "a1" {/A:(\d+)-}
-CQS "b1" {/B:(\d+)_}
-CQS "c1" {/C:(\d+)+}
-
-CQS "a2" {-(\d+)-}
-CQS "a3" {-(\d+)@}
-CQS "b2" {_(\d+)_}
-CQS "b3" {_(\d+)@}
-CQS "c2" {+(\d+)+}
-CQS "c3" {+(\d+)@}
-
-CQS "e6" {!(\d+)@}
-CQS "e7" {@(\d+)#}
-CQS "e8" {#(\d+)+}
-
-CQS "d6" {|(\d+)&}
-CQS "d7" {&(\d+);}
-CQS "d8" {;(\d+)-}
-
-CQS "f6" {$(\d+)+}
-CQS "f7" {+(\d+)%}
-CQS "f8" {%(\d+);}
-
-CQS "e10_position_by_note_in_measure"      {](\d+)$}
-CQS "e11_position_by_note_in_measure"      {$(\d+)|}
-CQS "e12_position_by_10ms_in_measure"      {|(\d+)[}
-CQS "e13_position_by_10ms_in_measure"      {[(\d+)&}
-CQS "e14_position_by_96th_note_in_measure" {&(\d+)]}
-CQS "e15_position_by_96th_note_in_measure" {](\d+)=}
-CQS "e16_position_by_percent_in_measure"   {=(\d+)^}
-CQS "e17_position_by_percent_in_measure"   {^(\d+)~}
-
-CQS "e18_position_by_note"      {~(\d+)#}
-CQS "e19_position_by_note"      {#(\d+)_}
-CQS "e20_position_by_10ms"      {_(\d+);}
-CQS "e21_position_by_10ms"      {;(\d+)$}
-CQS "e22_position_by_96th_note" {$(\d+)&}
-CQS "e23_position_by_96th_note" {&(\d+)%}
-CQS "e24_position_by_percent"   {%(\d+)[}
-CQS "e25_position_by_percent"   {[(\d+)|}
-CQS "e26"                       {|(\d+)]}
-
-CQS "e57" {~([pm]\d+)+}
-CQS "e58" {+([pm]\d+)!}
+CQS     "e57"                                   {~([pm]\d+)+}
+CQS     "e58"                                   {+([pm]\d+)!}
