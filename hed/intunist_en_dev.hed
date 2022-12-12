@@ -71,8 +71,9 @@ QS      "C-Syllabic_Nasal"                      {*-en+*,*-em+*}
 QS      "C-Anterior_Consonant"                  {*-p+*,*-b+*,*-t+*,*-d+*,*-s+*,*-z+*,*-f+*,*-v+*,*-th+*,*-dh+*,*-n+*,*-en+*,*-m+*,*-em+*,*-w+*,*-l+*,*-el+*,*-dx+*,*-rr+*}
 QS      "C-Non_Anterior"                        {*-k+*,*-g+*,*-ch+*,*-jh+*,*-sh+*,*-zh+*,*-hh+*,*-ng+*,*-y+*,*-r+*,*-q+*,*-x+*,*-rx+*}
 
-QS      "C-VUV_Voiced"                          {}
+QS      "C-NOFIX_VUV_Voiced"                    {*-axh+*,*-ah+*,*-aa+*,*-ao+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-uh+*,*-uw+*,*-eh+*,*-er+*,*-ay+*,*-a+*,*-ey+*,*-e+*,*-oy+*,*-aw+*,*-ow+*,*-o+*,*-el+*,*-em+*,*-en+*,*-b+*,*-zh+*,*-dh+*,*-n+*,*-m+*,*-ng+*,*-w+*,*-y+*,*-r+*,*-rr+*,*-rx+*,*-l+*,*-dx+*}
 QS      "C-VUV_Unvoiced"                        {*-pau+*}
+# QS      "C-VUV_Unvoiced"                        {*-sil+*,*-pau+*,*-p+*,*-t+*,*-k+*,*-s+*,*-ch+*,*-sh+*,*-f+*,*-th+*,*-x+*,*-q+*}
 
 QS      "C-ah"                                  {*-ah+*}
 QS      "C-aa"                                  {*-aa+*}
@@ -194,8 +195,9 @@ QS      "L-Syllabic_Nasal"                      {*^en-*,*^em-*}
 QS      "L-Anterior_Consonant"                  {*^p-*,*^b-*,*^t-*,*^d-*,*^s-*,*^z-*,*^f-*,*^v-*,*^th-*,*^dh-*,*^n-*,*^en-*,*^m-*,*^em-*,*^w-*,*^l-*,*^el-*,*^dx-*,*^rr-*}
 QS      "L-Non_Anterior"                        {*^k-*,*^g-*,*^ch-*,*^jh-*,*^sh-*,*^zh-*,*^hh-*,*^ng-*,*^y-*,*^r-*,*^q-*,*^x-*,*^rx-*}
 
-QS      "L-VUV_Voiced"                          {}
+QS      "L-NOFIX_VUV_Voiced"                    {*^axh-*,*^ah-*,*^aa-*,*^ao-*,*^ae-*,*^ax-*,*^iy-*,*^ih-*,*^uh-*,*^uw-*,*^eh-*,*^er-*,*^ay-*,*^a-*,*^ey-*,*^e-*,*^oy-*,*^aw-*,*^ow-*,*^o-*,*^el-*,*^em-*,*^en-*,*^b-*,*^zh-*,*^dh-*,*^n-*,*^m-*,*^ng-*,*^w-*,*^y-*,*^r-*,*^rr-*,*^rx-*,*^l-*,*^dx-*}
 QS      "L-VUV_Unvoiced"                        {*^pau-*}
+# QS      "L-VUV_Unvoiced"                        {*^sil-*,*^pau-*,*^p-*,*^t-*,*^k-*,*^s-*,*^ch-*,*^sh-*,*^f-*,*^th-*,*^x-*,*^q-*}
 
 QS      "L-ah"                                  {*^ah-*}
 QS      "L-aa"                                  {*^aa-*}
@@ -317,12 +319,9 @@ QS      "R-Syllabic_Nasal"                      {*+en=*,*+em=*}
 QS      "R-Anterior_Consonant"                  {*+p=*,*+b=*,*+t=*,*+d=*,*+s=*,*+z=*,*+f=*,*+v=*,*+th=*,*+dh=*,*+n=*,*+en=*,*+m=*,*+em=*,*+w=*,*+l=*,*+el=*,*+dx=*,*+rr=*}
 QS      "R-Non_Anterior"                        {*+k=*,*+g=*,*+ch=*,*+jh=*,*+sh=*,*+zh=*,*+hh=*,*+ng=*,*+y=*,*+r=*,*+q=*,*+x=*,*+rx=*}
 
-# QS      "R-VUV_Voiced"                          {*+axh=*,*+ah=*,*+aa=*,*+ao=*,*+ae=*,*+ax=*,*+iy=*,*+ih=*,*+uh=*,*+uw=*,*+eh=*,*+er=*,*+ay=*,*+a=*,*+ey=*,*+e=*,*+oy=*,*+aw=*,*+ow=*,*+o=*,*+el=*,*+em=*,*+en=*,*+b=*,*+zh=*,*+dh=*,*+n=*,*+m=*,*+ng=*,*+w=*,*+y=*,*+r=*,*+rr=*,*+rx=*,*+l=*,*+dx=*}
-# QS      "R-VUV_Unvoiced"                        {*+sil=*,*+pau=*,*+p=*,*+t=*,*+k=*,*+s=*,*+ch=*,*+sh=*,*+f=*,*+th=*,*+x=*,*+q=*}
-
-QS      "R-VUV_Voiced"                          {}
+QS      "R-NOFIX-VUV_Voiced"                    {*+axh=*,*+ah=*,*+aa=*,*+ao=*,*+ae=*,*+ax=*,*+iy=*,*+ih=*,*+uh=*,*+uw=*,*+eh=*,*+er=*,*+ay=*,*+a=*,*+ey=*,*+e=*,*+oy=*,*+aw=*,*+ow=*,*+o=*,*+el=*,*+em=*,*+en=*,*+b=*,*+zh=*,*+dh=*,*+n=*,*+m=*,*+ng=*,*+w=*,*+y=*,*+r=*,*+rr=*,*+rx=*,*+l=*,*+dx=*}
 QS      "R-VUV_Unvoiced"                        {*+pau=*}
-
+# QS      "R-VUV_Unvoiced"                        {*+sil=*,*+pau=*,*+p=*,*+t=*,*+k=*,*+s=*,*+ch=*,*+sh=*,*+f=*,*+th=*,*+x=*,*+q=*}
 
 QS      "R-ah"                                  {*+ah=*}
 QS      "R-aa"                                  {*+aa=*}
