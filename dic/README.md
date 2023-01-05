@@ -4,7 +4,7 @@ The version of DVX_AMEPD included is heavily modified from the original for our 
 We will continuously update this dictionary for more accurate American English singing pronuncation.
 
 UK English dictionary is a UNFINISHED initial version based on OPEN-IPA-DICT. This dictionary is a very early version and needs about ~650 (known) manual corrections.
-For UK/AU English you should include an imaginary [r] phoneme, even if the rhotic consonant is dropped. This allows NNSVS to learn and apply the sound contextually.
+For UK/AU English you should <ins>**include an imaginary [r] phoneme**</ins>, even if the rhotic consonant is dropped. This allows NNSVS to learn and apply the sound contextually.
 
 These dictionaries cannot cover every possible dialect, you will need to make your own judgements.
 
