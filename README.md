@@ -1,5 +1,6 @@
 # nnsvs-english-support
 **The original NNSVS English support.**
+### [GUIDE NOW AVAILABLE](https://github.com/intunist/english-labeling-guide)
 
 Support for English NNSVS Dataset Creation
 <br/>Now maintained by Intunist.
