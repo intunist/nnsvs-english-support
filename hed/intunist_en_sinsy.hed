@@ -12,7 +12,6 @@
 
 #Phonetic definitions
 
-QS      "C-Silence"                             {*-pau+*}
 QS      "C-Silence"                            {*-pau+*}
 QS      "L-Silence"                            {*^pau-*}
 QS      "R-Silence"                            {*+pau=*}
