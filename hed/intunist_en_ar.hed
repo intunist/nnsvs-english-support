@@ -18,9 +18,9 @@ QS      "C-Silence"                             {*-pau+*}
 QS      "C-Vowel"                               {*-ah+*,*-aa+*,*-ao+*,*-oh+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-uh+*,*-uw+*,*-eh+*,*-er+*,*-ay+*,*-a+*,*-ey+*,*-e+*,*-oy+*,*-aw+*,*-ow+*,*-o+*,*-el+*,*-em+*,*-en+*}
 QS      "C-Consonant"                           {*-p+*,*-b+*,*-t+*,*-d+*,*-k+*,*-g+*,*-s+*,*-z+*,*-ch+*,*-jh+*,*-sh+*,*-zh+*,*-f+*,*-v+*,*-hh+*,*-th+*,*-dh+*,*-n+*,*-m+*,*-ng+*,*-w+*,*-y+*,*-r+*,*-rr+*,*-rx+*,*-l+*,*-q+*,*-dx+*,*-x+*}
 
-QS      "C-NOFIX_VUV_Voiced"                    {*-axh+*,*-ah+*,*-aa+*,*-ao+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-uh+*,*-uw+*,*-eh+*,*-er+*,*-ay+*,*-a+*,*-ey+*,*-e+*,*-oy+*,*-aw+*,*-ow+*,*-o+*,*-el+*,*-em+*,*-en+*,*-b+*,*-zh+*,*-dh+*,*-n+*,*-m+*,*-ng+*,*-w+*,*-y+*,*-r+*,*-rr+*,*-rx+*,*-l+*,*-dx+*}
+QS      "C-NOFIX_VUV_Voiced"                    {*-axh+*,*-ah+*,*-aa+*,*-ao+*,*-oh+*,*-ae+*,*-ax+*,*-iy+*,*-ih+*,*-uh+*,*-uw+*,*-eh+*,*-er+*,*-ay+*,*-a+*,*-ey+*,*-e+*,*-oy+*,*-aw+*,*-ow+*,*-o+*,*-el+*,*-em+*,*-en+*,*-b+*,*-zh+*,*-dh+*,*-n+*,*-m+*,*-ng+*,*-w+*,*-y+*,*-r+*,*-rr+*,*-rx+*,*-l+*,*-dx+*}
 QS      "C-VUV_Unvoiced"                        {*-pau+*}
-# QS      "C-VUV_Unvoiced"                        {*-sil+*,*-pau+*,*-p+*,*-t+*,*-k+*,*-s+*,*-ch+*,*-sh+*,*-f+*,*-th+*,*-x+*,*-q+*}
+# QS      "C-VUV_Unvoiced"                        {*-pau+*,*-p+*,*-t+*,*-k+*,*-s+*,*-ch+*,*-sh+*,*-f+*,*-th+*,*-x+*}
 
 QS      "C-ah"                                  {*-ah+*}
 QS      "C-aa"                                  {*-aa+*}
