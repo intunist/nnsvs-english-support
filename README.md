@@ -30,13 +30,13 @@ https://user-images.githubusercontent.com/16280813/153196769-54e76249-ebd6-4df5-
 The HED file was written by hand for NNSVS, it may not work in other tools as-is.
 Two hed files are included. A minimal and full hed file. Both should work for NNSVS but using the full hed is suggested.
 
-"DynamiVox English NN Phoneme Set v[x.x.x].txt" is a list of DynamiVox phonemes along with explanations of these phonemes.
-Example words are provided for both US and UK English. If no UK example is provided then the example is the same for both.
+"PHOHNEMES.md" is a (now outdated) list of phonemes along with explanations of these phonemes.
+Example words are provided for both UK and US English. If only one example is provided then the example is the same for both.
 This phoneme set is NOT COMPLETELY COMPATIBLE with Arpabet.
-There are several additions/changes that cause the DynamiVox phoneme set to not be 1:1.
+There are several additions/changes that cause the Ambibet phoneme set to not be fully equivalent
 However, the basic phoneme section should be about the same.
 
-"DynamiVox Phone Ref.txt" is a cleaned up phoneme document for reference while labeling.
+However you should use the guide linked above for a in-depth reference while labeling.
 
 the /dic folder contains several files:  
 /english.conf - phoneme information  
